@@ -8,7 +8,7 @@ import { DataService } from '../data-model/data/data.service';
 })
 export class SideBarComponent implements OnInit {
 
-  whiteLogo = 'assets/img/white_logo.png';
+  logo = 'assets/logo-png/logo_esport_v3.png';
   tournamentId: string;
 
   constructor(private dataService: DataService) { }

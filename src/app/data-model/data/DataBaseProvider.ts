@@ -24,7 +24,6 @@ export class DataBaseProvider {
 
     public loadMockDatabase(): void {
         this.http.get<any>('http://localhost:4200/assets/rules.json').subscribe(rules => {
-            console.log(rules)
             const mockDataBase = new MockDataBase(rules);
             this.dataBaseEmitter.emit(mockDataBase);
         });

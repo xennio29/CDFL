@@ -5,8 +5,8 @@
         </button>
     </div>
     <div class="home" routerLink="/home">
-        <span>{{tournamentName}}</span>
-        <span fxHide.gt-xs> - {{rootName}}</span>
+        <span fxShow fxHide.xs>{{tournamentName}}</span>
+        <span fxHide.gt-xs> TLC - {{rootName}}</span>
     </div>
     <div class="not-home" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center" fxHide.xs>
         <div class="menu" routerLink="/teams" routerLinkActive="is-active">
@@ -26,6 +26,6 @@
         </div>
     </div>
     <div class="logo" routerLink="/home" routerLinkActive="home-is-active">
-        <img [src]="logo" class="logo">
+        <img [src]="logo" class="logo-img">
     </div>
 </mat-toolbar>

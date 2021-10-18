@@ -10,8 +10,13 @@ import { Poule } from '../data-model/model/poule';
 export class PoulesComponent {
 
   poules: Poule[] = [];
+  columns;
 
   constructor(private dataService: DataService) {
     this.dataService.getPoules().subscribe(result => this.poules = result);
   }
+
+  ngOnInit() {
+    this.columns = (window.innerWidth <= 500) ? 1 : 2;
+ }
 }

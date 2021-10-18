@@ -3,9 +3,9 @@ import { Poule } from "./poule";
 
 export class MatchsPoule {
 
-    private FIRST_DATE = "this is the first date";
-    private SECOND_DATE = "this is the second date";
-    private THIRD_DATE = "this is the third date";
+    private FIRST_DATE = "Lundi 8 novembre";
+    private SECOND_DATE = "Mercredi 10 novembre";
+    private THIRD_DATE = "Lundi 15 novembre";
 
     public name: string;
     public matchs: Match[] = [];

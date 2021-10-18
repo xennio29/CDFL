@@ -43,18 +43,16 @@ export class MenuBarComponent implements OnInit {
     switch (path) {
       case '/home':
         return 'Home';
-      case '/participants':
-        return 'Participants';
+      case '/teams':
+        return 'Teams';
+      case '/poules':
+        return 'Poules';
       case '/rules':
         return 'Réglement';
-      case '/pods':
-        return 'Pods';
         case '/planning':
         return 'Planning';
-      case '/matchs':
-        return 'Matchs';
-      case '/rankings':
-        return 'Classement';
+      case '/weekly-rift':
+        return 'TLC News';
     }
 
   }

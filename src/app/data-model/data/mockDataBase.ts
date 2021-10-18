@@ -22,7 +22,6 @@ export class MockDataBase extends DataBase {
     private addBaseData(): void {
         this.setTournamentId('TLC');
         this.setTournamentName('Toulouse League Cup');
-        this.setRules('Need to add the rules');
     }
 
     private addRules(rules: string): void {

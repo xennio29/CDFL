@@ -12,7 +12,7 @@ export class Rules {
     }
 
     private addTitle(title: string) {
-        this.append(`<h1 class="test">` + title + `</h1>`);
+        this.append(`<h1>` + title + `</h1>`);
     }
 
     private addChapters(chapters: any) {

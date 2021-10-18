@@ -1,5 +1,5 @@
 <div class="container">
-    <mat-grid-list cols="2" rowHeight="2:1" gutterSize="20">
+    <mat-grid-list [cols]="columns" [rowHeight]="rowHeight" gutterSize="20">
         <mat-grid-tile *ngFor="let matchsPoule of matchsPoules">
             <mat-card>
                 <mat-card-title>{{matchsPoule.name}}</mat-card-title>

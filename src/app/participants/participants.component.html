@@ -1,5 +1,5 @@
 <div class="container">
-    <mat-grid-list cols="4" rowHeight="400px" gutterSize="25">
+    <mat-grid-list [cols]="columns" rowHeight="400px" gutterSize="25">
         <mat-grid-tile *ngFor="let team of teams">
             <tlc-team [team]="team"></tlc-team>
         </mat-grid-tile>

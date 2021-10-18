@@ -10,11 +10,16 @@ import { MatchsPoule } from '../data-model/model/matchsPoule';
 export class PlanningComponent implements OnInit {
 
   matchsPoules: MatchsPoule[] = [];  
+  columns;
+  rowHeight;
 
   constructor(private dataService: DataService) {
     this.dataService.getMatchs().subscribe(result => this.matchsPoules = result);
   }
 
   ngOnInit(): void {
+    this.columns = (window.innerWidth <= 500) ? 1 : 2;
+    this.rowHeight = (window.innerWidth <= 500) ? "600px" : "400px";
+
   }
 }
