@@ -90,7 +90,8 @@ export class DataBase {
         player.id,
         player.firstName,
         player.lastName,
-        player.pseudo);
+        player.pseudo,
+        player.role);
     }
 
     // Team constructinon

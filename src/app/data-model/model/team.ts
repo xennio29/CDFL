@@ -8,6 +8,8 @@ export class Team {
     public midLaner: Player;
     public botLaner: Player;
     public support: Player;
+    public remplacant1: Player;
+    public remplacant2: Player;
 
     constructor(
         name: string,
@@ -17,6 +19,8 @@ export class Team {
         midLaner: Player,
         botLaner: Player,
         support: Player,
+        remplacant1?: Player,
+        remplacant2?: Player
     ) {
         this.name = name;
         this.school = school;
@@ -26,6 +30,8 @@ export class Team {
         this.botLaner = botLaner;
         this.support = support;
         this.validateTeam();
+        this.remplacant1 = remplacant1;
+        this.remplacant2 = remplacant2;
     }
 
     validateTeam() {

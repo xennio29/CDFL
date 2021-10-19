@@ -3,7 +3,7 @@
     <mat-card-content>
         <div class="player" fxLayout="row" fxLayoutAlign="space-around center">
             <div class="logo">
-                <img [src]="topLanerLogo">
+                <img [src]="team.topLaner.role">
             </div>
             <div class="player-pseudo">
                 {{team.topLaner.pseudo}}
@@ -11,7 +11,7 @@
         </div>
         <div class="player" fxLayout="row" fxLayoutAlign="space-around center">
             <div class="logo">
-                <img [src]="jungleLogo">
+                <img [src]="team.jungle.role">
             </div>
             <div class="player-pseudo">
                 {{team.jungle.pseudo}}
@@ -19,7 +19,7 @@
         </div>
         <div class="player" fxLayout="row" fxLayoutAlign="space-around center">
             <div class="logo">
-                <img [src]="midLanerLogo">
+                <img [src]="team.midLaner.role">
             </div>
             <div class="player-pseudo">
                 {{team.midLaner.pseudo}}
@@ -27,7 +27,7 @@
         </div>
         <div class="player" fxLayout="row" fxLayoutAlign="space-around center">
             <div class="logo">
-                <img [src]="botLogo">
+                <img [src]="team.botLaner.role">
             </div>
             <div class="player-pseudo">
                 {{team.botLaner.pseudo}}
@@ -35,10 +35,26 @@
         </div>
         <div class="player" fxLayout="row" fxLayoutAlign="space-around center">
             <div class="logo">
-                <img [src]="supportLogo">
+                <img [src]="team.support.role">
             </div>
             <div class="player-pseudo">
                 {{team.support.pseudo}}
+            </div>
+        </div>
+        <div *ngIf="team.remplacant1 != null" class="player" fxLayout="row" fxLayoutAlign="space-around center">
+            <div class="logo">
+                <img [src]="team.remplacant1.role">
+            </div>
+            <div class="player-pseudo">
+                {{team.remplacant1.pseudo}}
+            </div>
+        </div>
+        <div *ngIf="team.remplacant2 != null" class="player" fxLayout="row" fxLayoutAlign="space-around center">
+            <div class="logo">
+                <img [src]="team.remplacant2.role">
+            </div>
+            <div class="player-pseudo">
+                {{team.remplacant2.pseudo}}
             </div>
         </div>
     </mat-card-content>

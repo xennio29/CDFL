@@ -10,11 +10,5 @@ export class TeamComponent {
 
   @Input() team: Team;
 
-  topLanerLogo = 'assets/img/role icon/Top_icon.png';
-  midLanerLogo = 'assets/img/role icon/Middle_icon.png';
-  jungleLogo = 'assets/img/role icon/Jungle_icon.png';
-  botLogo = 'assets/img/role icon/Bottom_icon.png';
-  supportLogo = 'assets/img/role icon/Support_icon.png';
-
   constructor() {}
 }
