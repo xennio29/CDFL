@@ -23,7 +23,7 @@ export class DataBaseProvider {
     }
 
     public loadMockDatabase(): void {
-        this.http.get<any>('http://localhost:4200/assets/rules.json').subscribe(rules => {
+        this.http.get<any>('https://raw.githubusercontent.com/xennio29/TLC/main/src/assets/rules.json').subscribe(rules => {
             const mockDataBase = new MockDataBase(rules);
             this.dataBaseEmitter.emit(mockDataBase);
         });
