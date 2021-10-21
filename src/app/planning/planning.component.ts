@@ -19,7 +19,7 @@ export class PlanningComponent implements OnInit {
 
   ngOnInit(): void {
     this.columns = (window.innerWidth <= 500) ? 1 : 2;
-    this.rowHeight = (window.innerWidth <= 500) ? "700px" : "500px";
+    this.rowHeight = (window.innerWidth <= 500) ? "600px" : "350px";
 
   }
 }

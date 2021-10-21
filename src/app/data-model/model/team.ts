@@ -49,3 +49,26 @@ export class Team {
         // for each match score 3 1 or 0 points
     }
 }
+
+export enum School {
+    INSA = "INSA",
+    ENSEEIHT = "ENSEEIHT",
+    ISAESUPAERO = "ISAE SUPAERO",
+    ENAC = "ENAC",
+    UT1 = "UT1",
+    UT2 = "UT2",
+    UT3 = "UT3",
+    CESI = "CESI",
+    UPSSITECH = "UPSSITECH",
+    EPITECH = "EPITECH",
+    ICAM = "ICAM",
+    IPI = "IPI",
+    IL = "3IL",
+    YNOV = "YNOV",
+    ALBI = "MINES ALBI",
+    ENSIACET = "ENSIACET",
+    TBS = "TBS",
+    TSM = "TSM",
+    CHAMPOLLION = "INU Champollion Albi",
+    ESN = "ESN 81"
+}

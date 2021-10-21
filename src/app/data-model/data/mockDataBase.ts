@@ -3,7 +3,7 @@ import { Article } from "../model/article";
 import { MatchsPoule } from "../model/matchsPoule";
 import { Player, RoleLogo } from "../model/player";
 import { Poule } from "../model/poule";
-import { Team } from "../model/team";
+import { School, Team } from "../model/team";
 import { Rules } from "../model/rules";
 import { DataBase } from "./database";
 
@@ -30,49 +30,51 @@ export class MockDataBase extends DataBase {
 
     private addTeamData(): void {
         var allTeams: Team[] = [];
-        allTeams.push(new Team('Digitalesses', 'EPITECH',
-            new Player(1, 'TITOUAN', 'BEGUERE', 'RaimeiManta', RoleLogo.topLanerLogo),
-            new Player(2, 'Maxime', 'Cousinie', 'macgamer31', RoleLogo.jungleLogo),
-            new Player(3, 'Léo', 'Maliczak', 'Stuuck lron', RoleLogo.midLanerLogo),
-            new Player(4, 'Pierre', 'Ilari', 'Pierre0807', RoleLogo.botLogo),
-            new Player(5, 'Jugurta', 'Zaïdi', 'xyxuu', RoleLogo.supportLogo)
+        // Poule 1
+        allTeams.push(new Team('Digitalesses', School.EPITECH,
+            new Player(1, 'Maxime', 'Cousinie', 'macgamer31', RoleLogo.topLanerLogo),
+            new Player(2, 'TITOUAN', 'BEGUERE', 'RaimeiManta', RoleLogo.jungleLogo),
+            new Player(3, 'Jugurta', 'Zaïdi', 'xyxuu', RoleLogo.midLanerLogo),
+            new Player(4, 'Léo', 'Maliczak', 'Stuuck lron', RoleLogo.botLogo),
+            new Player(5, 'Pierre', 'Ilari', 'Pierre0807', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('Chomagerie ', 'UT1',
+        allTeams.push(new Team('Chomagerie ', School.UT1,
             new Player(1, 'Hamid', 'ATROUNE', 'DRAKEN', RoleLogo.topLanerLogo),
             new Player(2, 'Lakhdar', 'NOUAR', 'Abdu Roziq', RoleLogo.jungleLogo),
             new Player(3, 'Hakim', 'NOUAR', 'STYL3SPROD', RoleLogo.jungleLogo),
             new Player(4, 'Ilyes', 'HARZALI', 'MolotovKnüt', RoleLogo.botLogo),
             new Player(5, 'Zakaria', 'LOUDAGH', 'Zakichan31', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('Petit 7', 'ENSEEIHT',
+        allTeams.push(new Team('Petit 7', School.ENSEEIHT,
             new Player(1, 'Oscar', 'LE GRANCHÉ', 'Invisi Balll', RoleLogo.topLanerLogo),
             new Player(2, 'Jules', 'ARRA', 'Jeune Roulio', RoleLogo.jungleLogo),
             new Player(3, 'Nathan', 'ROY', 'Hervé le Routier', RoleLogo.jungleLogo),
             new Player(4, 'Mathieu', 'SALAUZE', 'Fan 2 Shiva', RoleLogo.botLogo),
             new Player(5, 'Tom', 'Portafaix', 'Raquaza12345', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('Confrérie du Malaise', 'ENSEEIHT',
+        allTeams.push(new Team('Confrérie du Malaise', School.ENSEEIHT,
             new Player(1, 'Théo', 'KOTSONIS', 'δαrksαsυkε', RoleLogo.topLanerLogo),
             new Player(2, 'Grégoire', 'HONVAULT', 'ρrinceChαrming', RoleLogo.jungleLogo),
             new Player(3, 'Quentin', 'FRATY', 'OAB', RoleLogo.jungleLogo),
             new Player(4, 'Tom', 'MASSAI', 'DreadFog', RoleLogo.botLogo),
             new Player(5, 'Édouard', 'LEFIZELIER', 'Sel de guérende', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('KPR', '3IL',
+        // Poule 2
+        allTeams.push(new Team('KPR', School.IL,
             new Player(1, 'Gabriel', 'ROUET', 'Kobal', RoleLogo.topLanerLogo),
             new Player(2, 'Filip', 'STOGREN', 'Fish Lip', RoleLogo.jungleLogo),
             new Player(3, 'Lucas', 'SALINAS', 'Le Soldat Royal', RoleLogo.midLanerLogo),
             new Player(4, 'Dylan', 'NOVIER', 'StuckSilverr', RoleLogo.botLogo),
             new Player(5, 'Adrien', 'VALVERDE', 'Etareneva 1', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('C\'est une bonne situation scribe ?', 'UT2',
-            new Player(1, 'Rémy', 'MESTRE', 'Toastos', RoleLogo.topLanerLogo),
-            new Player(2, 'Nicolas', 'DOUMENC', 'Ruzzan', RoleLogo.jungleLogo),
+        allTeams.push(new Team('C\'est une bonne situation scribe ?', School.UT2,
+            new Player(2, 'Nicolas', 'DOUMENC', 'Ruzzan', RoleLogo.topLanerLogo),
+            new Player(1, 'Rémy', 'MESTRE', 'Toastos', RoleLogo.jungleLogo),
             new Player(3, 'Lucas', 'ARNAL', 'Keyniix', RoleLogo.midLanerLogo),
-            new Player(4, 'Tom', 'FERRASSE', 'Thumflumch', RoleLogo.botLogo),
-            new Player(5, 'Sylvain', 'MESTRE', 'Shult', RoleLogo.supportLogo)
+            new Player(5, 'Sylvain', 'MESTRE', 'Shult', RoleLogo.botLogo),
+            new Player(4, 'Tom', 'FERRASSE', 'Thumflumch', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('E-Sport-Noobies', 'ESN81',
+        allTeams.push(new Team('E-Sport-Noobies', School.ESN,
             new Player(1, 'Guillaume', 'Dax', 'PaulRicard4ever', RoleLogo.topLanerLogo),
             new Player(2, 'Quentin', 'Costes', 'UnZiziFurtif', RoleLogo.jungleLogo),
             new Player(3, 'Pierre', 'Tubeuf', 'xad11', RoleLogo.midLanerLogo),
@@ -80,26 +82,56 @@ export class MockDataBase extends DataBase {
             new Player(5, 'Claudian', 'Camus', 'Clau81', RoleLogo.supportLogo),
             new Player(6, 'Mathieu', 'Almon', 'mathieu012', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('La meilleure table', 'EPITECH',
+        allTeams.push(new Team('La meilleure table', School.EPITECH,
             new Player(1, 'Alexandre', 'CORNILLE', 'eldiabloss974', RoleLogo.topLanerLogo),
             new Player(2, 'Théo', 'BELY', 'superguppy31', RoleLogo.jungleLogo),
             new Player(3, 'Kéziah', 'IMER', 'Jubıko', RoleLogo.midLanerLogo),
             new Player(4, 'Thomas', 'PAPAIX', 'Deviltix66', RoleLogo.botLogo),
             new Player(5, 'Simon', 'VERMEULEN', 'Capichef Azerlus', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('Riftricks7', 'ENSEEIHT',
+        // Poule 3
+        allTeams.push(new Team('Riftricks7', School.ENSEEIHT,
             new Player(1, 'Romain', 'Barda-Chatain', 'WarGun31', RoleLogo.topLanerLogo),
             new Player(2, 'Julien', 'Guilhem', 'Invocasombre', RoleLogo.jungleLogo),
             new Player(3, 'Florian', 'Carpentier', 'EzX Oni', RoleLogo.midLanerLogo),
             new Player(4, 'Maxime', 'Barnabé', 'VrEkEI', RoleLogo.botLogo),
             new Player(5, 'Romain', 'Fournier', 'Papaya inter', RoleLogo.supportLogo)
         ));
-        allTeams.push(new Team('Petite ours brun aime la bagarre', 'EPITECH',
+        allTeams.push(new Team('Petit ours brun aime la bagarre', School.EPITECH,
             new Player(1, 'Maxence', 'FOLIO', 'Ken Kànekì', RoleLogo.topLanerLogo),
             new Player(2, 'Sofian', 'CHEBBOUB', 'banlife for lag', RoleLogo.jungleLogo),
             new Player(3, 'Mathias', 'COMBALBERT', 'phalusdenoir', RoleLogo.midLanerLogo),
             new Player(4, 'Julien', 'ESPES', '1v9machLne', RoleLogo.botLogo),
             new Player(5, 'Ali', 'MHREZ', 'Aryath', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('Les 0 de la faille', School.IPI,
+            new Player(1, 'Baptiste', 'MARCHET', 'Desmop', RoleLogo.topLanerLogo),
+            new Player(2, 'Christophe', 'MOREAU', 'Lorai', RoleLogo.jungleLogo),
+            new Player(3, 'Gabriel', 'RINGUE', 'azertgab', RoleLogo.midLanerLogo),
+            new Player(4, 'Maël', 'KERVICHE', 'ElysiOwO', RoleLogo.botLogo),
+            new Player(5, 'Kévin', 'BOURSIER', 'EzKpy', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('SKT T7', School.ENSEEIHT,
+            new Player(1, 'Mehdi', 'BACCOUR', 'Bac31aquarium', RoleLogo.topLanerLogo),
+            new Player(2, 'Maxence', 'BEUSELINCK', 'Enexam', RoleLogo.jungleLogo),
+            new Player(3, 'Mederick', 'POUDRET', 'medo38', RoleLogo.midLanerLogo),
+            new Player(4, 'Fabien', 'BORYS', 'RitoMistake', RoleLogo.botLogo),
+            new Player(5, 'Mathieu', 'CHESNEAU', 'Gildal3502', RoleLogo.supportLogo)
+        ));
+        // Poule 4
+        allTeams.push(new Team('UT1NB', School.UT1,
+            new Player(1, '', '', 'wuhuAirflight', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'RNG Wei11', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'love camille', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'DontGoBotPls', RoleLogo.botLogo),
+            new Player(5, '', '', 'G IDLE HWAA', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('SegFaults', School.EPITECH,
+            new Player(1, '', '', 'BlazerHead', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'Zainora', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Au rayon solde', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'FoxtrotBP', RoleLogo.botLogo),
+            new Player(5, '', '', 'WiseryTyki', RoleLogo.supportLogo)
         ));
 
 
