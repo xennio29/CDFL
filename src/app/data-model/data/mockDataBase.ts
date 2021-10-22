@@ -133,6 +133,35 @@ export class MockDataBase extends DataBase {
             new Player(4, '', '', 'FoxtrotBP', RoleLogo.botLogo),
             new Player(5, '', '', 'WiseryTyki', RoleLogo.supportLogo)
         ));
+        allTeams.push(new Team('Algorithmed', School.ENSEEIHT,
+            new Player(1, '', '', 'Kokimop', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'chocrare34', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'paulusLP44', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'tofuset', RoleLogo.botLogo),
+            new Player(5, '', '', 'WiseryTyki', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('Road To No CashPrize', School.IL,
+            new Player(1, '', '', 'Gayqo Decimus', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'Glivious', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Iniro', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'FUMIEEER', RoleLogo.botLogo),
+            new Player(5, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
+        ));
+        // Poule 5
+        allTeams.push(new Team('RAMATEAM REBORN', School.UT1,
+            new Player(1, '', '', 'jejer', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'Nerf Jayce Plz', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'BONJOUR C ADAM', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'Jisoo bebou', RoleLogo.botLogo),
+            new Player(5, '', '', 'VRAl RAJEL', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('Electromenage7', School.ENSEEIHT,
+            new Player(1, '', '', 'glloq8', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'flibuste97', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Raygiik', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'Xe3N0X', RoleLogo.botLogo),
+            new Player(5, '', '', 'Bradfooo', RoleLogo.supportLogo)
+        ));
 
 
         var fakeTeam = new Team('futur name', 'Futur school',
@@ -142,6 +171,7 @@ export class MockDataBase extends DataBase {
             new Player(4, 'adc', 'Je suis', 'a futur bop laner', RoleLogo.botLogo),
             new Player(5, 'supp', 'Je suis', 'a futur support', RoleLogo.supportLogo)
         );
+        allTeams.push(fakeTeam);
         allTeams.push(fakeTeam);
         allTeams.push(fakeTeam);
 
