@@ -173,7 +173,6 @@ export class MockDataBase extends DataBase {
         );
         allTeams.push(fakeTeam);
         allTeams.push(fakeTeam);
-        allTeams.push(fakeTeam);
 
         this.setTeams(allTeams);
         var allPoules: Poule[] = [];
