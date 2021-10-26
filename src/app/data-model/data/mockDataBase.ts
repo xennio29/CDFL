@@ -46,7 +46,7 @@ export class MockDataBase extends DataBase {
             new Player(5, 'Zakaria', 'LOUDAGH', 'Zakichan31', RoleLogo.supportLogo)
         ));
         allTeams.push(new Team('Petit 7', School.ENSEEIHT,
-            new Player(1, 'Oscar', 'LE GRANCHÉ', 'Invisi Balll', RoleLogo.topLanerLogo),
+            new Player(1, 'Oscar', 'LE GRANCHÉ', 'OMG InvisiBalll', RoleLogo.topLanerLogo),
             new Player(2, 'Jules', 'ARRA', 'Jeune Roulio', RoleLogo.jungleLogo),
             new Player(3, 'Nathan', 'ROY', 'Hervé le Routier', RoleLogo.jungleLogo),
             new Player(4, 'Mathieu', 'SALAUZE', 'Fan 2 Shiva', RoleLogo.botLogo),
@@ -143,7 +143,7 @@ export class MockDataBase extends DataBase {
         allTeams.push(new Team('Road To No CashPrize', School.IL,
             new Player(1, '', '', 'Gayqo Decimus', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Glivious', RoleLogo.jungleLogo),
-            new Player(3, '', '', 'Iniro', RoleLogo.midLanerLogo),
+            new Player(3, '', '', 'EtieneLeBolideur', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'FUMIEEER', RoleLogo.botLogo),
             new Player(5, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
         ));
@@ -162,6 +162,14 @@ export class MockDataBase extends DataBase {
             new Player(4, '', '', 'Xe3N0X', RoleLogo.botLogo),
             new Player(5, '', '', 'Bradfooo', RoleLogo.supportLogo)
         ));
+        allTeams.push(new Team('N7 Esport', School.ENSEEIHT,
+            new Player(1, '', '', 'RedPhoenixx', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'N7 Happy', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Darkwo', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'Stridecore', RoleLogo.botLogo),
+            new Player(5, '', '', 'Wadget', RoleLogo.supportLogo),
+            new Player(5, '', '', 'Just Macfarges', RoleLogo.supportLogo)
+        ));
 
 
         var fakeTeam = new Team('futur name', 'Futur school',
@@ -171,7 +179,6 @@ export class MockDataBase extends DataBase {
             new Player(4, 'adc', 'Je suis', 'a futur bop laner', RoleLogo.botLogo),
             new Player(5, 'supp', 'Je suis', 'a futur support', RoleLogo.supportLogo)
         );
-        allTeams.push(fakeTeam);
         allTeams.push(fakeTeam);
 
         this.setTeams(allTeams);
