@@ -23,6 +23,8 @@ import { PoulesComponent } from './poules/poules.component';
 import { PouleComponent } from './poules/poule/poule.component';
 import { WeeklyRiftComponent } from './weekly-rift/weekly-rift.component';
 import { ArticleComponent } from './weekly-rift/article/article.component';
+import {MatSelectModule} from '@angular/material/select';
+import { PoulePlanningComponent } from './planning/poule-planning/poule-planning.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,8 @@ import { ArticleComponent } from './weekly-rift/article/article.component';
     PoulesComponent,
     PouleComponent,
     WeeklyRiftComponent,
-    ArticleComponent
+    ArticleComponent,
+    PoulePlanningComponent
     ],
   imports: [
     BrowserModule,
@@ -50,6 +53,7 @@ import { ArticleComponent } from './weekly-rift/article/article.component';
     MatCardModule,
     MatListModule,
     MatGridListModule,
+    MatSelectModule,
     CommonModule
   ],
   providers: [],

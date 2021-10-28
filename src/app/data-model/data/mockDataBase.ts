@@ -170,16 +170,22 @@ export class MockDataBase extends DataBase {
             new Player(5, '', '', 'Wadget', RoleLogo.supportLogo),
             new Player(5, '', '', 'Just Macfarges', RoleLogo.supportLogo)
         ));
+        allTeams.push(new Team('SuperHardCarryExtremePlayerPro', School.ENSEEIHT,
+            new Player(1, '', '', 'damienfrN7', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'RoverCcc', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'TLMSMAL', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'FujimiSekaiKill', RoleLogo.botLogo),
+            new Player(5, '', '', 'ÕnŌ', RoleLogo.supportLogo)
+        ));
 
 
-        var fakeTeam = new Team('futur name', 'Futur school',
+        var fakeTeam = new Team('??', '----',
             new Player(1, 'top', 'Je suis', 'a futur top laner', RoleLogo.topLanerLogo),
             new Player(2, 'jungle', 'Je suis', 'a futur jungle', RoleLogo.jungleLogo),
             new Player(3, 'mid', 'Je suis', 'a futur mid laner', RoleLogo.midLanerLogo),
             new Player(4, 'adc', 'Je suis', 'a futur bop laner', RoleLogo.botLogo),
             new Player(5, 'supp', 'Je suis', 'a futur support', RoleLogo.supportLogo)
         );
-        allTeams.push(fakeTeam);
 
         this.setTeams(allTeams);
         var allPoules: Poule[] = [];

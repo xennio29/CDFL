@@ -1,25 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data-model/data/data.service';
 import { MatchsPoule } from '../data-model/model/matchsPoule';
+import { Poule } from '../data-model/model/poule';
 
 @Component({
-  selector: 'pr-planning',
+  selector: 'tlc-planning',
   templateUrl: './planning.component.html',
   styleUrls: ['./planning.component.scss']
 })
 export class PlanningComponent implements OnInit {
 
-  matchsPoules: MatchsPoule[] = [];  
-  columns;
-  rowHeight;
+  matchs: MatchsPoule[] = [];
+  selectedMatchPoule: MatchsPoule;
 
   constructor(private dataService: DataService) {
-    this.dataService.getMatchs().subscribe(result => this.matchsPoules = result);
+    this.dataService.getMatchs().subscribe(result => this.matchs = result);
   }
-
   ngOnInit(): void {
-    this.columns = (window.innerWidth <= 500) ? 1 : 2;
-    this.rowHeight = (window.innerWidth <= 500) ? "600px" : "350px";
-
   }
 }

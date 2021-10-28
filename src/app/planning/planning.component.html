@@ -1,14 +1,11 @@
 <div class="container">
-    <mat-grid-list [cols]="columns" [rowHeight]="rowHeight" gutterSize="20">
-        <mat-grid-tile *ngFor="let matchsPoule of matchsPoules">
-            <mat-card>
-                <mat-card-title>{{matchsPoule.name}}</mat-card-title>
-                <mat-card-content >
-                    <div class="match" *ngFor="let match of matchsPoule.matchs">
-                        {{match.date}} : {{match.team1.name}} VS {{match.team2.name}}
-                    </div>
-                </mat-card-content>
-            </mat-card>
-        </mat-grid-tile>
-    </mat-grid-list>
+    <mat-form-field appearance="standard">
+        <mat-label>Choissisez une poule</mat-label>
+        <mat-select [disableOptionCentering]="true" [(value)]="selectedMatchPoule">
+            <mat-option *ngFor="let matchPoule of matchs" [value]="matchPoule">
+                {{matchPoule.name}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+<tlc-poule-planning [matchsPoule]="selectedMatchPoule"></tlc-poule-planning>
 </div>

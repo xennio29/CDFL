@@ -1,0 +1,25 @@
+<mat-card *ngIf="matchsPoule; else noPoule">
+    <mat-card-header>
+        Matchs :
+    </mat-card-header>
+    <mat-card-content>
+        <div class="match" ngClass.xs="mobile-text" fxLayout.xs="column" *ngFor="let match of matchsPoule.matchs">
+            <div class="date" fxFlex="25%">
+                {{match.date}} - 20h30 :
+            </div>
+            <div class="team" fxFlex="30%">
+                {{match.team1.name}}
+            </div>
+            <div class="vs" fxFlex="15%">VS</div>
+            <div class="team" fxFlex="30%">
+                {{match.team2.name}}
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>
+<ng-template #noPoule>
+    <div class="no-poule">
+        Aucune poule sélectionner.
+    </div>
+</ng-template>
+
