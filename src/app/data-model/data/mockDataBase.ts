@@ -143,9 +143,11 @@ export class MockDataBase extends DataBase {
         allTeams.push(new Team('Road To No CashPrize', School.IL,
             new Player(1, '', '', 'Gayqo Decimus', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Glivious', RoleLogo.jungleLogo),
-            new Player(3, '', '', 'EtieneLeBolideur', RoleLogo.midLanerLogo),
-            new Player(4, '', '', 'FUMIEEER', RoleLogo.botLogo),
-            new Player(5, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
+            new Player(3, '', '', 'W4RiOrk', RoleLogo.jungleLogo),
+            new Player(4, '', '', 'EtieneLeBolideur', RoleLogo.midLanerLogo),
+            new Player(5, '', '', 'FUMIEEER', RoleLogo.botLogo),
+            new Player(6, '', '', 'DodgeLyAxes', RoleLogo.botLogo),
+            new Player(7, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
         ));
         // Poule 5
         allTeams.push(new Team('RAMATEAM REBORN', School.UT1,
