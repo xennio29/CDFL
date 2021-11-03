@@ -87,7 +87,8 @@ export class MockDataBase extends DataBase {
             new Player(2, 'Théo', 'BELY', 'superguppy31', RoleLogo.jungleLogo),
             new Player(3, 'Kéziah', 'IMER', 'Jubıko', RoleLogo.midLanerLogo),
             new Player(4, 'Thomas', 'PAPAIX', 'Deviltix66', RoleLogo.botLogo),
-            new Player(5, 'Simon', 'VERMEULEN', 'Capichef Azerlus', RoleLogo.supportLogo)
+            new Player(5, 'Simon', 'VERMEULEN', 'Capichef Azerlus', RoleLogo.supportLogo),
+            new Player(6, '', '', 'SaucegØd', RoleLogo.supportLogo)
         ));
         // Poule 3
         allTeams.push(new Team('Riftricks7', School.ENSEEIHT,
@@ -138,7 +139,7 @@ export class MockDataBase extends DataBase {
             new Player(2, '', '', 'chocrare34', RoleLogo.jungleLogo),
             new Player(3, '', '', 'paulusLP44', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'tofuset', RoleLogo.botLogo),
-            new Player(5, '', '', 'WiseryTyki', RoleLogo.supportLogo)
+            new Player(5, '', '', 'Valduche', RoleLogo.supportLogo)
         ));
         allTeams.push(new Team('Road To No CashPrize', School.IL,
             new Player(1, '', '', 'Gayqo Decimus', RoleLogo.topLanerLogo),
@@ -146,7 +147,7 @@ export class MockDataBase extends DataBase {
             new Player(3, '', '', 'W4RiOrk', RoleLogo.jungleLogo),
             new Player(4, '', '', 'EtieneLeBolideur', RoleLogo.midLanerLogo),
             new Player(5, '', '', 'FUMIEEER', RoleLogo.botLogo),
-            new Player(6, '', '', 'DodgeLyAxes', RoleLogo.botLogo),
+            new Player(6, '', '', 'DodgeMyAxes', RoleLogo.botLogo),
             new Player(7, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
         ));
         // Poule 5
