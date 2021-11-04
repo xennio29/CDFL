@@ -1,17 +1,17 @@
 <mat-card>
     <mat-card-title>{{poule.name}}</mat-card-title>
     <mat-card-content>
-        <div class="team">
-            {{poule.team1.school}} - {{poule.team1.name}}
+        <div class="team" fxLayout="row" fxLayoutAlign="space-between center">
+            <div>{{poule.team1.school}} - {{poule.team1.name}}</div><div>{{poule.team1.getScore()}}</div>
         </div>
-        <div class="team">
-            {{poule.team2.school}} - {{poule.team2.name}}
+        <div class="team" fxLayout="row" fxLayoutAlign="space-between center">
+            <div>{{poule.team2.school}} - {{poule.team2.name}}</div><div>{{poule.team2.getScore()}}</div>
         </div>
-        <div class="team">
-            {{poule.team3.school}} - {{poule.team3.name}}
+        <div class="team" fxLayout="row" fxLayoutAlign="space-between center">
+            <div>{{poule.team3.school}} - {{poule.team3.name}}</div><div>{{poule.team3.getScore()}}</div>
         </div>
-        <div class="team">
-            {{poule.team4.school}} - {{poule.team4.name}}
+        <div class="team" fxLayout="row" fxLayoutAlign="space-between center">
+            <div>{{poule.team4.school}} - {{poule.team4.name}}</div><div>{{poule.team4.getScore()}}</div>
         </div>
     </mat-card-content>
 </mat-card>

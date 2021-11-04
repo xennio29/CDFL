@@ -15,5 +15,4 @@ export class PoulePlanningComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

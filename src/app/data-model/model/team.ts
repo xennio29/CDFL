@@ -10,6 +10,7 @@ export class Team {
     public support: Player;
     public remplacant1: Player;
     public remplacant2: Player;
+    private score: number;
 
     constructor(
         name: string,
@@ -32,6 +33,7 @@ export class Team {
         this.validateTeam();
         this.remplacant1 = remplacant1;
         this.remplacant2 = remplacant2;
+        this.score = 0;
     }
 
     validateTeam() {
@@ -42,11 +44,13 @@ export class Team {
         this.support.validatePlayer();
     }
 
-    getScore() {
-        // TODO return the score of this team
-        // Get all score
-        // Filter match wheer this team play
-        // for each match score 3 1 or 0 points
+    getScore(): number {
+        return this.score;
+    }
+
+    addScore(scoreToAdd: number): void {
+        this.score = this.score + scoreToAdd;
+        console.log('this.score is now ' + this.score);
     }
 }
 
@@ -70,5 +74,6 @@ export enum School {
     TBS = "TBS",
     TSM = "TSM",
     CHAMPOLLION = "INU Champollion Albi",
-    ESN = "ESN 81"
+    ESN = "ESN 81",
+    SOPRA = "Sopra Steria"
 }
