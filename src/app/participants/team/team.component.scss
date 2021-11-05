@@ -4,17 +4,22 @@ mat-card-title {
     padding-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: rgb(207, 2, 43);
+    height: 9%;
+}
+
+mat-card-content {
+    height: 88%;
+    overflow-y: auto;
+}
+
+.logo {
+    width: 15%;
 }
 
 .player-pseudo {
     font-size: x-large;
     text-align: left;
-    width: 50%;
-}
-
-.logo {
-    width: 15%;
-    text-align: right;
+    width: 70%;
 }
 
 mat-card {

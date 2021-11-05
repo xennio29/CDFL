@@ -75,5 +75,5 @@ export enum School {
     TSM = "TSM",
     CHAMPOLLION = "INU Champollion Albi",
     ESN = "ESN 81",
-    SOPRA = "Sopra Steria"
+    SOPRA = "SOPRA STERIA"
 }

@@ -116,8 +116,9 @@ export class MockDataBase extends DataBase {
             new Player(1, 'Mehdi', 'BACCOUR', 'Bac31aquarium', RoleLogo.topLanerLogo),
             new Player(2, 'Maxence', 'BEUSELINCK', 'Enexam', RoleLogo.jungleLogo),
             new Player(3, 'Mederick', 'POUDRET', 'medo38', RoleLogo.midLanerLogo),
-            new Player(4, 'Fabien', 'BORYS', 'RitoMistake', RoleLogo.botLogo),
-            new Player(5, 'Mathieu', 'CHESNEAU', 'Gildal3502', RoleLogo.supportLogo)
+            new Player(4, '', '', 'WinterWood', RoleLogo.midLanerLogo),
+            new Player(5, 'Fabien', 'BORYS', 'RitoMistake', RoleLogo.botLogo),
+            new Player(6, 'Mathieu', 'CHESNEAU', 'Gildal3502', RoleLogo.supportLogo)
         ));
         // Poule 4
         allTeams.push(new Team('UT1NB', School.UT1,
@@ -203,7 +204,31 @@ export class MockDataBase extends DataBase {
             new Player(4, '', '', 'FujimiSekaiKill', RoleLogo.botLogo),
             new Player(5, '', '', 'ÕnŌ', RoleLogo.supportLogo)
         ));
-
+        allTeams.push(new Team('League du sel', School.ALBI,
+            new Player(1, '', '', '????', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'Arshemale', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Drypsers', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'Minato934', RoleLogo.botLogo),
+            new Player(5, '', '', '????', RoleLogo.supportLogo),
+            new Player(6, '', '', '????', RoleLogo.supportLogo)
+        ));
+        // Poule 7
+        allTeams.push(new Team('IPIFeed', School.SOPRA,
+            new Player(1, '', '', 'Draksxx', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'Oragefeu', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Kastelo', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'SWC Furenard', RoleLogo.botLogo),
+            new Player(5, '', '', 'Forestyyy', RoleLogo.supportLogo)
+        ));
+        allTeams.push(new Team('Albinteur', School.ALBI,
+            new Player(1, '', '', '2ndPoteauPavaard', RoleLogo.topLanerLogo),
+            new Player(2, '', '', 'LETS GO DJULO', RoleLogo.jungleLogo),
+            new Player(3, '', '', 'Imtoxicdontrepme', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'Keep it Michel', RoleLogo.botLogo),
+            new Player(5, '', '', 'Adewande ', RoleLogo.supportLogo),
+            new Player(6, '', '', 'Rickorck ', RoleLogo.supportLogo),
+            new Player(7, '', '', 'RagnarokOfFlames ', RoleLogo.supportLogo)
+        ));
 
         var fakeTeam = new Team('??', '----',
             new Player(1, 'top', 'Je suis', 'a futur top laner', RoleLogo.topLanerLogo),
@@ -213,6 +238,7 @@ export class MockDataBase extends DataBase {
             new Player(5, 'supp', 'Je suis', 'a futur support', RoleLogo.supportLogo)
         );
 
+        allTeams.push(fakeTeam);
         allTeams.push(fakeTeam);
 
         this.setTeams(allTeams);
