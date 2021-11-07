@@ -126,7 +126,7 @@ export class MockDataBase extends DataBase {
         allTeams.push(new Team('UT1NB', School.UT1,
             new Player(1, '', '', 'wuhuAirflight', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'RNG Wei11', RoleLogo.jungleLogo),
-            new Player(3, '', '', 'love camille', RoleLogo.midLanerLogo),
+            new Player(3, '', '', 'loveξcamille', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'DontGoBotPls', RoleLogo.botLogo),
             new Player(5, '', '', 'G IDLE HWAA', RoleLogo.supportLogo)
         ));
@@ -148,7 +148,7 @@ export class MockDataBase extends DataBase {
             new Player(1, '', '', 'Gayqo Decimus', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Glivious', RoleLogo.jungleLogo),
             new Player(3, '', '', 'W4RiOrk', RoleLogo.jungleLogo),
-            new Player(4, '', '', 'EtieneLeBolideur', RoleLogo.midLanerLogo),
+            new Player(4, '', '', 'ÉtieneLeBolideur', RoleLogo.midLanerLogo),
             new Player(5, '', '', 'FUMIEEER', RoleLogo.botLogo),
             new Player(6, '', '', 'DodgeMyAxes', RoleLogo.botLogo),
             new Player(7, '', '', 'I AM GROOOOOT', RoleLogo.supportLogo)
