@@ -201,12 +201,11 @@ export class MockDataBase extends DataBase {
             new Player(5, '', '', 'ÕnŌ', RoleLogo.supportLogo)
         ));
         allTeams.push(new Team('League du sel', School.ALBI,
-            new Player(1, '', '', '????', RoleLogo.topLanerLogo),
+            new Player(1, '', '', 'Hangar', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Arshemale', RoleLogo.jungleLogo),
             new Player(3, '', '', 'Drypsers', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'Minato934', RoleLogo.botLogo),
-            new Player(5, '', '', '????', RoleLogo.supportLogo),
-            new Player(6, '', '', '????', RoleLogo.supportLogo)
+            new Player(5, '', '', 'Elaiika', RoleLogo.supportLogo)
         ));
         allTeams.push(fakeTeam);
         // Poule 7
