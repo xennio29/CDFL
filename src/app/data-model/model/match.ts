@@ -19,11 +19,11 @@ export class Match {
         this.team1 = team1;
         this.team2 = team2;
         this.date = date;
+        this.team1Score = team1score ? team1score : 0;
+        this.team2Score = team2score ? team2score : 0;
         if(team1score) {
            this.dispatchPoints(); 
         }
-        this.team1Score = team1score ? team1score : 0;
-        this.team2Score = team2score ? team2score : 0;
     }
 
     dispatchPoints() {

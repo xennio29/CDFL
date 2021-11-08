@@ -50,7 +50,6 @@ export class Team {
 
     addScore(scoreToAdd: number): void {
         this.score = this.score + scoreToAdd;
-        console.log('this.score is now ' + this.score);
     }
 }
 

@@ -6,6 +6,7 @@ import { Poule } from "../model/poule";
 import { School, Team } from "../model/team";
 import { Rules } from "../model/rules";
 import { DataBase } from "./database";
+import { Match } from "../model/match";
 
 export class MockDataBase extends DataBase {
 
@@ -37,6 +38,9 @@ export class MockDataBase extends DataBase {
             new Player(4, 'adc', 'Je suis', 'a futur bop laner', RoleLogo.botLogo),
             new Player(5, 'supp', 'Je suis', 'a futur support', RoleLogo.supportLogo)
         );
+        const FIRST_DATE = "Lundi 8 novembre - 20h30";
+        const SECOND_DATE = "Mercredi 10 novembre - 20h30";
+        const THIRD_DATE = "Lundi 15 novembre - 20h30";
 
         var allTeams: Team[] = [];
         // Poule 1
@@ -263,8 +267,98 @@ export class MockDataBase extends DataBase {
             ));
         }
         this.setPoules(allPoules);
+
+        // ALL MATCHS
         var matchsPoule: MatchsPoule[] = [];
-        allPoules.forEach( poule => matchsPoule.push(new MatchsPoule(poule)));
+        // Poule 1
+        var matchsPoule1: Match[] = [];
+        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team2, FIRST_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team3, allPoules[0].team4, FIRST_DATE));
+
+        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team3, SECOND_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team4, SECOND_DATE));
+
+        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team4, THIRD_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[0], matchsPoule1));
+        // Poule 2
+        var matchsPoule2: Match[] = [];
+        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team2, FIRST_DATE));
+        matchsPoule2.push(new Match(allPoules[1].team3, allPoules[1].team4, FIRST_DATE));
+
+        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team3, SECOND_DATE));
+        matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team4, SECOND_DATE));
+
+        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team4, THIRD_DATE));
+        matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[1], matchsPoule2));
+        // Poule 3
+        var matchsPoule3: Match[] = [];
+        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team2, FIRST_DATE));
+        matchsPoule3.push(new Match(allPoules[2].team3, allPoules[2].team4, FIRST_DATE));
+
+        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team3, SECOND_DATE));
+        matchsPoule3.push(new Match(allPoules[2].team2, allPoules[2].team4, SECOND_DATE));
+
+        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team4, THIRD_DATE));
+        matchsPoule3.push(new Match(allPoules[2].team2, allPoules[2].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[2], matchsPoule3));
+        // Poule 4
+        var matchsPoule4: Match[] = [];
+        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team2, FIRST_DATE));
+        matchsPoule4.push(new Match(allPoules[3].team3, allPoules[3].team4, FIRST_DATE));
+
+        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team3, SECOND_DATE));
+        matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team4, SECOND_DATE));
+
+        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team4, THIRD_DATE));
+        matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[3], matchsPoule4));
+        // Poule 5
+        var matchsPoule6: Match[] = [];
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team2, FIRST_DATE));
+        matchsPoule6.push(new Match(allPoules[4].team3, allPoules[4].team4, FIRST_DATE));
+
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team3, SECOND_DATE));
+        matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team4, SECOND_DATE));
+
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team4, THIRD_DATE));
+        matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[4], matchsPoule6));
+        // Poule 6
+        var matchsPoule6: Match[] = [];
+        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team2, FIRST_DATE));
+        matchsPoule6.push(new Match(allPoules[5].team3, allPoules[5].team4, FIRST_DATE));
+
+        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team3, SECOND_DATE));
+        matchsPoule6.push(new Match(allPoules[5].team2, allPoules[5].team4, SECOND_DATE));
+
+        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team4, THIRD_DATE));
+        matchsPoule6.push(new Match(allPoules[5].team2, allPoules[5].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[5], matchsPoule6));
+        // Poule 7
+        var matchsPoule7: Match[] = [];
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team2, FIRST_DATE));
+        matchsPoule7.push(new Match(allPoules[6].team3, allPoules[6].team4, FIRST_DATE));
+
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team3, SECOND_DATE));
+        matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team4, SECOND_DATE));
+
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team4, THIRD_DATE));
+        matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[6], matchsPoule7));
+        // Poule 8
+        var matchsPoule8: Match[] = [];
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team2, FIRST_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team3, allPoules[7].team4, FIRST_DATE));
+
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team3, SECOND_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team4, SECOND_DATE));
+
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team4, THIRD_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team3, THIRD_DATE));
+        matchsPoule.push(new MatchsPoule(allPoules[7], matchsPoule8));
+
         this.setMatchs(matchsPoule);
     }
 
