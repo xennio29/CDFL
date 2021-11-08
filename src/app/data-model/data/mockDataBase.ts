@@ -105,7 +105,8 @@ export class MockDataBase extends DataBase {
             new Player(3, 'Kéziah', 'IMER', 'Jubıko', RoleLogo.midLanerLogo),
             new Player(4, 'Thomas', 'PAPAIX', 'Deviltix66', RoleLogo.botLogo),
             new Player(5, 'Simon', 'VERMEULEN', 'Capichef Azerlus', RoleLogo.supportLogo),
-            new Player(6, '', '', 'SaucegØd', RoleLogo.supportLogo)
+            new Player(6, '', '', 'SaucegØd', RoleLogo.supportLogo),
+            new Player(7, '', '', 'Masterfeedax', RoleLogo.supportLogo)
         ));
         // Poule 3
         allTeams.push(new Team('Riftricks7', School.ENSEEIHT,
