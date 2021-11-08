@@ -157,7 +157,7 @@ export class MockDataBase extends DataBase {
         allTeams.push(new Team('RAMATEAM REBORN', School.UT1,
             new Player(1, '', '', 'jejer', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Nerf Jayce Plz', RoleLogo.jungleLogo),
-            new Player(3, '', '', 'BONJOUR C ADAM', RoleLogo.midLanerLogo),
+            new Player(3, '', '', 'u r on my mind', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'Jisoo bebou', RoleLogo.botLogo),
             new Player(5, '', '', 'VRAl RAJEL', RoleLogo.supportLogo)
         ));
@@ -270,7 +270,7 @@ export class MockDataBase extends DataBase {
 
     private addArticles(): void {
         this.setArticles([
-            new Article(1, 'Welcome to Toulouse League Cup', "C'est l'ouverture du tournoi inter-école organisé par SOPRA STERIA pour les étudients de la région toulousaine ! Les inscriptions sont ouvertes et les entrainements commencent !")
+            new Article(1, 'Welcome to Toulouse League Cup', "C'est l'ouverture du tournoi inter-école organisé par SOPRA STERIA pour les étudiants de la région toulousaine ! Les inscriptions sont ouvertes et les entrainements commencent !")
         ]);
     }
 }
