@@ -87,7 +87,7 @@ export class MockDataBase extends DataBase {
         allTeams.push(new Team('C\'est une bonne situation scribe ?', School.UT2,
             new Player(2, 'Nicolas', 'DOUMENC', 'Ruzzan', RoleLogo.topLanerLogo),
             new Player(1, 'Rémy', 'MESTRE', 'Toastos', RoleLogo.jungleLogo),
-            new Player(3, 'Lucas', 'ARNAL', 'Keyniix', RoleLogo.midLanerLogo),
+            new Player(3, 'Lucas', 'ARNAL', 'Baby Craps', RoleLogo.midLanerLogo),
             new Player(5, 'Sylvain', 'MESTRE', 'Shult', RoleLogo.botLogo),
             new Player(4, 'Tom', 'FERRASSE', 'Thumflumch', RoleLogo.supportLogo)
         ));
@@ -201,9 +201,9 @@ export class MockDataBase extends DataBase {
             new Player(5, '', '', 'ÕnŌ', RoleLogo.supportLogo)
         ));
         allTeams.push(new Team('League du sel', School.ALBI,
-            new Player(1, '', '', 'Hangar', RoleLogo.topLanerLogo),
+            new Player(1, '', '', 'Drypsers', RoleLogo.topLanerLogo),
             new Player(2, '', '', 'Arshemale', RoleLogo.jungleLogo),
-            new Player(3, '', '', 'Drypsers', RoleLogo.midLanerLogo),
+            new Player(3, '', '', 'Hangar', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'Minato934', RoleLogo.botLogo),
             new Player(5, '', '', 'Elaiika', RoleLogo.supportLogo)
         ));
