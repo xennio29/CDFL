@@ -71,4 +71,8 @@ export class DataService {
   getMatchs(): Observable<MatchsPoule[]> {
     return this.databaseCall('getMatchs');
   }
+
+  getMatchsFinale(): Observable<MatchsPoule[]> {
+    return this.databaseCall('getMatchsFinale');
+  }
 }

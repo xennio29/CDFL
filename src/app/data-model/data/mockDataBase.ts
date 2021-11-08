@@ -41,6 +41,10 @@ export class MockDataBase extends DataBase {
         const FIRST_DATE = "Lundi 8 novembre - 20h30";
         const SECOND_DATE = "Mercredi 10 novembre - 20h30";
         const THIRD_DATE = "Lundi 15 novembre - 20h30";
+        const HUIT_DATE = "Lundi 22 novembre - 20h30";
+        const QUART_DATE = "Lundi 24 novembre - 20h30";
+        const DEMI_DATE = "Lundi 29 novembre - 20h30";
+        const FINAL_DATE = "Lundi 1 décembre - 20h30";
 
         var allTeams: Team[] = [];
         // Poule 1
@@ -253,6 +257,7 @@ export class MockDataBase extends DataBase {
             new Player(3, '', '', ' PkE Shaynos', RoleLogo.midLanerLogo),
             new Player(4, '', '', 'Viiiiitel', RoleLogo.botLogo),
             new Player(5, '', '', 'Bloodlab', RoleLogo.supportLogo),
+            new Player(6, '', '', 'PkE Yuko', RoleLogo.supportLogo),
         ));
         allTeams.push(fakeTeam);
 
@@ -360,6 +365,39 @@ export class MockDataBase extends DataBase {
         matchsPoule.push(new MatchsPoule(allPoules[7], matchsPoule8));
 
         this.setMatchs(matchsPoule);
+
+        // MATCH FINALE
+        var matchsFinale: MatchsPoule[] = [];
+        // Huitème de finale
+        var matchsHuit: Match[] = [];
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsFinale.push(new MatchsPoule(new Poule("Huitième de finale", null, null, null, null), matchsHuit));
+        // Quart de finale
+        var matchsQuart: Match[] = [];
+        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
+        matchsFinale.push(new MatchsPoule(new Poule("Quart de finale", null, null, null, null), matchsQuart));
+        // Demi finale
+        var matchsDemi: Match[] = [];
+        matchsDemi.push(new Match(fakeTeam, fakeTeam, DEMI_DATE));
+        matchsDemi.push(new Match(fakeTeam, fakeTeam, DEMI_DATE));
+        matchsFinale.push(new MatchsPoule(new Poule("Demi finale", null, null, null, null), matchsDemi));
+        // Finale
+        var matchsFinal: Match[] = [];
+        matchsFinal.push(new Match(fakeTeam, fakeTeam, FINAL_DATE));
+        matchsFinale.push(new MatchsPoule(new Poule("Finale", null, null, null, null), matchsFinal));
+
+        this.setMatchsFinale(matchsFinale);
+
     }
 
     private addArticles(): void {

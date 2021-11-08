@@ -12,10 +12,14 @@ import { Poule } from '../data-model/model/poule';
 export class PlanningComponent implements OnInit {
 
   matchs: MatchsPoule[] = [];
+  matchsFinal: MatchsPoule[] = [];
   selectedMatchPoule: MatchsPoule;
+  selectedMatchFinalPoule: MatchsPoule;
 
   constructor(private dataService: DataService) {
     this.dataService.getMatchs().subscribe(result => this.matchs = result);
+    this.dataService.getMatchsFinale().subscribe(result => this.matchsFinal = result);
+
   }
   ngOnInit(): void {
   }

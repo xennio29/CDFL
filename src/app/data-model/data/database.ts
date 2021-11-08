@@ -19,6 +19,7 @@ export class DataBase {
     private _poules: Poule[];
     private _players: Player[];
     private _matchs: MatchsPoule[];
+    private _matchsFinale: MatchsPoule[];
     private _articles: Article[];
 
     constructor(data: any) {
@@ -60,6 +61,10 @@ export class DataBase {
 
     getMatchs(): MatchsPoule[] {
         return this._matchs;
+    }
+
+    getMatchsFinale(): MatchsPoule[] {
+        return this._matchsFinale;
     }
 
     getArticles(): Article[] {
@@ -131,5 +136,9 @@ export class DataBase {
 
     setMatchs(matchs: MatchsPoule[]) {
         this._matchs = matchs;
+    }
+
+    setMatchsFinale(matchsFinale: MatchsPoule[]) {
+        this._matchsFinale = matchsFinale;
     }
 }
