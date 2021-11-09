@@ -21,9 +21,7 @@ export class Match {
         this.date = date;
         this.team1Score = team1score ? team1score : 0;
         this.team2Score = team2score ? team2score : 0;
-        if(team1score) {
-           this.dispatchPoints(); 
-        }
+        this.dispatchPoints(); 
     }
 
     dispatchPoints() {
@@ -35,7 +33,7 @@ export class Match {
             this.team2.addScore(this.WINNING_POINTS);
             this.team1.addScore(this.LOOSING_POINTS);
         }
-        else {
+        else if (this.team2Score !== 0) {
             this.team1.addScore(this.DRAW_POINTS);
             this.team2.addScore(this.DRAW_POINTS);
         }
