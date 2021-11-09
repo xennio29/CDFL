@@ -354,11 +354,11 @@ export class MockDataBase extends DataBase {
         matchsPoule.push(new MatchsPoule(allPoules[6], matchsPoule7));
         // Poule 8
         var matchsPoule8: Match[] = [];
-        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team2, FIRST_DATE, 1, 1));
-        matchsPoule8.push(new Match(allPoules[7].team3, allPoules[7].team4, FIRST_DATE, 3, 0));
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team3, FIRST_DATE, 1, 1));
+        matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team4, FIRST_DATE, 3, 0));
 
-        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team3, SECOND_DATE));
-        matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team4, SECOND_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team2, SECOND_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team3, allPoules[7].team4, SECOND_DATE));
 
         matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team4, THIRD_DATE));
         matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team3, THIRD_DATE));
