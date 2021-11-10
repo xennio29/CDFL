@@ -42,9 +42,9 @@ export class MockDataBase extends DataBase {
         const SECOND_DATE = "Mercredi 10 novembre - 20h30";
         const THIRD_DATE = "Lundi 15 novembre - 20h30";
         const HUIT_DATE = "Lundi 22 novembre - 20h30";
-        const QUART_DATE = "Lundi 24 novembre - 20h30";
+        const QUART_DATE = "Mercredi 24 novembre - 20h30";
         const DEMI_DATE = "Lundi 29 novembre - 20h30";
-        const FINAL_DATE = "Lundi 1 décembre - 20h30";
+        const FINAL_DATE = "Mercredi 1 décembre - 20h30";
 
         var allTeams: Team[] = [];
         // Poule 1
@@ -277,7 +277,7 @@ export class MockDataBase extends DataBase {
         var matchsPoule: MatchsPoule[] = [];
         // Poule 1
         var matchsPoule1: Match[] = [];
-        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team2, FIRST_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team2, FIRST_DATE, 2, 0));
         matchsPoule1.push(new Match(allPoules[0].team3, allPoules[0].team4, FIRST_DATE, 0, 3));
 
         matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team3, SECOND_DATE));
@@ -291,7 +291,7 @@ export class MockDataBase extends DataBase {
         matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team2, FIRST_DATE, 0, 2));
         matchsPoule2.push(new Match(allPoules[1].team3, allPoules[1].team4, FIRST_DATE, 0, 2));
 
-        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team3, SECOND_DATE));
+        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team3, "Mardi 09 novembre - 20h30", 2, 0));
         matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team4, SECOND_DATE));
 
         matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team4, THIRD_DATE));
