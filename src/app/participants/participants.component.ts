@@ -15,7 +15,9 @@ export class ParticipantsComponent implements OnInit {
   columns;
 
   constructor(private dataService: DataService) {
-    this.dataService.getTeams().subscribe(result => this.teams = result);
+    this.dataService.getTeams().subscribe(result => {
+      this.teams = result.filter(team => team.name != '??');
+    });
   }
 
   ngOnInit(): void {
