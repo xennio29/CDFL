@@ -280,11 +280,11 @@ export class MockDataBase extends DataBase {
         matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team2, FIRST_DATE, 2, 0));
         matchsPoule1.push(new Match(allPoules[0].team3, allPoules[0].team4, FIRST_DATE, 0, 3));
 
-        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team3, SECOND_DATE));
-        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team4, SECOND_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team3, SECOND_DATE, 3, 0));
+        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team4, SECOND_DATE, 0, 2));
 
         matchsPoule1.push(new Match(allPoules[0].team1, allPoules[0].team4, THIRD_DATE));
-        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team3, THIRD_DATE));
+        matchsPoule1.push(new Match(allPoules[0].team2, allPoules[0].team3, THIRD_DATE, 3, 0));
         matchsPoule.push(new MatchsPoule(allPoules[0], matchsPoule1));
         // Poule 2
         var matchsPoule2: Match[] = [];
@@ -292,7 +292,7 @@ export class MockDataBase extends DataBase {
         matchsPoule2.push(new Match(allPoules[1].team3, allPoules[1].team4, FIRST_DATE, 0, 2));
 
         matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team3, "Mardi 09 novembre - 20h30", 2, 0));
-        matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team4, SECOND_DATE));
+        matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team4, SECOND_DATE, 2, 0));
 
         matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team4, THIRD_DATE));
         matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team3, THIRD_DATE));
@@ -302,10 +302,10 @@ export class MockDataBase extends DataBase {
         matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team2, FIRST_DATE, 0, 3));
         matchsPoule3.push(new Match(allPoules[2].team3, allPoules[2].team4, FIRST_DATE, 3, 0));
 
-        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team3, SECOND_DATE));
-        matchsPoule3.push(new Match(allPoules[2].team2, allPoules[2].team4, SECOND_DATE));
+        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team3, SECOND_DATE, 0, 3));
+        matchsPoule3.push(new Match(allPoules[2].team2, allPoules[2].team4, SECOND_DATE, 3, 0));
 
-        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team4, THIRD_DATE));
+        matchsPoule3.push(new Match(allPoules[2].team1, allPoules[2].team4, THIRD_DATE, 3, 0));
         matchsPoule3.push(new Match(allPoules[2].team2, allPoules[2].team3, THIRD_DATE));
         matchsPoule.push(new MatchsPoule(allPoules[2], matchsPoule3));
         // Poule 4
@@ -313,8 +313,8 @@ export class MockDataBase extends DataBase {
         matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team2, FIRST_DATE, 2, 0));
         matchsPoule4.push(new Match(allPoules[3].team3, allPoules[3].team4, FIRST_DATE, 0, 2));
 
-        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team3, SECOND_DATE));
-        matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team4, SECOND_DATE));
+        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team3, SECOND_DATE, 1, 1));
+        matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team4, SECOND_DATE, 0, 3));
 
         matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team4, THIRD_DATE));
         matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team3, THIRD_DATE));
@@ -324,10 +324,10 @@ export class MockDataBase extends DataBase {
         matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team2, FIRST_DATE, 2, 0));
         matchsPoule6.push(new Match(allPoules[4].team3, allPoules[4].team4, FIRST_DATE, 3, 0));
 
-        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team3, SECOND_DATE));
-        matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team4, SECOND_DATE));
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team3, SECOND_DATE, 1, 1));
+        matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team4, SECOND_DATE, 3, 0));
 
-        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team4, THIRD_DATE));
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team4, THIRD_DATE, 3, 0));
         matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team3, THIRD_DATE));
         matchsPoule.push(new MatchsPoule(allPoules[4], matchsPoule6));
         // Poule 6
@@ -335,10 +335,10 @@ export class MockDataBase extends DataBase {
         matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team2, FIRST_DATE, 3, 0));
         matchsPoule6.push(new Match(allPoules[5].team3, allPoules[5].team4, FIRST_DATE, 3, 0));
 
-        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team3, SECOND_DATE));
-        matchsPoule6.push(new Match(allPoules[5].team2, allPoules[5].team4, SECOND_DATE));
+        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team3, SECOND_DATE, 3, 0));
+        matchsPoule6.push(new Match(allPoules[5].team2, allPoules[5].team4, SECOND_DATE, 3, 0));
 
-        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team4, THIRD_DATE));
+        matchsPoule6.push(new Match(allPoules[5].team1, allPoules[5].team4, THIRD_DATE, 3, 0));
         matchsPoule6.push(new Match(allPoules[5].team2, allPoules[5].team3, THIRD_DATE));
         matchsPoule.push(new MatchsPoule(allPoules[5], matchsPoule6));
         // Poule 7
@@ -346,10 +346,10 @@ export class MockDataBase extends DataBase {
         matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team2, FIRST_DATE, 0, 2));
         matchsPoule7.push(new Match(allPoules[6].team3, allPoules[6].team4, FIRST_DATE, 3 ,0));
 
-        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team3, SECOND_DATE));
-        matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team4, SECOND_DATE));
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team3, SECOND_DATE, 1, 1));
+        matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team4, SECOND_DATE, 3, 0));
 
-        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team4, THIRD_DATE));
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team4, THIRD_DATE, 3, 0));
         matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team3, THIRD_DATE));
         matchsPoule.push(new MatchsPoule(allPoules[6], matchsPoule7));
         // Poule 8
@@ -357,10 +357,10 @@ export class MockDataBase extends DataBase {
         matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team3, FIRST_DATE, 1, 1));
         matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team4, FIRST_DATE, 3, 0));
 
-        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team2, SECOND_DATE));
-        matchsPoule8.push(new Match(allPoules[7].team3, allPoules[7].team4, SECOND_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team2, SECOND_DATE, 0, 2));
+        matchsPoule8.push(new Match(allPoules[7].team3, allPoules[7].team4, SECOND_DATE, 3 , 0));
 
-        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team4, THIRD_DATE));
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team4, THIRD_DATE, 3, 0));
         matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team3, THIRD_DATE));
         matchsPoule.push(new MatchsPoule(allPoules[7], matchsPoule8));
 
