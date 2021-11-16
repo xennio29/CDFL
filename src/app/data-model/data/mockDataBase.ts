@@ -294,7 +294,7 @@ export class MockDataBase extends DataBase {
         matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team3, "Mardi 09 novembre - 20h30", 2, 0));
         matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team4, SECOND_DATE, 2, 0));
 
-        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team4, THIRD_DATE, 1, 0));
+        matchsPoule2.push(new Match(allPoules[1].team1, allPoules[1].team4, THIRD_DATE, 2, 0));
         matchsPoule2.push(new Match(allPoules[1].team2, allPoules[1].team3, THIRD_DATE, 2, 0));
         matchsPoule.push(new MatchsPoule(allPoules[1], matchsPoule2));
         // Poule 3
