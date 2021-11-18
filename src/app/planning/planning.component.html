@@ -1,16 +1,5 @@
 <div class="container">
     <mat-tab-group>
-        <mat-tab label="Phase de poule">
-            <mat-form-field appearance="standard">
-                <mat-label>Choissisez une poule</mat-label>
-                <mat-select [disableOptionCentering]="true" [(value)]="selectedMatchPoule">
-                    <mat-option *ngFor="let matchPoule of matchs" [value]="matchPoule">
-                        {{matchPoule.name}}
-                    </mat-option>
-                </mat-select>
-            </mat-form-field>
-            <tlc-poule-planning [matchsPoule]="selectedMatchPoule"></tlc-poule-planning>
-        </mat-tab>
         <mat-tab label="Phase finale">
             <mat-form-field appearance="standard">
                 <mat-label>Choissisez un match</mat-label>
@@ -21,6 +10,17 @@
                 </mat-select>
             </mat-form-field>
             <tlc-poule-planning [matchsPoule]="selectedMatchFinalPoule"></tlc-poule-planning>
+        </mat-tab>
+        <mat-tab label="Phase de poule">
+            <mat-form-field appearance="standard">
+                <mat-label>Choissisez une poule</mat-label>
+                <mat-select [disableOptionCentering]="true" [(value)]="selectedMatchPoule">
+                    <mat-option *ngFor="let matchPoule of matchs" [value]="matchPoule">
+                        {{matchPoule.name}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <tlc-poule-planning [matchsPoule]="selectedMatchPoule"></tlc-poule-planning>
         </mat-tab>
       </mat-tab-group>
 </div>

@@ -381,14 +381,14 @@ export class MockDataBase extends DataBase {
         var matchsFinale: MatchsPoule[] = [];
         // Huitème de finale
         var matchsHuit: Match[] = [];
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
-        matchsHuit.push(new Match(fakeTeam, fakeTeam, HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[0], allTeams[10], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[9], allTeams[3], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[5], allTeams[12], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[15], allTeams[4], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[16], allTeams[26], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[18], allTeams[25], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[20], allTeams[30], HUIT_DATE));
+        matchsHuit.push(new Match(allTeams[29], allTeams[21], HUIT_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Huitième de finale", null, null, null, null), matchsHuit));
         // Quart de finale
         var matchsQuart: Match[] = [];
