@@ -45,6 +45,7 @@ export class MockDataBase extends DataBase {
         const QUART_DATE = "Mercredi 24 novembre - 20h30";
         const DEMI_DATE = "Lundi 29 novembre - 20h30";
         const FINAL_DATE = "Mercredi 1 décembre - 20h30";
+        const TIE_BREAKER = "Tie-breaker";
 
         var allTeams: Team[] = [];
         // Poule 1
@@ -318,6 +319,9 @@ export class MockDataBase extends DataBase {
 
         matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team4, THIRD_DATE, 0, 2));
         matchsPoule4.push(new Match(allPoules[3].team2, allPoules[3].team3, THIRD_DATE, 0, 3));
+
+        matchsPoule4.push(new Match(allPoules[3].team1, allPoules[3].team3, TIE_BREAKER, 2, 1));
+
         matchsPoule.push(new MatchsPoule(allPoules[3], matchsPoule4));
         // Poule 5
         var matchsPoule6: Match[] = [];
@@ -329,6 +333,8 @@ export class MockDataBase extends DataBase {
 
         matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team4, THIRD_DATE, 3, 0));
         matchsPoule6.push(new Match(allPoules[4].team2, allPoules[4].team3, THIRD_DATE ,0, 2));
+        matchsPoule6.push(new Match(allPoules[4].team1, allPoules[4].team3, TIE_BREAKER, 2, 1));
+
         matchsPoule.push(new MatchsPoule(allPoules[4], matchsPoule6));
         // Poule 6
         var matchsPoule6: Match[] = [];
@@ -351,6 +357,8 @@ export class MockDataBase extends DataBase {
 
         matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team4, THIRD_DATE, 3, 0));
         matchsPoule7.push(new Match(allPoules[6].team2, allPoules[6].team3, THIRD_DATE, 2, 0));
+
+        matchsPoule7.push(new Match(allPoules[6].team1, allPoules[6].team3, TIE_BREAKER, 0, 2));
         matchsPoule.push(new MatchsPoule(allPoules[6], matchsPoule7));
         // Poule 8
         var matchsPoule8: Match[] = [];
@@ -362,6 +370,9 @@ export class MockDataBase extends DataBase {
 
         matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team4, THIRD_DATE, 3, 0));
         matchsPoule8.push(new Match(allPoules[7].team2, allPoules[7].team3, THIRD_DATE, 2, 0));
+
+        matchsPoule8.push(new Match(allPoules[7].team1, allPoules[7].team3, TIE_BREAKER, 0, 2));
+
         matchsPoule.push(new MatchsPoule(allPoules[7], matchsPoule8));
 
         this.setMatchs(matchsPoule);
