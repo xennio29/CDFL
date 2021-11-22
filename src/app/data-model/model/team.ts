@@ -37,11 +37,21 @@ export class Team {
     }
 
     validateTeam() {
-        this.topLaner.validatePlayer();
-        this.jungle.validatePlayer();
-        this.midLaner.validatePlayer();
-        this.botLaner.validatePlayer();
-        this.support.validatePlayer();
+        if (this.topLaner != null) {
+            this.topLaner.validatePlayer();
+        }
+        if (this.jungle != null) {
+            this.jungle.validatePlayer();
+        }
+        if (this.midLaner != null) {
+            this.midLaner.validatePlayer();
+        }
+        if (this.botLaner != null) {
+            this.botLaner.validatePlayer();
+        }
+        if (this.support != null) {
+            this.support.validatePlayer();
+        }
     }
 
     getScore(): number {

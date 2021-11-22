@@ -391,11 +391,20 @@ export class MockDataBase extends DataBase {
         matchsHuit.push(new Match(allTeams[29], allTeams[21], HUIT_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Huitième de finale", null, null, null, null), matchsHuit));
         // Quart de finale
+        var VAINQUEUR = 'Vainqueur'
+        var fakeTeamforQuart1 = new Team(allTeams[0].name + ' VS ' + allTeams[10].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart2 = new Team(allTeams[9].name + ' VS ' + allTeams[3].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart3 = new Team(allTeams[5].name + ' VS ' + allTeams[12].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart4 = new Team(allTeams[15].name + ' VS ' + allTeams[4].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart5 = new Team(allTeams[16].name + ' VS ' + allTeams[26].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart6 = new Team(allTeams[18].name + ' VS ' + allTeams[25].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart7 = new Team(allTeams[20].name + ' VS ' + allTeams[30].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforQuart8 = new Team(allTeams[29].name + ' VS ' + allTeams[21].name, VAINQUEUR, null, null, null, null, null);
         var matchsQuart: Match[] = [];
-        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
-        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
-        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
-        matchsQuart.push(new Match(fakeTeam, fakeTeam, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeamforQuart1, fakeTeamforQuart7, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeamforQuart2, fakeTeamforQuart8, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeamforQuart3, fakeTeamforQuart5, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeamforQuart4, fakeTeamforQuart6, QUART_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Quart de finale", null, null, null, null), matchsQuart));
         // Demi finale
         var matchsDemi: Match[] = [];
