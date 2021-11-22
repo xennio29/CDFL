@@ -402,8 +402,8 @@ export class MockDataBase extends DataBase {
         var fakeTeamforQuart8 = new Team(allTeams[29].name + ' VS ' + allTeams[21].name, VAINQUEUR, null, null, null, null, null);
         var matchsQuart: Match[] = [];
         matchsQuart.push(new Match(fakeTeamforQuart1, fakeTeamforQuart7, QUART_DATE));
-        matchsQuart.push(new Match(fakeTeamforQuart2, fakeTeamforQuart8, QUART_DATE));
         matchsQuart.push(new Match(fakeTeamforQuart3, fakeTeamforQuart5, QUART_DATE));
+        matchsQuart.push(new Match(fakeTeamforQuart2, fakeTeamforQuart8, QUART_DATE));
         matchsQuart.push(new Match(fakeTeamforQuart4, fakeTeamforQuart6, QUART_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Quart de finale", null, null, null, null), matchsQuart));
         // Demi finale
