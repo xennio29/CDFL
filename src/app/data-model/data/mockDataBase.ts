@@ -392,24 +392,22 @@ export class MockDataBase extends DataBase {
         matchsFinale.push(new MatchsPoule(new Poule("Huitième de finale", null, null, null, null), matchsHuit));
         // Quart de finale
         var matchsQuart: Match[] = [];
-        matchsQuart.push(new Match(allTeams[0], allTeams[30], QUART_DATE));
-        matchsQuart.push(new Match(allTeams[5], allTeams[16], QUART_DATE));
-        matchsQuart.push(new Match(allTeams[9], allTeams[29], QUART_DATE));
-        matchsQuart.push(new Match(allTeams[15], allTeams[25], QUART_DATE));
+        matchsQuart.push(new Match(allTeams[0], allTeams[30], QUART_DATE, 2, 0));
+        matchsQuart.push(new Match(allTeams[5], allTeams[16], QUART_DATE, 2, 1));
+        matchsQuart.push(new Match(allTeams[9], allTeams[29], QUART_DATE, 1, 2));
+        matchsQuart.push(new Match(allTeams[15], allTeams[25], QUART_DATE, 1, 2));
         matchsFinale.push(new MatchsPoule(new Poule("Quart de finale", null, null, null, null), matchsQuart));
         // Demi finale
-        var VAINQUEUR = 'Vainqueur de '
-        var fakeTeamforDemi1 = new Team(allTeams[0].name + ' VS ' + allTeams[30].name, VAINQUEUR, null, null, null, null, null);
-        var fakeTeamforDemi2 = new Team(allTeams[5].name + ' VS ' + allTeams[16].name, VAINQUEUR, null, null, null, null, null);
-        var fakeTeamforDemi3 = new Team(allTeams[9].name + ' VS ' + allTeams[29].name, VAINQUEUR, null, null, null, null, null);
-        var fakeTeamforDemi4 = new Team(allTeams[15].name + ' VS ' + allTeams[25].name, VAINQUEUR, null, null, null, null, null);
         var matchsDemi: Match[] = [];
-        matchsDemi.push(new Match(fakeTeamforDemi1, fakeTeamforDemi2, DEMI_DATE));
-        matchsDemi.push(new Match(fakeTeamforDemi3, fakeTeamforDemi4, DEMI_DATE));
+        matchsDemi.push(new Match(allTeams[0], allTeams[5], DEMI_DATE));
+        matchsDemi.push(new Match(allTeams[29], allTeams[25], DEMI_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Demi finale", null, null, null, null), matchsDemi));
         // Finale
+        var VAINQUEUR = 'Vainqueur de '
+        var fakeTeamforFinale1 = new Team(allTeams[0].name + ' VS ' + allTeams[5].name, VAINQUEUR, null, null, null, null, null);
+        var fakeTeamforFinale2 = new Team(allTeams[29].name + ' VS ' + allTeams[25].name, VAINQUEUR, null, null, null, null, null);
         var matchsFinal: Match[] = [];
-        matchsFinal.push(new Match(fakeTeam, fakeTeam, FINAL_DATE));
+        matchsFinal.push(new Match(fakeTeamforFinale1, fakeTeamforFinale2, FINAL_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Finale", null, null, null, null), matchsFinal));
 
         this.setMatchsFinale(matchsFinale);
