@@ -399,15 +399,12 @@ export class MockDataBase extends DataBase {
         matchsFinale.push(new MatchsPoule(new Poule("Quart de finale", null, null, null, null), matchsQuart));
         // Demi finale
         var matchsDemi: Match[] = [];
-        matchsDemi.push(new Match(allTeams[0], allTeams[5], DEMI_DATE));
-        matchsDemi.push(new Match(allTeams[29], allTeams[25], DEMI_DATE));
+        matchsDemi.push(new Match(allTeams[0], allTeams[5], DEMI_DATE, 2, 3));
+        matchsDemi.push(new Match(allTeams[29], allTeams[25], DEMI_DATE, 3, 0));
         matchsFinale.push(new MatchsPoule(new Poule("Demi finale", null, null, null, null), matchsDemi));
         // Finale
-        var VAINQUEUR = 'Vainqueur de '
-        var fakeTeamforFinale1 = new Team(allTeams[0].name + ' VS ' + allTeams[5].name, VAINQUEUR, null, null, null, null, null);
-        var fakeTeamforFinale2 = new Team(allTeams[29].name + ' VS ' + allTeams[25].name, VAINQUEUR, null, null, null, null, null);
         var matchsFinal: Match[] = [];
-        matchsFinal.push(new Match(fakeTeamforFinale1, fakeTeamforFinale2, FINAL_DATE));
+        matchsFinal.push(new Match(allTeams[5], allTeams[29], FINAL_DATE));
         matchsFinale.push(new MatchsPoule(new Poule("Finale", null, null, null, null), matchsFinal));
 
         this.setMatchsFinale(matchsFinale);
