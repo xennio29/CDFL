@@ -404,7 +404,7 @@ export class MockDataBase extends DataBase {
         matchsFinale.push(new MatchsPoule(new Poule("Demi finale", null, null, null, null), matchsDemi));
         // Finale
         var matchsFinal: Match[] = [];
-        matchsFinal.push(new Match(allTeams[5], allTeams[29], FINAL_DATE));
+        matchsFinal.push(new Match(allTeams[5], allTeams[29], FINAL_DATE, 2, 3));
         matchsFinale.push(new MatchsPoule(new Poule("Finale", null, null, null, null), matchsFinal));
 
         this.setMatchsFinale(matchsFinale);
