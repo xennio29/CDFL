@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'bf-circuit',
+  selector: 'cdfl-circuit',
   templateUrl: './circuit.component.html',
   styleUrls: ['./circuit.component.scss']
 })

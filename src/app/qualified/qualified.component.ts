@@ -4,7 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { DataService } from '../data-model/data/data.service';
 
 @Component({
-  selector: 'bf-qualified',
+  selector: 'cdfl-qualified',
   templateUrl: './qualified.component.html',
   styleUrls: ['./qualified.component.scss']
 })

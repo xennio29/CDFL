@@ -3,7 +3,7 @@ import { DataService } from '../data-model/data/data.service';
 import { Tournament } from '../data-model/model/tournament';
 
 @Component({
-  selector: 'bf-events',
+  selector: 'cdfl-events',
   templateUrl: './events.component.html',
   styleUrls: ['./events.component.scss']
 })

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { QuestionAnswer } from '../data-model/model/questionanswer';
 
 @Component({
-  selector: 'bf-faq',
+  selector: 'cdfl-faq',
   templateUrl: './faq.component.html',
   styleUrls: ['./faq.component.scss']
 })
