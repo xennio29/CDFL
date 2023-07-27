@@ -1,0 +1,39 @@
+{
+	"tournaments": [
+		{	
+			"name": "BFO Toulouse",
+			"playersCount": 82,
+			"organiser": "MCB",
+			"date": "20 juin 2023",
+			"qualifiedPlayer" : "Étienne Baril;Gaetan Robitaille;Daniel Gilbert;Vick Cuillerier;Eliot Étoile;Thomas Bérard;Gilbert Duperré;Édouard Franchet"
+		},
+		{	
+			"name": "BFO Paris",
+			"playersCount": 144,
+			"organiser": "Majestik",
+			"date": "20 juin 2023",
+			"qualifiedPlayer" : "Alain Deniger;Aubert Garcia;Serge Chauvin;Éric Rhéaume;Jean Paquette;Emmanuel Desnoyers;Isaac Vincent;Porter Lamare"
+		},
+		{	
+			"name": "BFO Rennes",
+			"playersCount": 46,
+			"organiser": "Roazon Sorcer",
+			"date": "20 juin 2023",
+			"qualifiedPlayer" : "Henri Sauriol;Charles Chicoine;Bruno Tremblay;Geoffrey Carrière;Gilles Parent;Nicholas Fremont;Guillaume Dionne;Mallory Desforges"
+		},
+		{	
+			"name": "BFO Lyon",
+			"playersCount": 136,
+			"organiser": "MTG Gones",
+			"date": "20 juin 2023",
+			"qualifiedPlayer" : "Germain Croteau;Ferrau Houde;Thomas Berger;Alexandre Bonneville;Roger Labossière;Somer Tachel;Pierre Bonami;Bernard Potvin"
+		},
+		{	
+			"name": "BFO Strasbourg",
+			"playersCount": 28,
+			"organiser": "Corp-F",
+			"date": "20 juin 2023",
+			"qualifiedPlayer" : "Christophe Souplet;Gill Leroux;Marc Chouinard;David Allaire;Pierre Gervais;Gaetan Therrien;Arnaud Sirois;Raymond Caron"
+		}
+	]	
+}
