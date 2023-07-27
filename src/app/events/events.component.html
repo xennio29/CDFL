@@ -1,0 +1,13 @@
+<div class="container" *ngFor="let tournament of tournaments" fxLayout="column" fxLayoutAlign="space-around center">
+    <mat-card class="card">
+        <mat-card-header>
+           <mat-card-subtitle>{{tournament.organiser}} - {{tournament.date}}</mat-card-subtitle>
+           <mat-card-title>{{tournament.name}} - {{tournament.playersCount}} players</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="qualifiedPlayer">
+            <div *ngFor="let qualifiedPlayer of tournament.qualifiedPlayers">
+                {{qualifiedPlayer.firstNameAndLastName}}
+            </div>
+         </mat-card-content>
+    </mat-card>
+</div>

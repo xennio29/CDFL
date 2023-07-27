@@ -1,21 +1,21 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data-model/data/data.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
 
-  belugasLogo = 'assets/logo-png/logo_esport_v3.png';
+  logo = 'assets/img/cdfl_logo.jpg';
+  discordLogo = 'assets/img/discord_logo.png';
 
-  tournamentName: string;
+  constructor() { }
 
-  constructor(private dataService: DataService) {
+  ngOnInit(): void {
+  }
 
-    this.dataService.getTournamentName().subscribe(result => {
-      this.tournamentName = result;
-    })
-   }
+  goDiscord(){
+    window.open("plop", "_blank");
+  }
 }

@@ -1,8 +1,0 @@
-<mat-card>
-    <mat-card-title>{{poule.name}}</mat-card-title>
-    <mat-card-content>
-        <div *ngFor="let team of teams" class="team" fxLayout="row" fxLayoutAlign="space-between center">
-            <div>{{team.school}} - {{team.name}}</div><div>{{team.getScore()}}</div>
-        </div>
-    </mat-card-content>
-</mat-card>

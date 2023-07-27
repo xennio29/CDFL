@@ -1,6 +1,9 @@
 mat-toolbar{
     background-color: black;
     color: white;
+    position: sticky;
+    top:0px;
+    z-index: 100;
 }
 
 .home {
@@ -16,14 +19,9 @@ mat-icon {
     height: 100%;
 }
 
-.logo {
+.whiteLogo {
     height: 100%;
     cursor: pointer;
-}
-
-.logo-img {
-    margin-top: 30%;
-    height: 70%;
 }
 
 .menu {

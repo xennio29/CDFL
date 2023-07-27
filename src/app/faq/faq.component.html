@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Foire Aux Question</h2>
+    <mat-accordion *ngFor="let questionAndAnswer of questionsAndAnswers" fxLayout="column">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title class="question">
+                    {{questionAndAnswer.question}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <p class="answer">
+                {{questionAndAnswer.answer}}
+            </p>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>

@@ -1,23 +1,23 @@
 <mat-nav-list>
-    <div class="logo" routerLink="/home" routerLinkActive="home-is-active">
-        <img [src]="logo" class="logo-img">
+    <div class="whiteLogo" class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
+        <img [src]="whiteLogo" class="whiteLogo">
     </div>
     <a mat-list-item routerLink="/home" (click)="onSidenavClose()">
-        <mat-icon>home</mat-icon> <span class="nav-caption">Home</span>
+        <mat-icon>home</mat-icon> <span class="nav-caption"> Home</span>
     </a>
-    <a mat-list-item routerLink="/teams" (click)="onSidenavClose()">
-        <mat-icon>people_alt</mat-icon> <span class="nav-caption">Équipes</span>
+    <a mat-list-item routerLink="/qualified" (click)="onSidenavClose()">
+        <mat-icon>stars</mat-icon> <span class="nav-caption"> Qualified Player</span>
     </a>
-    <a mat-list-item routerLink="/poules" (click)="onSidenavClose()">
-        <mat-icon>local_play</mat-icon> <span class="nav-caption">Poules</span>
+    <a mat-list-item routerLink="/events" (click)="onSidenavClose()">
+        <mat-icon>event</mat-icon> <span class="nav-caption"> Past Events</span>
     </a>
-    <a mat-list-item routerLink="/rules" (click)="onSidenavClose()">
-        <mat-icon>gavel</mat-icon> <span class="nav-caption">Réglement</span>
+    <a mat-list-item routerLink="/circuit" (click)="onSidenavClose()">
+        <mat-icon>info</mat-icon> <span class="nav-caption"> Circuit Informations</span>
     </a>
-    <a mat-list-item routerLink="/planning" (click)="onSidenavClose()">
-        <mat-icon>event</mat-icon> <span class="nav-caption">Planning</span>
+    <a mat-list-item routerLink="/final" (click)="onSidenavClose()">
+        <mat-icon>emoji_events</mat-icon> <span class="nav-caption"> Final Informations</span>
     </a>
-    <a mat-list-item routerLink="/weekly-rift" (click)="onSidenavClose()">
-        <mat-icon>library_books </mat-icon> <span class="nav-caption">TLC News</span>
+    <a mat-list-item routerLink="/faq" (click)="onSidenavClose()">
+        <mat-icon>question_answer</mat-icon> <span class="nav-caption"> FAQ</span>
     </a>
 </mat-nav-list>

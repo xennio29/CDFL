@@ -1,78 +1,72 @@
+import { HttpClient } from '@angular/common/http';
+import { EventEmitter } from '@angular/core';
 import { Injectable } from '@angular/core';
-import { Router } from '@angular/router';
-import { Observable } from 'rxjs';
-import { Article } from '../model/article';
-import { Match } from '../model/match';
-import { MatchsPoule } from '../model/matchsPoule';
+import { Observable, forkJoin } from 'rxjs';
+import { Tournament } from '../model/tournament';
 import { Player } from '../model/player';
-import { Poule } from '../model/poule';
-import { Team } from '../model/team';
-import { DataBase } from './database';
-import { DataBaseProvider } from './DataBaseProvider';
+import tournaments from "./../../../assets/tournamentsData.json"
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  /* The database once it's import. */
-  private database: DataBase = null;
+  public tournamentsEmitter: EventEmitter<Tournament[]>;
+  private _tournaments: Tournament[] = [];
 
-  constructor(private dataBaseProvider: DataBaseProvider, private router: Router) { 
-    dataBaseProvider.dataBaseEmitter.subscribe( result => this.database = result);
+  private loaded = false;
+
+  constructor(private http: HttpClient) { 
+    this.tournamentsEmitter = new EventEmitter();
   }
 
-  loadDatabase(): boolean {
-    if(this.database == null) {
-      this.dataBaseProvider.loadMockDatabase();
-    }
-    return true;
-  }
-
-  databaseCall( method: string ) {
-    return new Observable<any> ( observer => {
-
-      if(this.database !== null) {
-        observer.next(this.database[method]());
+  loadData(): Observable<any> {
+    
+    return new Observable<any> ((observer) => {
+        this._tournaments = this.extractTournaments(tournaments.tournaments);
         observer.complete();
-      } else {
-        this.dataBaseProvider.dataBaseEmitter.subscribe(result => {
-            observer.next(result[method]());
-            observer.complete();
-        });
-      }
     });
   }
 
-  getTournamentName(): Observable<string> {
-    return this.databaseCall('getTournamentName');
+  // ASKER
+  //////////////////////
+
+  askData() {
+
+    if(!this.loaded) {
+      this.loadData().subscribe({
+        complete: () => {
+          this.loaded = true;
+          this.emitData();
+        }
+      });
+    } else {
+      this.emitData();
+    }
   }
 
-  getTournamentId(): Observable<string> {
-    return this.databaseCall('getTournamentId');
+  private emitData() {
+    this.tournamentsEmitter.emit(this._tournaments);
   }
 
-  getRules(): Observable<string> {
-    return this.databaseCall('getRules');
+  private extractTournaments(tournamentsJSON): Tournament[] {
+    const tournaments: Tournament[] = [];
+    tournamentsJSON.forEach(tournament => tournaments.push(this.toTournamentDomain(tournament)));
+    return tournaments;
   }
 
-  getTeams(): Observable<Team[]> {
-    return this.databaseCall('getTeams');
+  private toTournamentDomain(tournamentJSON): Tournament {
+    return new Tournament(
+      tournamentJSON.name,
+      tournamentJSON.organiser,
+      tournamentJSON.date,
+      tournamentJSON.playersCount,
+      this.toPlayersDomain(tournamentJSON.qualifiedPlayer)
+    );
   }
 
-  getPoules(): Observable<Poule[]> {
-    return this.databaseCall('getPoules');
-  }
-
-  getArticles(): Observable<Article[]> {
-    return this.databaseCall('getArticles');
-  }
-
-  getMatchs(): Observable<MatchsPoule[]> {
-    return this.databaseCall('getMatchs');
-  }
-
-  getMatchsFinale(): Observable<MatchsPoule[]> {
-    return this.databaseCall('getMatchsFinale');
+  private toPlayersDomain(playersJSON: String): Player[] {
+    const playersArray = playersJSON.split(';');
+    return playersArray.map((value: string, index: number, array: string[]) => new Player(value));
   }
 }

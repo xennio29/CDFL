@@ -5,27 +5,27 @@
         </button>
     </div>
     <div class="home" routerLink="/home">
-        <span fxShow fxHide.xs>{{tournamentName}}</span>
-        <span fxHide.gt-xs> TLC - {{rootName}}</span>
+        <span>CDFL</span>
+        <span fxHide.gt-xs> - {{rootName}}</span>
     </div>
     <div class="not-home" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center" fxHide.xs>
-        <div class="menu" routerLink="/teams" routerLinkActive="is-active">
-            <span>Équipes</span>
+        <div class="menu" routerLink="/qualified" routerLinkActive="is-active">
+            <span>Qualified Player</span>
         </div>
-        <div class="menu" routerLink="/poules" routerLinkActive="is-active">
-            <span>Poules</span>
+        <div class="menu" routerLink="/events" routerLinkActive="is-active">
+            <span>Past Events</span>
         </div>
-        <div class="menu" routerLink="/rules" routerLinkActive="is-active">
-            <span>Réglement</span>
+        <div class="menu" routerLink="/circuit" routerLinkActive="is-active">
+            <span>Circuit Informations</span>
         </div>
-        <div class="menu" routerLink="/planning" routerLinkActive="is-active">
-            <span>Planning</span>
+        <div class="menu" routerLink="/final" routerLinkActive="is-active">
+            <span>Final Informations</span>
         </div>
-        <div class="menu" routerLink="/weekly-rift" routerLinkActive="is-active">
-            <span>TLC News</span>
+        <div class="menu" routerLink="/faq" routerLinkActive="is-active">
+            <span>FAQ</span>
         </div>
     </div>
-    <div class="logo" routerLink="/home" routerLinkActive="home-is-active">
-        <img [src]="logo" class="logo-img">
+    <div class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
+        <img [src]="whiteLogo" class="whiteLogo">
     </div>
 </mat-toolbar>
