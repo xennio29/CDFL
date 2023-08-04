@@ -1,16 +1,17 @@
-.by-belugas {
+.container {
     text-align: center;
+    position: relative;
+    height: 90%;
+    margin: 1% 5%;
 }
 
 .logoDiv {
-    position: absolute;
-    top: 94px;
-    height: 80%;
-    max-width: 90%;
+    position: relative;
+    height: 70%;
 }
 
 .discordDiv {
-    position: absolute;
+    position: relative;
     bottom: 0%;
     height: 10%;
     margin-bottom: 1%;
@@ -19,9 +20,10 @@
 }
 
 .join-us {
-    position: absolute;
-    bottom: 10%;
+    position: relative;
     margin-bottom: 1%;
+    font-weight: bold;
+    font-size: large;
 }
 
 .logo {
@@ -30,5 +32,12 @@
 }
 
 .text {
-    height: 30px;
+    margin: 2%;
+    z-index: 1;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 4%;
 }
