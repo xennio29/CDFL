@@ -7,7 +7,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
-  whiteLogo = 'assets/img/cdfl_logo_black.jpg';
+  whiteLogo = 'assets/img/cdfl_logo_alpha.png';
 
   constructor() { }
 

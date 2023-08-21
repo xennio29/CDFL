@@ -9,16 +9,44 @@ export class QuestionAnswer {
 
    public static allQA: QuestionAnswer[] = [
     {
-        question: "This is a question ?",
-        answer: "This is an answer.",
+        question: "Est ce que je peux participer à la CDF Legacy même si je ne suis pas français ?",
+        answer: "Oui bien sur.",
     },
     {
-        question: "This is an other question ?",
-        answer: "This is an other answer.",
+        question: "Comment dois je faire pour homologuer mon event en tant que Open Qualifier ?",
+        answer: "En soit absolument rien.",
     },
     {
-        question: "This is an other other question ?",
-        answer: "This is an other other answer.",
-    }
+        question: "Que dois je faire pour enregistré les joueurs qualifiés ?",
+        answer: "Après l'évènement, il suffit d'envoyer les informations du tournoi par mail à coupedefrancelegacy@gmail.com (Nom de l'event, nombre de personne, date nom de l'organisateur, nom de(s) qualifié(s))",
+    },
+    {
+        question: "Je souhaite organiser un Open Qualifier, y a t'il des contraintes sur les lots, paf...",
+        answer: "Il n'y en a absolument aucune pour le dit tournoi mais un organisateur ne peut pas faire plus de 1 open qualifier par mois.",
+    },
+    {
+        question: "Lors des précédentes CDFL il y avait 1/2€ de participation pour tous les inscits, est ce toujours le cas ?",
+        answer: "Nous avons pris la courageuse décision de ne pas imposer cette contrainte aux organisateurs afin de favoriser les tournois locaux.",
+    },
+    {
+        question: "La boutique voisine a fait un Open la semaine dernière, est ce que je peux en faire un Open ce week-end ?",
+        answer: "Oui bien sur, la limite de 1 open par mois concerne les organisateurs pas les zones géographiques.",
+    },
+    {
+        question: "Je souhaite stream / filmer / monter des vidéos de Magic de partie d'event CDFL, y a t il des contrainte ?",
+        answer: " En soit aucune, mais par courtoisie merci d'ajouter le logo de la CDFL. Il ne faut cependant pas oublier que la CDFL en est charge du circuit et que chaque organisateur est responsable de son tournoi donc il faudra son accord pour créé du contenu sur des parties chez lui.",
+    },
+    {
+        question: "Qui est derrière la CDFL",
+        answer: "Nous sommes un petit groupe de pationné de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
+    },
+    {
+        question: "Ou aura lieu la finale ?",
+        answer: "La finale se déroulera à Lyon.",
+    },
+    {
+        question: "Pourquoi avoir choisi ces villes pour les Grand Opens ?",
+        answer: "Le but était que chaque personne en France puisse avoir au moins un gros tournoi près de chez lui ainsi des villes aux quatres coins de la France on été choisie.",
+    },
    ];
 }

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  logo = 'assets/img/cdfl_logo_white.jpg';
+  logo = 'assets/img/cdfl_logo_alpha.png';
   discordLogo = 'assets/img/discord_logo.png';
 
   constructor() { }
@@ -16,6 +16,6 @@ export class HomeComponent implements OnInit {
   }
 
   goDiscord(){
-    window.open("plop", "_blank");
+    window.open("https://discord.gg/dCQWMJuzZt", "_blank");
   }
 }
