@@ -14,15 +14,19 @@ export class QuestionAnswer {
     },
     {
         question: "Comment dois je faire pour homologuer mon event en tant que Open Qualifier ?",
-        answer: "En soit absolument rien.",
+        answer: "En soit absolument rien mais si ce n'est l'indiquer aux joueurs lors de l'annonce de l'évènement.",
     },
     {
         question: "Que dois je faire pour enregistré les joueurs qualifiés ?",
-        answer: "Après l'évènement, il suffit d'envoyer les informations du tournoi par mail à coupedefrancelegacy@gmail.com (Nom de l'event, nombre de personne, date nom de l'organisateur, nom de(s) qualifié(s))",
+        answer: "Après l'évènement, il faut que l'organisateur d'envoyer par mail à coupedefrancelegacy@gmail.com les informations suivantes : Nom de l'event, nombre de personne, date, nom de l'organisateur, nom de(s) qualifié(s) et lien MTGTop8 ou export PDF.",
     },
     {
         question: "Je souhaite organiser un Open Qualifier, y a t'il des contraintes sur les lots, paf...",
         answer: "Il n'y en a absolument aucune pour le dit tournoi mais un organisateur ne peut pas faire plus de 1 open qualifier par mois.",
+    },
+    {
+        question: "Est ce que je peux organiser un Open Qualifier en ligne ?",
+        answer: "Non, le but du circuit est de mettre en avant les communautés locales.",
     },
     {
         question: "Lors des précédentes CDFL il y avait 1/2€ de participation pour tous les inscits, est ce toujours le cas ?",
@@ -31,6 +35,10 @@ export class QuestionAnswer {
     {
         question: "La boutique voisine a fait un Open la semaine dernière, est ce que je peux en faire un Open ce week-end ?",
         answer: "Oui bien sur, la limite de 1 open par mois concerne les organisateurs pas les zones géographiques.",
+    },
+    {
+        question: "Est ce que les proxies sont autorisées lors des évènement CDF Legacy ?",
+        answer: "C'est l'organisateur du tournoi qui fait a la responsabilité de ce choix. La CDFL ne souhaite pas influencer les TO sur le sujet.",
     },
     {
         question: "Je souhaite stream / filmer / monter des vidéos de Magic de partie d'event CDFL, y a t il des contrainte ?",
