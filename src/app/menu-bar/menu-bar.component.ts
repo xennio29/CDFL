@@ -38,7 +38,7 @@ export class MenuBarComponent implements OnInit {
       case '/faq':
         return 'FAQ';
       case '/home':
-        return 'Coupe De France Legacy';
+        return 'Home';
     }
   }
 

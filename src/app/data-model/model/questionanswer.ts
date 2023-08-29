@@ -14,7 +14,7 @@ export class QuestionAnswer {
     },
     {
         question: "Comment dois je faire pour homologuer mon event en tant que Open Qualifier ?",
-        answer: "En soit absolument rien mais si ce n'est l'indiquer aux joueurs lors de l'annonce de l'évènement.",
+        answer: "En soit absolument rien mais si ce n'est l'indiquer aux joueurs lors de l'annonce de l'évènement, en ajoutant notre logo à l'affiche par exemple ;)",
     },
     {
         question: "Que dois je faire pour enregistré les joueurs qualifiés ?",
@@ -46,7 +46,7 @@ export class QuestionAnswer {
     },
     {
         question: "Qui est derrière la CDFL",
-        answer: "Nous sommes un petit groupe de pationné de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
+        answer: "Nous sommes un petit groupe de pattionné de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
     },
     {
         question: "Ou aura lieu la finale ?",

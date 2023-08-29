@@ -9,6 +9,11 @@ mat-accordion {
     margin-bottom: 30px;
 }
 
+mat-expansion-panel-header {
+    height: auto;
+    min-height: 48px;
+}
+
 .answer {
     text-align: center;
 }
