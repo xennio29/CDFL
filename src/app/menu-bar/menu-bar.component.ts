@@ -28,17 +28,17 @@ export class MenuBarComponent implements OnInit {
   getMenuName(path: string): string {
     switch (path) {
       case '/qualified':
-        return 'Qualified Player';
+        return 'Joueurs Qualifiés';
       case '/events':
-        return 'Past Events';
+        return 'Tournois';
         case '/circuit':
-          return 'Circuit Informations';
+          return 'Informations sur le Circuit';
       case '/final':
-        return 'Final Informations';
+        return 'Informations sur la Final';
       case '/faq':
         return 'FAQ';
       case '/home':
-        return 'Home';
+        return 'Accueil';
     }
   }
 

@@ -3,16 +3,16 @@
         <mat-label>Filter</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="nom/prénom" #input>
     </mat-form-field>
-    <h2>Qualified Players</h2>
+    <h2>Joueurs Qualifiés</h2>
     <table mat-table [dataSource]="dataSource" matSort (matSortChange)="sortData($event)" class="mat-elevation-z8">
 
         <ng-container matColumnDef="name">
-            <th mat-header-cell *matHeaderCellDef mat-sort-header class="w-50"> Name </th>
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="w-50"> Nom </th>
             <td mat-cell *matCellDef="let player"> {{player.firstNameAndLastName}} </td>
         </ng-container>
 
         <ng-container matColumnDef="event">
-            <th mat-header-cell *matHeaderCellDef mat-sort-header class="w-50"> Event </th>
+            <th mat-header-cell *matHeaderCellDef mat-sort-header class="w-50"> Événement </th>
             <td mat-cell *matCellDef="let player"> {{player.eventName}} </td>
           </ng-container>
 
