@@ -17,6 +17,10 @@ export class QuestionAnswer {
         answer: "Une fois que l'organisateur nous aura envoyé les qualifiés, l'onglet \"Joueurs Qualifié\"sera mis à jour.",
     },
     {
+        question: "Pourquoi un \"système de qualifié\" plutôt qu'un \"système de bye\" ?",
+        answer: "Un \"système de bye\" a pour défaut d'être compliqué à gere pour les organisateurs et créé des top8 plus serrés qu'ils ne devraient. Un \"système de qualifié\" lui a peu de défaut si ce n'est qu'il restreint l'entrée mais le but de la CDF a toujours été d'être selectif.",
+    },
+    {
         question: "Est-ce que je peux participer à la CDF Legacy même si je ne suis pas Français ?",
         answer: "Oui bien sur.",
     },
