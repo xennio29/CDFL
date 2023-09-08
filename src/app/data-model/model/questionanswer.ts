@@ -9,6 +9,14 @@ export class QuestionAnswer {
 
    public static allQA: QuestionAnswer[] = [
     {
+        question: "Si je suis déjà qualifié et que je gagne une autre place qualificative, que ce passe t'il ?",
+        answer: "La place \"descend\" jusqu'au prochain joueur non qualifié.",
+    },
+    {
+        question: "Comment être sur que je suis qualifié ?",
+        answer: "Une fois que l'organisateur nous aura envoyé les qualifiés, l'onglet \"Joueurs Qualifié\"sera mis à jour.",
+    },
+    {
         question: "Est ce que je peux participer à la CDF Legacy même si je ne suis pas français ?",
         answer: "Oui bien sur.",
     },
@@ -49,7 +57,7 @@ export class QuestionAnswer {
         answer: "Nous sommes un petit groupe de pattionné de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
     },
     {
-        question: "Ou aura lieu la finale ?",
+        question: "Où aura lieu la finale ?",
         answer: "La finale se déroulera à Lyon.",
     },
     {
