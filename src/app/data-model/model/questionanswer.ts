@@ -33,6 +33,10 @@ export class QuestionAnswer {
         answer: "Après l'évènement, il faut que l'organisateur d'envoyer par mail à coupedefrancelegacy@gmail.com les informations suivantes : Nom de l'événement, nombre de personne, date, nom de l'organisateur, nom de(s) qualifié(s) et lien MTGTop8 ou export PDF.",
     },
     {
+        question: "A partir de quand puis-je organiser une Open Qualifer CDFL ?",
+        answer: "A partir du 8 septembre 2023.",
+    },
+    {
         question: "Je souhaite organiser des Open Qualifier, y-a-t'il des contraintes sur le nombre de tournoi qui peuvent être des d'Open Qualifier?",
         answer: "Un organisateur ne peut faire plus d'un Open Qualifier par mois."
     },
