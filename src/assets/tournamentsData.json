@@ -6,6 +6,13 @@
 			"organiser": "CDF Legacy",
 			"date": "le passé",
 			"qualifiedPlayer" : "Thibauld Kandri;Patrick Bouvier;Lucien Colnet;Mickael Li-Thiao Te;Pierre Sommen;Romain Chabaud;Quentin Pottier;Pierre Melin;Thomas Mechin;Justo Chacon"
+		},
+		{	
+			"name": "RELIC FNM Legacy",
+			"playersCount": 16,
+			"organiser": "Relic",
+			"date": "12 Septembre",
+			"qualifiedPlayer" : "Jean Matthieu Khouri"
 		}
 	]	
 }
