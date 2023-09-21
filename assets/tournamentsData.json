@@ -13,6 +13,13 @@
 			"organiser": "Relic",
 			"date": "12 Septembre",
 			"qualifiedPlayer" : "Jean Matthieu Khouri"
+		},
+		{	
+			"name": "Dimanche du Legacy",
+			"playersCount": 24,
+			"organiser": "Relic",
+			"date": "17 Septembre",
+			"qualifiedPlayer" : "Rémi Vignane"
 		}
 	]	
 }
