@@ -20,6 +20,13 @@
 			"organiser": "MCB",
 			"date": "17 Septembre",
 			"qualifiedPlayer" : "Rémi Vignane"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 32,
+			"organiser": "MTGones et Trollune",
+			"date": "28 Septembre",
+			"qualifiedPlayer" : "Eric Vancon;Thomas Drescher"
 		}
 	]	
 }
