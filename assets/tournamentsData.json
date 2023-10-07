@@ -8,6 +8,13 @@
 			"qualifiedPlayer" : "Thibauld Kandri;Patrick Bouvier;Lucien Colnet;Mickael Li-Thiao Te;Pierre Sommen;Romain Chabaud;Quentin Pottier;Pierre Melin;Thomas Mechin;Justo Chacon"
 		},
 		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 34,
+			"organiser": "Troll2Jeux",
+			"date": "5 Septembre",
+			"qualifiedPlayer" : "Vladimir Arneuve;Nicolas Laumonier"
+		},
+		{	
 			"name": "RELIC FNM Legacy",
 			"playersCount": 16,
 			"organiser": "Relic",
@@ -22,11 +29,32 @@
 			"qualifiedPlayer" : "Rémi Vignane"
 		},
 		{	
+			"name": "Legacy de Caen",
+			"playersCount": 19,
+			"organiser": "Club Magic Normand",
+			"date": "24 Septembre",
+			"qualifiedPlayer" : "Julien Bruyeres"
+		},
+		{	
 			"name": "Gones League",
 			"playersCount": 32,
 			"organiser": "MTGones et Trollune",
 			"date": "28 Septembre",
 			"qualifiedPlayer" : "Eric Vancon;Thomas Drescher"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 30,
+			"organiser": "Troll2Jeux",
+			"date": "3 Octobre",
+			"qualifiedPlayer" : "Guillaume Bressy"
+		},
+		{	
+			"name": "Open CDF des Mages d'Urza",
+			"playersCount": 16,
+			"organiser": "Mages d'Urza",
+			"date": "6 Octobre",
+			"qualifiedPlayer" : "Julien Caillaux"
 		}
 	]	
 }
