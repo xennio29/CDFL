@@ -55,6 +55,13 @@
 			"organiser": "Mages d'Urza",
 			"date": "6 Octobre",
 			"qualifiedPlayer" : "Julien Caillaux"
+		},
+		{	
+			"name": "FNM Open CDF de Magic & Compagnie",
+			"playersCount": 16,
+			"organiser": "Magic & Compagnie",
+			"date": "6 Octobre",
+			"qualifiedPlayer" : "Guillaume Pothier"
 		}
 	]	
 }
