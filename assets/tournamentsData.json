@@ -62,6 +62,13 @@
 			"organiser": "Magic & Compagnie",
 			"date": "6 Octobre",
 			"qualifiedPlayer" : "Guillaume Pothier"
+		},
+		{	
+			"name": "Main Qualifier Toulouse",
+			"playersCount": 24,
+			"organiser": "MCB",
+			"date": "15 Octobre",
+			"qualifiedPlayer" : "Alexandre Escrieut;Benjamin Garcia;Florestan Mathurin"
 		}
 	]	
 }
