@@ -71,11 +71,18 @@
 			"qualifiedPlayer" : "Alexandre Escrieut;Benjamin Garcia;Florestan Mathurin"
 		},
 		{	
+			"name": "Gones League",
+			"playersCount": 32,
+			"organiser": "MTGones et Trollune",
+			"date": "19 Octobre",
+			"qualifiedPlayer" : "Sébastion Fayand;Alexi Krochmaluk"
+		},
+		{	
 			"name": "Legacy de Caen - Octobre",
 			"playersCount": 27,
 			"organiser": "Club Magic Normand",
 			"date": "22 Octobre",
-			"qualifiedPlayer" : "Jonathan ZERAFA"
+			"qualifiedPlayer" : "Jonathan Zerafa"
 		}
 	]	
 }
