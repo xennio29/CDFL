@@ -29,7 +29,7 @@
 			"qualifiedPlayer" : "Rémi Vignane"
 		},
 		{	
-			"name": "Legacy de Caen",
+			"name": "Legacy de Caen  -Septembre",
 			"playersCount": 19,
 			"organiser": "Club Magic Normand",
 			"date": "24 Septembre",
@@ -69,6 +69,13 @@
 			"organiser": "MCB",
 			"date": "15 Octobre",
 			"qualifiedPlayer" : "Alexandre Escrieut;Benjamin Garcia;Florestan Mathurin"
+		},
+		{	
+			"name": "Legacy de Caen - Octobre",
+			"playersCount": 27,
+			"organiser": "Club Magic Normand",
+			"date": "22 Octobre",
+			"qualifiedPlayer" : "Jonathan ZERAFA"
 		}
 	]	
 }
