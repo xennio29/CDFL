@@ -29,7 +29,7 @@
 			"qualifiedPlayer" : "Rémi Vignane"
 		},
 		{	
-			"name": "Legacy de Caen",
+			"name": "Legacy de Caen  -Septembre",
 			"playersCount": 19,
 			"organiser": "Club Magic Normand",
 			"date": "24 Septembre",
@@ -69,6 +69,20 @@
 			"organiser": "MCB",
 			"date": "15 Octobre",
 			"qualifiedPlayer" : "Alexandre Escrieut;Benjamin Garcia;Florestan Mathurin"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 32,
+			"organiser": "MTGones et Trollune",
+			"date": "19 Octobre",
+			"qualifiedPlayer" : "Sébastion Fayand;Alexi Krochmaluk"
+		},
+		{	
+			"name": "Legacy de Caen - Octobre",
+			"playersCount": 27,
+			"organiser": "Club Magic Normand",
+			"date": "22 Octobre",
+			"qualifiedPlayer" : "Jonathan Zerafa"
 		}
 	]	
 }
