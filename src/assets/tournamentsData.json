@@ -83,6 +83,13 @@
 			"organiser": "Club Magic Normand",
 			"date": "22 Octobre",
 			"qualifiedPlayer" : "Jonathan Zerafa"
+		},
+		{
+			"name": "Big Legacy Qualfier",
+			"playersCount": 119,
+			"organiser": "RELIC FEST",
+			"date": "5 Novembre",
+			"qualifiedPlayer" : "Lino Torreta;Kevin Sauvageon;Antoine Cinquin;Adrien Demoget;Sylvain Vogel;Thomas Travert;Paul Ridoux"
 		}
 	]	
 }
