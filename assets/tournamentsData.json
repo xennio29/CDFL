@@ -90,6 +90,20 @@
 			"organiser": "RELIC FEST",
 			"date": "5 Novembre",
 			"qualifiedPlayer" : "Lino Torreta;Kevin Sauvageon;Antoine Cinquin;Adrien Demoget;Sylvain Vogel;Thomas Travert;Paul Ridoux"
+		},
+		{
+			"name": "FNM Open CDF de Magic & Compagnie",
+			"playersCount": 16,
+			"organiser": "Magic & Compagnie",
+			"date": "18 Novembre",
+			"qualifiedPlayer" : "Laurent Ferrandon"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 32,
+			"organiser": "Troll2Jeux",
+			"date": "7 Novembre",
+			"qualifiedPlayer" : "Alexis Chaptal;Pierre Cauhopé"
 		}
 	]	
 }
