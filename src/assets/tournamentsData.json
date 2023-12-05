@@ -104,6 +104,34 @@
 			"organiser": "Troll2Jeux",
 			"date": "7 Novembre",
 			"qualifiedPlayer" : "Alexis Chaptal;Pierre Cauhopé"
+		},
+		{	
+			"name": "Gones League - Trollune",
+			"playersCount": 21,
+			"organiser": "MTGones et Trollune",
+			"date": "23 Novembre",
+			"qualifiedPlayer" : "Samuel Brochet"
+		},
+		{	
+			"name": "Dimanche du Legacy",
+			"playersCount": 22,
+			"organiser": "MCB",
+			"date": "26 Novembre",
+			"qualifiedPlayer" : "Paul Salgado"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 16,
+			"organiser": "Joute et Jeu",
+			"date": "3 Décembre",
+			"qualifiedPlayer" : "Bertrand Vigne"
+		},
+		{	
+			"name": "Think Twice #4",
+			"playersCount": 32,
+			"organiser": "UNTAP, NANTES, DRAW",
+			"date": "3 Décembre",
+			"qualifiedPlayer" : "Mathieu Poullaouec, Maxence Polak"
 		}
 	]	
 }
