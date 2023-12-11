@@ -132,6 +132,13 @@
 			"organiser": "UNTAP, NANTES, DRAW",
 			"date": "3 Décembre",
 			"qualifiedPlayer" : "Mathieu Poullaouec;Maxence Polak"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 17,
+			"organiser": "L'échoppe des Jeux",
+			"date": "10 Décembre",
+			"qualifiedPlayer" : "Romain Gayraud"
 		}
 	]	
 }
