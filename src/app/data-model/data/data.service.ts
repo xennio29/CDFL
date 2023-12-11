@@ -52,6 +52,7 @@ export class DataService {
   private extractTournaments(tournamentsJSON): Tournament[] {
     const tournaments: Tournament[] = [];
     tournamentsJSON.forEach(tournament => tournaments.push(this.toTournamentDomain(tournament)));
+    this.printQualifiedPlayerCount(tournaments);
     return tournaments;
   }
 
@@ -68,5 +69,14 @@ export class DataService {
   private toPlayersDomain(playersJSON: String): Player[] {
     const playersArray = playersJSON.split(';');
     return playersArray.map((value: string, index: number, array: string[]) => new Player(value));
+  }
+
+  private printQualifiedPlayerCount(tournaments: Tournament[]): void {
+    var playerCount = 0;
+    tournaments.forEach(tournament => {
+      var qualifiedPlayersCount = tournament.qualifiedPlayers.length;
+      playerCount = playerCount + qualifiedPlayersCount
+    });
+    console.log(playerCount + " are qualified for CDF Legacy 2024.")
   }
 }
