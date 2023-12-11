@@ -139,6 +139,13 @@
 			"organiser": "L'échoppe des Jeux",
 			"date": "10 Décembre",
 			"qualifiedPlayer" : "Romain Gayraud"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 32,
+			"organiser": "Troll2Jeux",
+			"date": "5 Décembre",
+			"qualifiedPlayer" : "Yann Brecy;Patrick Montcuquet"
 		}
 	]	
 }
