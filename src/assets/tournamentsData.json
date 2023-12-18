@@ -146,6 +146,13 @@
 			"organiser": "Troll2Jeux",
 			"date": "5 Décembre",
 			"qualifiedPlayer" : "Yann Brecy;Patrick Montcuquet"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 16,
+			"organiser": "Geek Factory Lamballe",
+			"date": "13 Décembre",
+			"qualifiedPlayer" : "Damien Frage"
 		}
 	]	
 }
