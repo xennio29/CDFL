@@ -21,7 +21,7 @@ export class QualifiedComponent implements OnInit, AfterViewInit {
       tournaments.forEach(tournament => {
         var qualifiedPlayers = tournament.qualifiedPlayers;
         qualifiedPlayers.forEach(qualifiedPlayer => {
-          const playerWithEvent = {firstNameAndLastName: qualifiedPlayer.firstNameAndLastName, eventName: tournament.name};
+          const playerWithEvent = {firstNameAndLastName: qualifiedPlayer.firstNameAndLastName, eventName: tournament.name + " - " + tournament.organiser};
           players.push(playerWithEvent);
         });
       });
