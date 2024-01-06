@@ -153,6 +153,20 @@
 			"organiser": "Geek Factory Lamballe",
 			"date": "13 Décembre",
 			"qualifiedPlayer" : "Damien Frage"
+		},
+		{	
+			"name": "Main Qualifier Rennes",
+			"playersCount": 40,
+			"organiser": "Magic Rennes",
+			"date": "17 décembre",
+			"qualifiedPlayer" : "Vincent Bruno;Alban Genest;Pierre Semons;Guillaume Petra;Jean-Baptiste Bonaventure"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 27,
+			"organiser": "Troll2Jeux",
+			"date": "2 Janvier",
+			"qualifiedPlayer" : "William Widawski"
 		}
 	]	
 }
