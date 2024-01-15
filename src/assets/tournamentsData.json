@@ -167,6 +167,13 @@
 			"organiser": "Troll2Jeux",
 			"date": "2 Janvier",
 			"qualifiedPlayer" : "William Widawski"
+		},
+		{	
+			"name": "Open CDF des Mages d'Urza",
+			"playersCount": 17,
+			"organiser": "Mages d'Urza",
+			"date": "12 Janvier",
+			"qualifiedPlayer" : "Cyrylle CWERN"
 		}
 	]	
 }
