@@ -19,7 +19,7 @@
 			"playersCount": 16,
 			"organiser": "Relic",
 			"date": "12 Septembre",
-			"qualifiedPlayer" : "Jean Matthieu Khouri"
+			"qualifiedPlayer" : "Jean Matthieu Khoury"
 		},
 		{	
 			"name": "Dimanche du Legacy",
@@ -188,6 +188,20 @@
 			"organiser": "MTGones",
 			"date": "14 Janvier",
 			"qualifiedPlayer" : "Yann Belmer;Sebastien Humeau;Frédéric Collomb-Muret;Florian Al Bayati;Olivier Chassard;Pierre-Emmanuel Cou..."
+		},
+		{	
+			"name": "Gones League - Trollune",
+			"playersCount": 28,
+			"organiser": "MTGones et Trollune",
+			"date": "26 Janvier",
+			"qualifiedPlayer" : "Benoît Guenin"
+		},
+		{	
+			"name": "Dimanche du Legacy",
+			"playersCount": 18,
+			"organiser": "MCB",
+			"date": "28 Janvier",
+			"qualifiedPlayer" : "Benjamin Cottet"
 		}
 	]	
 }
