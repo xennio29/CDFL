@@ -207,8 +207,29 @@
 			"name": "RELIC FNM Legacy",
 			"playersCount": 16,
 			"organiser": "Relic",
-			"date": "6 Février",
+			"date": "4 Février",
 			"qualifiedPlayer" : "Andy Sieurac"
+		},
+		{	
+			"name": "Open MCB Février",
+			"playersCount": 16,
+			"organiser": "MCB",
+			"date": "4 Février",
+			"qualifiedPlayer" : "Eliott Bourgeret"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 38,
+			"organiser": "Troll2Jeux",
+			"date": "8 Février",
+			"qualifiedPlayer" : "Marc Bruley, Simon Drochon"
+		},
+		{	
+			"name": "Open Qualifier Legacy",
+			"playersCount": 16,
+			"organiser": "Sortilège Vannes & Pierre Semons",
+			"date": "11 Février",
+			"qualifiedPlayer" : "Nicolas Hornez"
 		}
 	]	
 }
