@@ -230,6 +230,20 @@
 			"organiser": "Sortilège Vannes & Pierre Semons",
 			"date": "11 Février",
 			"qualifiedPlayer" : "Nicolas Hornez"
+		},
+		{	
+			"name": "Arcanum Legacy Qualifier CDF",
+			"playersCount": 22,
+			"organiser": "Arcaneum",
+			"date": "18 Février",
+			"qualifiedPlayer" : "Joris Silva"
+		},
+		{	
+			"name": "Arcanum Legacy Qualifier CDF",
+			"playersCount": 16,
+			"organiser": "Magic & Compagnie",
+			"date": "24 Février",
+			"qualifiedPlayer" : "Jeremy Da-Cunha Rufino"
 		}
 	]	
 }
