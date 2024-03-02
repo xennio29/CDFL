@@ -127,6 +127,13 @@
 			"qualifiedPlayer" : "Bertrand Vigne"
 		},
 		{	
+			"name": "Ravelois CDF Legacy",
+			"playersCount": 28,
+			"organiser": "MagicBougnat",
+			"date": "3 Décembre",
+			"qualifiedPlayer" : "Alex Noir"
+		},
+		{	
 			"name": "Think Twice #4",
 			"playersCount": 32,
 			"organiser": "UNTAP, NANTES, DRAW",
@@ -153,6 +160,13 @@
 			"organiser": "Geek Factory Lamballe",
 			"date": "13 Décembre",
 			"qualifiedPlayer" : "Damien Frage"
+		},
+		{	
+			"name": "Gones League - Trollune",
+			"playersCount": 27,
+			"organiser": "MTGones et Trollune",
+			"date": "14 Décembre",
+			"qualifiedPlayer" : "Thomas Blondet"
 		},
 		{	
 			"name": "Main Qualifier Rennes",
@@ -244,6 +258,20 @@
 			"organiser": "Magic & Compagnie",
 			"date": "24 Février",
 			"qualifiedPlayer" : "Jeremy Da-Cunha Rufino"
+		},
+		{	
+			"name": "Legacy de Caen - Février",
+			"playersCount": 25,
+			"organiser": "Club Magic Normand",
+			"date": "25 Février",
+			"qualifiedPlayer" : "Guillaume Dorey"
+		},
+		{	
+			"name": "Gones League - Février",
+			"playersCount": 32,
+			"organiser": "MTGones",
+			"date": "29 Février",
+			"qualifiedPlayer" : "Vincent Alaminos;Nicolas Righi"
 		}
 	]	
 }
