@@ -73,6 +73,7 @@ export class DataService {
 
   private printQualifiedPlayerCount(tournaments: Tournament[]): void {
     var playerCount = 0;
+    console.log(tournaments.length + " tournaments were organized for CDF Legacy 2024.")
     tournaments.forEach(tournament => {
       var qualifiedPlayersCount = tournament.qualifiedPlayers.length;
       playerCount = playerCount + qualifiedPlayersCount

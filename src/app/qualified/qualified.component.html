@@ -3,7 +3,7 @@
         <mat-label>Filter</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="nom/prénom" #input>
     </mat-form-field>
-    <h2>Joueurs Qualifiés</h2>
+    <h2>{{dataSource.data.length}} Joueurs Qualifiés</h2>
     <table mat-table [dataSource]="dataSource" matSort (matSortChange)="sortData($event)" class="mat-elevation-z8">
 
         <ng-container matColumnDef="name">
