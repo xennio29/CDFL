@@ -272,6 +272,20 @@
 			"organiser": "MTGones",
 			"date": "29 Février",
 			"qualifiedPlayer" : "Vincent Alaminos;Nicolas Righi"
+		},
+		{	
+			"name": "Open MCB Mars",
+			"playersCount": 26,
+			"organiser": "MCB",
+			"date": "3 Mars",
+			"qualifiedPlayer" : "Rado Rakotoarimanana"
+		},
+		{	
+			"name": "Open CDF des Mages d'Urza",
+			"playersCount": "XX",
+			"organiser": "Mages d'Urza",
+			"date": "8 Mars",
+			"qualifiedPlayer" : "Guillaume Janin"
 		}
 	]	
 }
