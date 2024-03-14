@@ -34,7 +34,7 @@ export class MenuBarComponent implements OnInit {
         case '/circuit':
           return 'Informations sur le Circuit';
       case '/final':
-        return 'Informations sur la Final';
+        return 'Informations sur la Finale';
       case '/faq':
         return 'FAQ';
       case '/home':
