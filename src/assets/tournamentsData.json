@@ -246,14 +246,14 @@
 			"qualifiedPlayer" : "Nicolas Hornez"
 		},
 		{	
-			"name": "Arcanum Legacy Qualifier CDF",
+			"name": "Arcaneum Legacy Qualifier CDF",
 			"playersCount": 22,
 			"organiser": "Arcaneum",
 			"date": "18 Février",
 			"qualifiedPlayer" : "Joris Silva"
 		},
 		{	
-			"name": "Arcanum Legacy Qualifier CDF",
+			"name": "Open Legacy Qualifier CDF",
 			"playersCount": 16,
 			"organiser": "Magic & Compagnie",
 			"date": "24 Février",
@@ -281,11 +281,39 @@
 			"qualifiedPlayer" : "Rado Rakotoarimanana"
 		},
 		{	
-			"name": "Open CDF des Mages d'Urza",
-			"playersCount": "XX",
-			"organiser": "Mages d'Urza",
-			"date": "8 Mars",
-			"qualifiedPlayer" : "Guillaume Janin"
+			"name": "Ravelois",
+			"playersCount": 32,
+			"organiser": "MagicBougnat",
+			"date": "3 Mars",
+			"qualifiedPlayer" : "Lucas Mietton;Lucas Dubois"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": "32",
+			"organiser": "Troll2Jeux",
+			"date": "5 Mars",
+			"qualifiedPlayer" : "Francois Lirola;Hugo Mingam"
+		},
+		{	
+			"name": "Legacy de Caen  - Mars",
+			"playersCount": "20",
+			"organiser": "Club Magic Normand",
+			"date": "24 Mars",
+			"qualifiedPlayer" : "Maxime Pin"
+		},
+		{	
+			"name": "Arcaneum Legacy Qualifier CDF",
+			"playersCount": 26,
+			"organiser": "Arcaneum",
+			"date": "14 Mars",
+			"qualifiedPlayer" : "Loic Chowchow"
+		},
+		{	
+			"name": "FNM Open CDF de Magic & Compagnie",
+			"playersCount": 16,
+			"organiser": "Magic & Compagnie",
+			"date": "1 Mars",
+			"qualifiedPlayer" : "Quentin Dartigeas"
 		}
 	]	
 }

@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class FinalComponent implements OnInit {
 
   logo = 'assets/img/mtggones_logo.png';
+  banniere = 'assets/img/CDFL-banniere.jpg';
+  facebook = 'assets/img/facebook-logo-1-2.png';
+
 
   constructor() { }
 
