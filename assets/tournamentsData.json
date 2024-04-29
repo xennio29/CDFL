@@ -305,15 +305,22 @@
 			"name": "Arcaneum Legacy Qualifier CDF",
 			"playersCount": 26,
 			"organiser": "Arcaneum",
-			"date": "14 Mars",
+			"date": "24 Mars",
 			"qualifiedPlayer" : "Loic Chowchow"
 		},
 		{	
 			"name": "FNM Open CDF de Magic & Compagnie",
 			"playersCount": 16,
 			"organiser": "Magic & Compagnie",
-			"date": "1 Mars",
+			"date": "1 Avril",
 			"qualifiedPlayer" : "Quentin Dartigeas"
+		},
+		{	
+			"name": "Main Qualifier Paris",
+			"playersCount": 51,
+			"organiser": "Relic",
+			"date": "14 Avril",
+			"qualifiedPlayer" : "Jeremy Ruer;Robin Chiusa;Thomas Bretonneau;Vincent Manac'h;Christophe Miazza;Francois Blachuta"
 		}
 	]	
 }
