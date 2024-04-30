@@ -316,11 +316,25 @@
 			"qualifiedPlayer" : "Quentin Dartigeas"
 		},
 		{	
+			"name": "Open CDF des Mages d'Urza",
+			"playersCount": 18,
+			"organiser": "Les Mages d'Urza",
+			"date": "13 Avril",
+			"qualifiedPlayer" : "Camille Pottier"
+		},
+		{	
 			"name": "Main Qualifier Paris",
 			"playersCount": 51,
 			"organiser": "Relic",
 			"date": "14 Avril",
 			"qualifiedPlayer" : "Jeremy Ruer;Robin Chiusa;Thomas Bretonneau;Vincent Manac'h;Christophe Miazza;Francois Blachuta"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 16,
+			"organiser": "Joute et Jeu",
+			"date": "8 Avril",
+			"qualifiedPlayer" : "Till Veron"
 		}
 	]	
 }
