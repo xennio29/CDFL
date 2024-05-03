@@ -33,7 +33,7 @@
 			"playersCount": 19,
 			"organiser": "Club Magic Normand",
 			"date": "24 Septembre",
-			"qualifiedPlayer" : "Julien Bruyeres"
+			"qualifiedPlayer" : "Julien LaBruyeres"
 		},
 		{	
 			"name": "Gones League",
@@ -316,6 +316,13 @@
 			"qualifiedPlayer" : "Quentin Dartigeas"
 		},
 		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 16,
+			"organiser": "Joute et Jeu",
+			"date": "8 Avril",
+			"qualifiedPlayer" : "Till Veron"
+		},
+		{	
 			"name": "Open CDF des Mages d'Urza",
 			"playersCount": 18,
 			"organiser": "Les Mages d'Urza",
@@ -330,11 +337,18 @@
 			"qualifiedPlayer" : "Jeremy Ruer;Robin Chiusa;Thomas Bretonneau;Vincent Manac'h;Christophe Miazza;Francois Blachuta"
 		},
 		{	
-			"name": "Open CDF Legacy",
-			"playersCount": 16,
-			"organiser": "Joute et Jeu",
-			"date": "8 Avril",
-			"qualifiedPlayer" : "Till Veron"
+			"name": "Open CDF Legacy Avril",
+			"playersCount": 21,
+			"organiser": "MCB",
+			"date": "27 Avril",
+			"qualifiedPlayer" : "Ido"
+		},
+		{	
+			"name": "Open CDF Legacy Avril",
+			"playersCount": 21,
+			"organiser": "Guilde du jeu",
+			"date": "28 Avril",
+			"qualifiedPlayer" : "Antoine Mathon"
 		}
 	]	
 }
