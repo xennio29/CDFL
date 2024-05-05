@@ -349,6 +349,13 @@
 			"organiser": "Guilde du jeu",
 			"date": "28 Avril",
 			"qualifiedPlayer" : "Antoine Mathon"
+		},
+		{	
+			"name": "Open CDF Legacy Salviche",
+			"playersCount": 20,
+			"organiser": "Cabinet Kiné",
+			"date": "04 Mars",
+			"qualifiedPlayer" : "Ismael Boulbaz"
 		}
 	]	
 }
