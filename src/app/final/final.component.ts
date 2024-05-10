@@ -11,10 +11,15 @@ export class FinalComponent implements OnInit {
   banniere = 'assets/img/CDFL-banniere.jpg';
   facebook = 'assets/img/facebook-logo-1-2.png';
 
+  selectedVal: string;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public onValueChange(val: string) {
+    this.selectedVal = val;
   }
 
 }

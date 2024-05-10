@@ -3,6 +3,9 @@
     <div class="text-align-center">
         <p>
             La finale se déroulera à Lyon et sera organisée par MTG Gones !
+            <br>
+            Un week_en de Legacy pour les qualifiés et les non-qualifiés !
+            <br>
             Vous trouverez sur cette page toutes les informations sur l'évènement.
             Vouc pouvez aussi rejoindre <a href="https://www.facebook.com/events/388581167372170/" target="_blank">l'évènement Facebook</a> !
             Cette page sera mise à jour au fur et à mesure.
@@ -11,51 +14,60 @@
     </div>
 </div>
         <img [src]="banniere" class="banniere">
-
-        <!-- <mat-card>
-            <mat-card-header>
-              <mat-card-title>Lieu et Date</mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <p>
-                    6 & 7 juillet 2024
-                    <br>
-                    Brindas
-                </p>
-            </mat-card-content>
-        </mat-card> -->
-
         <mat-card>
             <mat-card-header>
-              <mat-card-title>Détails des tournois</mat-card-title>
+              <mat-card-title>Programme</mat-card-title>
             </mat-card-header>
             <mat-card-content>
-                <div class="chapter-title">
-                    Last Chance Qualifier
+
+                <div class="header">
+                    <mat-button-toggle-group name="qualifiedToggle" aria-label="qualifiedToggle" #group="matButtonToggleGroup" (change)="onValueChange(group.value)">
+                        <mat-button-toggle value="qualified" class="qualified">Je suis qualifié</mat-button-toggle>
+                        <mat-button-toggle value="notQualified"  class="not-qualified">Je ne suis pas qualfié</mat-button-toggle>
+                    </mat-button-toggle-group>
+                    <br>
+                    Tu peux vérifier ta qualification <a routerLink="/qualified">ici</a> !
                 </div>
-                <p>
-                    7-8 rondes + Top 8
-                    <br>
-                    Un qualifié tous les 8 inscrits
-                    <br>
-                    Ouvert à tous les joueurs ! Qualifié ou non !
-                </p>
-                <div class="chapter-title">
-                    Coupe de France
+
+                <div class="day">Samedi 6 juillet</div>
+
+                <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                    <div class="chapter-title">
+                        Last Chance Qualifier
+                    </div>
+                    <p>
+                        7-8 rondes + Top 8
+                        <br>
+                        Un qualifié tous les 8 inscrits
+                        <br>
+                        Ouvert à tous les joueurs ! Qualifié ou non !
+                    </p>
                 </div>
-                <p>
-                    7-8 rondes + Top 8
-                    <br>
-                    Pour les qualifiés uniquement !
-                    <br>
-                    Liste des qualifés <a routerLink="/qualified">ici</a>.
-                </p>
-                <div class="chapter-title">
-                    Side event Open CDF 2025
+
+                <div class="day">Dimanche 7 juillet</div>
+
+                <div fxLayout="row" fxLayoutAlign="space-around center">
+                    <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
+                        <div class="chapter-title">
+                            Coupe de France
+                        </div>
+                        <p>
+                            7-8 rondes + Top 8
+                            <br>
+                            Pour les qualifiés uniquement !
+                        </p>
+                    </div>
+                    <div class="tournament child" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                        <div class="chapter-title">
+                            Side event Open CDF 2025
+                        </div>
+                        <p>
+                            Dimanche 7 juillet
+                            <br>
+                            5-6 rondes + Top 8 ou rondes sèches
+                        </p>
+                    </div>
                 </div>
-                <p>
-                    5 rondes + Top 8 ou rondes sèches
-                </p>
             </mat-card-content>
         </mat-card>
 

@@ -73,4 +73,57 @@ mat-card-content {
     height: 200px;
 }
 
+.header {
+    font-size: large;
+}
 
+.day {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+mat-button-toggle-group {
+    border-radius: 25px;
+    border: 0px;
+    margin: 15px;
+    font-size: medium;
+}
+.qualified {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: solid 3px blue !important;
+}
+
+.not-qualified {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: solid 3px red !important;
+}
+
+.mat-button-toggle-checked.qualified {
+    background-color: blue;
+    color: white;
+}
+
+.mat-button-toggle-checked.not-qualified {
+    background-color: red;
+    color: white;
+}
+
+.tournament {
+    border: solid 3px black;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.tournament-for-qualified {
+    border-color: blue;
+}
+
+.tournament-for-not-qualified {
+    border-color: red;
+}

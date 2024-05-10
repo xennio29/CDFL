@@ -21,6 +21,7 @@ import { FinalComponent } from './final/final.component';
 import { FaqComponent } from './faq/faq.component';
 import { MatSortModule } from '@angular/material/sort';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatInputModule,
     MatSortModule,
     MatExpansionModule,
+    MatButtonToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
