@@ -337,6 +337,20 @@
 			"qualifiedPlayer" : "Jeremy Ruer;Robin Chiusa;Thomas Bretonneau;Vincent Manac'h;Christophe Miazza;Francois Blachuta"
 		},
 		{	
+			"name": "Relic Tour Strasbourg",
+			"playersCount": 16,
+			"organiser": "Relic",
+			"date": "20 Avril",
+			"qualifiedPlayer" : "Jeremy Cailler"
+		},
+		{	
+			"name": "Legacy du Jeudi",
+			"playersCount": 26,
+			"organiser": "Trollune",
+			"date": "25 Avril",
+			"qualifiedPlayer" : "Romain Corgnolo"
+		},
+		{	
 			"name": "Open CDF Legacy Avril",
 			"playersCount": 21,
 			"organiser": "MCB",
@@ -354,8 +368,29 @@
 			"name": "Open CDF Legacy Salviche",
 			"playersCount": 20,
 			"organiser": "Cabinet Kiné",
-			"date": "04 Mars",
+			"date": "04 Mai",
 			"qualifiedPlayer" : "Ismael Boulbaz"
+		},
+		{	
+			"name": "Open CDF Legacy Arcaneum",
+			"playersCount": 26,
+			"organiser": "Arcaneum",
+			"date": "28 Avril",
+			"qualifiedPlayer" : "Florent Jugnet"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": "24",
+			"organiser": "Troll2Jeux",
+			"date": "7 Mai",
+			"qualifiedPlayer" : "Joseph Huot"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": "16",
+			"organiser": "Relic",
+			"date": "7 Mai",
+			"qualifiedPlayer" : "Philippe Rouger"
 		}
 	]	
 }
