@@ -78,7 +78,7 @@ mat-card-content {
 }
 
 .day {
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -92,13 +92,13 @@ mat-button-toggle-group {
 .qualified {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    border: solid 3px blue !important;
+    border: solid 5px blue !important;
 }
 
 .not-qualified {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    border: solid 3px red !important;
+    border: solid 5px red !important;
 }
 
 .mat-button-toggle-checked.qualified {
@@ -112,7 +112,7 @@ mat-button-toggle-group {
 }
 
 .tournament {
-    border: solid 3px black;
+    border: solid 5px black;
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -126,4 +126,10 @@ mat-button-toggle-group {
 
 .tournament-for-not-qualified {
     border-color: red;
+}
+
+.billet {
+    border-radius: 25px;
+    font-size: x-large;
+    padding: 20px;
 }

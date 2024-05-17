@@ -9,6 +9,7 @@ export class FinalComponent implements OnInit {
 
   logo = 'assets/img/mtggones_logo.png';
   banniere = 'assets/img/CDFL-banniere.jpg';
+  planning = 'assets/img/CDFL-planning.png';
   facebook = 'assets/img/facebook-logo-1-2.png';
 
   selectedVal: string;

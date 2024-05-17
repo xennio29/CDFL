@@ -22,6 +22,7 @@ import { FaqComponent } from './faq/faq.component';
 import { MatSortModule } from '@angular/material/sort';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     MatSortModule,
     MatExpansionModule,
     MatButtonToggleModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

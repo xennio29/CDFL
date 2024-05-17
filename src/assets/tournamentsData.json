@@ -365,6 +365,13 @@
 			"qualifiedPlayer" : "Antoine Mathon"
 		},
 		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 21,
+			"organiser": "Troll2Jeux",
+			"date": "30 Avril",
+			"qualifiedPlayer" : "Pierrick Visentin"
+		},
+		{	
 			"name": "Open CDF Legacy Salviche",
 			"playersCount": 20,
 			"organiser": "Cabinet Kiné",
