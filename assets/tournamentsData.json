@@ -194,7 +194,7 @@
 			"playersCount": 142,
 			"organiser": "MTGones",
 			"date": "13 Janvier",
-			"qualifiedPlayer" : "Stéphane Roumanille;Nathan Flachaire;Alexandre Daverdon;Laurent Gadchaux;Adrien Brunelle; Tue Bo;Amédée Triardon;Marion Guichard;Luca Fasoli;Boris Brunel;Loic Roussel;Maxime Jourdan;Jalil Z;Geoffroy Kirstetter;Kilian Troumelin;Thibaud Jullien;Matteo Blasi"
+			"qualifiedPlayer" : "Stéphane Roumanille;Nathan Flachaire;Alexandre Daverdon;Laurent Gadchaux;Adrien Brunelle;Tue Bo;Amédée Triardon;Marion Guichard;Luca Fasoli;Boris Brunel;Loic Roussel;Maxime Jourdan;Jalil Z;Geoffroy Kirstetter;Kilian Troumelin;Thibaud Jullien;Matteo Blasi"
 		},
 		{	
 			"name": "Gones League - Side Event Main Qualifier",
@@ -398,6 +398,34 @@
 			"organiser": "Relic",
 			"date": "7 Mai",
 			"qualifiedPlayer" : "Philippe Rouger"
+		},
+		{	
+			"name": "Legacy de Caen - Mai",
+			"playersCount": "20",
+			"organiser": "Club Magic Normand",
+			"date": "19 Mai",
+			"qualifiedPlayer" : "Anna Gosselin"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 32,
+			"organiser": "MTGones et Trollune",
+			"date": "24 Mai",
+			"qualifiedPlayer" : "Maxime Oulès"
+		},
+		{	
+			"name": "FNM Open CDF de Magic & Compagnie",
+			"playersCount": 16,
+			"organiser": "Magic & Compagnie",
+			"date": "26 Mai",
+			"qualifiedPlayer" : "Louis Artico"
+		},
+		{	
+			"name": "Dimanche du Legacy",
+			"playersCount": 16,
+			"organiser": "MCB",
+			"date": "26 Mai",
+			"qualifiedPlayer" : "Manu M"
 		}
 	]	
 }
