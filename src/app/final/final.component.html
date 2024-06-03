@@ -4,7 +4,7 @@
         <p>
             La finale se déroulera à Lyon et sera organisée par MTG Gones !
             <br>
-            Un week_en de Legacy pour les qualifiés et les non-qualifiés !
+            Un week-end de Legacy pour les qualifiés et les non-qualifiés !
             <br>
             Vous trouverez sur cette page toutes les informations sur l'évènement.
             Vouc pouvez aussi rejoindre <a href="https://www.facebook.com/events/388581167372170/" target="_blank">l'évènement Facebook</a> !
@@ -14,6 +14,16 @@
     </div>
 </div>
         <img [src]="banniere" class="banniere">
+
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Planning</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <img [src]="planning" class="banniere">
+            </mat-card-content>
+        </mat-card>
+
         <mat-card>
             <mat-card-header>
               <mat-card-title>Programme</mat-card-title>
@@ -41,6 +51,8 @@
                         Un qualifié tous les 8 inscrits
                         <br>
                         Ouvert à tous les joueurs ! Qualifié ou non !
+                        <br>
+                        Une qualification obtenue lors de ce tournoi fait automatiquement basculé l'inscription au Side Event de dimanche à la finale
                     </p>
                 </div>
 
@@ -74,16 +86,8 @@
               <mat-card-title>Billeterie</mat-card-title>
             </mat-card-header>
             <mat-card-content>
+                Fin des inscriptions le 30 juin
                 <a mat-flat-button color="primary" href="https://www.helloasso.com/associations/mtg-ones/evenements/lcq-finale-de-la-coupe-de-france-legacy-2024" target="_blank" class="billet">Billets HelloAsso ici</a>
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card>
-            <mat-card-header>
-              <mat-card-title>Planning</mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-                <img [src]="planning" class="banniere">
             </mat-card-content>
         </mat-card>
 
@@ -92,12 +96,62 @@
               <mat-card-title>Lots</mat-card-title>
             </mat-card-header>
             <mat-card-content>
+
+                <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                    <div class="chapter-title">
+                        Last Chance Qualifier
+                    </div>
+                    <p>
+                        Un qualifié tous les 8 inscrits !
+                        <br>
+                        1er : Qualification ELM
+                    </p>
+                </div>
+        
+                <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
+                    <div class="chapter-title">
+                        Coupe de France
+                    </div>
+                    <p>
+                        Des bilands mais aussi :
+                        <br>
+                        1er : Qualification ELM + Qualification à vie à la CDF !
+                        <br>
+                        2ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        3ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        4ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        5ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        6ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        7ème : Qualification ELM + Qualification CDF 2025
+                        <br>
+                        8ème : Qualification ELM + Qualification CDF 2025
+                    </p>
+                </div>
+
+                <div class="tournament child" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                    <div class="chapter-title">
+                        Side event Open CDF 2025
+                    </div>
+                    <p>
+                        Un qualifié tous les 16 inscrits pour la CDF 2025 !
+                    </p>
+                </div>
+
+            </mat-card-content>
+        </mat-card>
+
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Information supplémentaire</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
                 <p>
-                    Des bilands !
-                    <br>
-                    Une qualification à vie à la CDF pour le gagnant !
-                    <br>
-                    Plus de détails prochainement...
+                    Aucune proxies ne sera autorisé lors du week-end.
                 </p>
             </mat-card-content>
         </mat-card>
