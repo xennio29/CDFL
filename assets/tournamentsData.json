@@ -355,7 +355,7 @@
 			"playersCount": 21,
 			"organiser": "MCB",
 			"date": "27 Avril",
-			"qualifiedPlayer" : "Ido"
+			"qualifiedPlayer" : "Ido Levy"
 		},
 		{	
 			"name": "Open CDF Legacy Avril",
@@ -421,11 +421,32 @@
 			"qualifiedPlayer" : "Louis Artico"
 		},
 		{	
+			"name": "Main Qualifier Strasbourg",
+			"playersCount": 16,
+			"organiser": "F.CORPEF",
+			"date": "26 Mai",
+			"qualifiedPlayer" : "David Maillot;Fabrice Albert"
+		},
+		{	
 			"name": "Dimanche du Legacy",
 			"playersCount": 16,
 			"organiser": "MCB",
 			"date": "26 Mai",
 			"qualifiedPlayer" : "Manu M"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 24,
+			"organiser": "Troll2Jeux",
+			"date": "4 Juin",
+			"qualifiedPlayer" : "Didier Clain"
+		},
+		{	
+			"name": "RELIC FNM Legacy",
+			"playersCount": 16,
+			"organiser": "Relic",
+			"date": "4 Juin",
+			"qualifiedPlayer" : "Jeremy Charles"
 		}
 	]	
 }
