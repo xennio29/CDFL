@@ -341,7 +341,7 @@
 			"playersCount": 16,
 			"organiser": "Relic",
 			"date": "20 Avril",
-			"qualifiedPlayer" : "Jeremy Cailler"
+			"qualifiedPlayer" : "Jeremy Callier"
 		},
 		{	
 			"name": "Legacy du Jeudi",
@@ -447,6 +447,13 @@
 			"organiser": "Relic",
 			"date": "4 Juin",
 			"qualifiedPlayer" : "Jeremy Charles"
+		},
+		{	
+			"name": "Open MCB Juin",
+			"playersCount": 21,
+			"organiser": "MCB",
+			"date": "9 Juin",
+			"qualifiedPlayer" : "Michael l'Houmeau-Vasquez"
 		}
 	]	
 }
