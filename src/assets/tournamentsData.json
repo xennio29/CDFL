@@ -449,6 +449,13 @@
 			"qualifiedPlayer" : "Jeremy Charles"
 		},
 		{	
+			"name": "Gones League",
+			"playersCount": 26,
+			"organiser": "MTGones et Trollune",
+			"date": "6 Juin",
+			"qualifiedPlayer" : ""
+		},
+		{	
 			"name": "Open MCB Juin",
 			"playersCount": 21,
 			"organiser": "MCB",

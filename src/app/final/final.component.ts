@@ -11,6 +11,8 @@ export class FinalComponent implements OnInit {
   banniere = 'assets/img/CDFL-banniere.jpg';
   planning = 'assets/img/CDFL-planning.png';
   facebook = 'assets/img/facebook-logo-1-2.png';
+  kai = 'assets/img/Kai.jpg';
+  ja = 'assets/img/ja.jpg';
 
   selectedVal: string;
 

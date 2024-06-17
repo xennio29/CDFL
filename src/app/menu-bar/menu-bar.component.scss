@@ -22,6 +22,9 @@ mat-icon {
 .whiteLogo {
     height: 100%;
     cursor: pointer;
+    right: 0px;
+    position: absolute;
+    z-index: -1;
 }
 
 .menu {

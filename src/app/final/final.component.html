@@ -1,7 +1,7 @@
 <div class="container">
     <h1 class="title">Informations sur la finale</h1>
     <div class="text-align-center">
-        <p>
+        <div class="text">
             La finale se déroulera à Lyon et sera organisée par MTG Gones !
             <br>
             Un week-end de Legacy pour les qualifiés et les non-qualifiés !
@@ -9,13 +9,24 @@
             Vous trouverez sur cette page toutes les informations sur l'évènement.
             Vouc pouvez aussi rejoindre <a href="https://www.facebook.com/events/388581167372170/" target="_blank">l'évènement Facebook</a> !
             Cette page sera mise à jour au fur et à mesure.
-        </p>
+        </div>
+        <div class="newSalle">
+            Attention ! Changement de salle !
+            <br>
+            Nouvelle adresse :
+            <br>
+            L’InterValle
+            <br>
+            18 bis Chem. du Stade, 
+            <br>
+            69670 Vaugneray
+        </div>
        
     </div>
 </div>
         <img [src]="banniere" class="banniere">
 
-        <mat-card>
+        <mat-card>S
             <mat-card-header>
               <mat-card-title>Planning</mat-card-title>
             </mat-card-header>
@@ -30,11 +41,9 @@
             </mat-card-header>
             <mat-card-content>
 
-                <div class="header">
-                    <mat-button-toggle-group name="qualifiedToggle" aria-label="qualifiedToggle" #group="matButtonToggleGroup" (change)="onValueChange(group.value)">
-                        <mat-button-toggle value="qualified" class="qualified">Je suis qualifié</mat-button-toggle>
-                        <mat-button-toggle value="notQualified"  class="not-qualified">Je ne suis pas qualfié</mat-button-toggle>
-                    </mat-button-toggle-group>
+                <div class="text">
+                    <button mat-raised-button class="qualified-button qualified" (click)="onValueChange('qualified')">Je suis qualifié</button>
+                    <button mat-raised-button class="qualified-button not-qualified" (click)="onValueChange('notQualified')">Je ne suis pas qualfié</button>
                     <br>
                     Tu peux vérifier ta qualification <a routerLink="/qualified">ici</a> !
                 </div>
@@ -42,41 +51,106 @@
                 <div class="day">Samedi 6 juillet</div>
 
                 <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
-                    <div class="chapter-title">
-                        Last Chance Qualifier
-                    </div>
-                    <p>
-                        7-8 rondes + Top 8
-                        <br>
-                        Un qualifié tous les 8 inscrits
-                        <br>
-                        Ouvert à tous les joueurs ! Qualifié ou non !
-                        <br>
-                        Une qualification obtenue lors de ce tournoi fait automatiquement basculé l'inscription au Side Event de dimanche à la finale
-                    </p>
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                          <mat-expansion-panel-header class="chapter-title">
+                            <mat-panel-title> Last Chance Qualifier </mat-panel-title>
+                            <mat-panel-description>
+                                Ouvert à tous les joueurs ! Qualifié ou non !
+                            </mat-panel-description>
+                          </mat-expansion-panel-header>
+                            <div class="text">
+                                Débuts des rondes : 10h
+                                <br>
+                                7 rondes + Top 8
+                                <br>
+                                PAF : 40€
+                                <br>
+                                L’InterValle, 18 bis Chem. du Stade, 69670 Vaugneray
+                                <br>
+                                Lots :
+                                <div class ="lots">
+                                    Un qualifié tous les 8 inscrits
+                                    <br>
+                                    Une qualification obtenue lors de ce tournoi fait automatiquement basculé l'inscription au Side Event de dimanche à la finale.
+                                    <br>
+                                    1er : Underground Sea + Tropical Island + Qualification ELM
+                                    <br>
+                                    2ème : Volcanic Island
+                                    <br>
+                                    3ème : Scrubland
+                                    <br>
+                                    4ème : Scrubland
+                                    <br>
+                                    5ème au 8ème : 125€ store crédit
+                                    <br>
+                                    9ème au 16ème : 80€ store crédit
+                                </div>
+                          </div>
+                        </mat-expansion-panel>
+                    </mat-accordion>
                 </div>
 
                 <div class="day">Dimanche 7 juillet</div>
 
-                <div fxLayout="row" fxLayoutAlign="space-around center">
-                    <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
-                        <div class="chapter-title">
-                            Coupe de France
-                        </div>
-                        <p>
-                            7 rondes + Top 8
-                            <br>
-                            Pour les qualifiés uniquement !
-                        </p>
-                    </div>
-                    <div class="tournament child" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
-                        <div class="chapter-title">
-                            Side event Open CDF 2025
-                        </div>
-                        <p>
-                            7 rondes sèches
-                        </p>
-                    </div>
+                <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header class="chapter-title">
+                            <mat-panel-title> Coupe de France </mat-panel-title>
+                            <mat-panel-description>
+                                Pour les qualifiés uniquement !
+                            </mat-panel-description>
+                            </mat-expansion-panel-header>
+                            <div class="text">
+                                Débuts des rondes : 10h
+                                <br>
+                                7 rondes + Top 8
+                                <br>
+                                PAF : 40€
+                                <br>
+                                L’InterValle, 18 bis Chem. du Stade, 69670 Vaugneray
+                                <br>
+                                Lots :
+                                <div class ="lots">
+                                    1er : Underground Sea + Tropical Island + Qualification ELM + Qualification à vie à la CDF !
+                                    <br>
+                                    2ème : Volcanic Island + Qualification ELM + Qualification CDF 2025
+                                    <br>
+                                    3ème : Scrubland + Qualification ELM + Qualification CDF 2025
+                                    <br>
+                                    4ème : Scrubland + Qualification ELM + Qualification CDF 2025
+                                    <br>
+                                    5ème au 8ème : 125€ store crédit + Qualification CDF 2025
+                                    <br>
+                                    9ème au 16ème : 80€ store crédit
+                                </div>
+                            </div>
+                        </mat-expansion-panel>
+                    </mat-accordion>
+                </div>
+                <div class="tournament child" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                    <mat-accordion>
+                        <mat-expansion-panel>
+                            <mat-expansion-panel-header class="chapter-title">
+                            <mat-panel-title> Side event Open CDF 2025 </mat-panel-title>
+                            <mat-panel-description>
+                                Pour les non-qualifiés et les drops !
+                            </mat-panel-description>
+                            </mat-expansion-panel-header>
+                            <div class="text">
+                                Débuts des rondes : 12h30
+                                <br>
+                                7 rondes sèches
+                                <br>
+                                PAF : 40€
+                                <br>
+                                L’InterValle, 18 bis Chem. du Stade, 69670 Vaugneray
+                                <br>
+                                Un qualifié tous les 16 inscrits pour la CDF 2025 !
+                            </div>
+                        </mat-expansion-panel>
+                    </mat-accordion>
                 </div>
             </mat-card-content>
         </mat-card>
@@ -85,63 +159,10 @@
             <mat-card-header>
               <mat-card-title>Billeterie</mat-card-title>
             </mat-card-header>
-            <mat-card-content>
+            <mat-card-content class="text">
                 Fin des inscriptions le 30 juin
+                <br>
                 <a mat-flat-button color="primary" href="https://www.helloasso.com/associations/mtg-ones/evenements/lcq-finale-de-la-coupe-de-france-legacy-2024" target="_blank" class="billet">Billets HelloAsso ici</a>
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card>
-            <mat-card-header>
-              <mat-card-title>Lots</mat-card-title>
-            </mat-card-header>
-            <mat-card-content>
-
-                <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
-                    <div class="chapter-title">
-                        Last Chance Qualifier
-                    </div>
-                    <p>
-                        Un qualifié tous les 8 inscrits !
-                        <br>
-                        1er : Qualification ELM
-                    </p>
-                </div>
-        
-                <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
-                    <div class="chapter-title">
-                        Coupe de France
-                    </div>
-                    <p>
-                        Des bilands mais aussi :
-                        <br>
-                        1er : Qualification ELM + Qualification à vie à la CDF !
-                        <br>
-                        2ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        3ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        4ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        5ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        6ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        7ème : Qualification ELM + Qualification CDF 2025
-                        <br>
-                        8ème : Qualification ELM + Qualification CDF 2025
-                    </p>
-                </div>
-
-                <div class="tournament child" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
-                    <div class="chapter-title">
-                        Side event Open CDF 2025
-                    </div>
-                    <p>
-                        Un qualifié tous les 16 inscrits pour la CDF 2025 !
-                    </p>
-                </div>
-
             </mat-card-content>
         </mat-card>
 
@@ -150,9 +171,9 @@
               <mat-card-title>Information supplémentaire</mat-card-title>
             </mat-card-header>
             <mat-card-content>
-                <p>
+                <div class="text">
                     Aucune proxies ne sera autorisé lors du week-end.
-                </p>
+                </div>
             </mat-card-content>
         </mat-card>
 
@@ -161,19 +182,43 @@
               <mat-card-title>Artiste</mat-card-title>
             </mat-card-header>
             <mat-card-content>
-                <p>
-                    Plus d'information prochainement...
-                </p>
+                <div class="text">
+                    Pour la seconde fois, Kai Sawatari sera des nôtres et sera disponible tout le weekend pour créer des tokens sur mesure, altérer des cartes, ou simplement faire des parties de Magic.
+                    <br>
+                    Il nous a fait des tokens édition limitée la dernière fois, retrouvez ses oeuvres sur son site web, ou allez juste lui dire bonjour !
+                    <br>
+                    <img [src]="kai" class="artist">
+                </div>
             </mat-card-content>
         </mat-card>
+
+        <mat-card>
+            <mat-card-header>
+              <mat-card-title>Streaming</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="text">
+                    Joueur de MTG depuis 2002, commentateur de matchs depuis 4 ans, JA viens nous divertir en streamant cette évènement !
+                    <br>
+                    <a href="https://www.youtube.com/@le_coin_du_ja" target="_blank">youtube</a>
+                    <br>
+                    <a routerLink="/https://www.twitch.tv/Le_coin_du_JA">twitch</a> !
+                    <br>
+                    <img [src]="ja" class="artist">
+                </div>
+            </mat-card-content>
+        </mat-card>
+
 
         <mat-card>
             <mat-card-header>
               <mat-card-title>Restauration</mat-card-title>
             </mat-card-header>
             <mat-card-content>
-                <p>
+                <div class="text">
                     La cuisine du Gones vous prépare les meilleures recettes du Sud-Est de la France !
-                </p>
+                    <br>
+                    Café,  viennoiseries, soda et de la bonne bière !
+                </div>
             </mat-card-content>
         </mat-card>
