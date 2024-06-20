@@ -308,6 +308,13 @@
 			"date": "24 Mars",
 			"qualifiedPlayer" : "Loic Chowchow"
 		},
+				{	
+			"name": "Open MCB Mars",
+			"playersCount": 30,
+			"organiser": "Trollune",
+			"date": "28 Mars",
+			"qualifiedPlayer" : "Fabien Gauthier"
+		},
 		{	
 			"name": "FNM Open CDF de Magic & Compagnie",
 			"playersCount": 16,
@@ -433,6 +440,13 @@
 			"organiser": "MCB",
 			"date": "26 Mai",
 			"qualifiedPlayer" : "Manu M"
+		},
+		{	
+			"name": "Ravelois Legacy",
+			"playersCount": 23,
+			"organiser": "MagicBougnat",
+			"date": "2 Juin",
+			"qualifiedPlayer" : "Thomas Clabaut"
 		},
 		{	
 			"name": "Legacy du Mardi",
