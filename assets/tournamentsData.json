@@ -475,6 +475,13 @@
 			"organiser": "MCB",
 			"date": "9 Juin",
 			"qualifiedPlayer" : "Michael l'Houmeau-Vasquez"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 17,
+			"organiser": "Joute et Jeu",
+			"date": "30 Juin",
+			"qualifiedPlayer" : "Kevin Grand"
 		}
 	]	
 }
