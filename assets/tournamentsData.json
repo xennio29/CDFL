@@ -482,6 +482,13 @@
 			"organiser": "Joute et Jeu",
 			"date": "30 Juin",
 			"qualifiedPlayer" : "Kevin Grand"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 17,
+			"organiser": "Relic",
+			"date": "02 Juillet",
+			"qualifiedPlayer" : "Valentin Staehle"
 		}
 	]	
 }
