@@ -6,6 +6,13 @@
 			"organiser": "CDF Legacy",
 			"date": "le passé",
 			"qualifiedPlayer" : "Thibauld Kandri;Patrick Bouvier;Lucien Colnet;Mickael Li-Thiao Te;Pierre Sommen;Romain Chabaud;Quentin Pottier;Pierre Melin;Thomas Mechin;Justo Chacon;Florestan Mathurin"
+		},
+		{	
+			"name": "Finale CDF 2024",
+			"playersCount": 104,
+			"organiser": "MtgOnes",
+			"date": "07 juillet 2024",
+			"qualifiedPlayer" : "Jérémy Charles;Jérémy Rufino;Tue Bo;Noé Dumez;Thibaud Julien;Laurent Gadchaux;Yann Belmer"
 		}
 	]	
 }
