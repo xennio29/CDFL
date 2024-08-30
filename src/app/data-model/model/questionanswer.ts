@@ -34,7 +34,7 @@ export class QuestionAnswer {
     },
     {
         question: "A partir de quand puis-je organiser une Open Qualifer CDFL ?",
-        answer: "A partir du 8 septembre 2023.",
+        answer: "A partir du 1 septembre 2024.",
     },
     {
         question: "Je souhaite organiser des Open Qualifier, y-a-t'il des contraintes sur le nombre de tournoi qui peuvent être des d'Open Qualifier?",
@@ -69,8 +69,8 @@ export class QuestionAnswer {
         answer: "Nous sommes un petit groupe de passionnés de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
     },
     {
-        question: "Où aura lieu la finale (2024)?",
-        answer: "La finale se déroulera à Lyon.",
+        question: "Où aura lieu la finale (2025)?",
+        answer: "La finale se déroulera à Toulouse.",
     },
     {
         question: "Pourquoi avoir choisi ces villes pour les Grand Opens ?",

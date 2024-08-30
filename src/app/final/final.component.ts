@@ -7,13 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FinalComponent implements OnInit {
 
-  logo = 'assets/img/mtggones_logo.png';
-  banniere = 'assets/img/CDFL-banniere.jpg';
-  planning = 'assets/img/CDFL-planning.png';
-  facebook = 'assets/img/facebook-logo-1-2.png';
-  kai = 'assets/img/Kai.jpg';
-  kevin = 'assets/img/kevin.jpg';
-  ja = 'assets/img/ja.jpg';
+  mcbLogo = 'assets/img/mcb_logo.png';
 
   selectedVal: string;
 
