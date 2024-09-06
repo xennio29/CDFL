@@ -13,6 +13,34 @@
 			"organiser": "MtgOnes",
 			"date": "07 juillet 2024",
 			"qualifiedPlayer" : "Jérémy Charles;Jérémy Rufino;Tue Bo;Noé Dumez;Thibaud Julien;Laurent Gadchaux;Yann Belmer"
+		},
+		{	
+			"name": "Thursday Legacy Night",
+			"playersCount": 22,
+			"organiser": "Trollune",
+			"date": "25 juillet 2024",
+			"qualifiedPlayer" : "Nathan Flachaire"
+		},
+		{	
+			"name": "FNM Relic du Mardi",
+			"playersCount": 18,
+			"organiser": "Relic",
+			"date": "27 aout 2024",
+			"qualifiedPlayer" : "Julien Picot"
+		},
+		{	
+			"name": "Thursday Legacy Night",
+			"playersCount": 19,
+			"organiser": "Trollune",
+			"date": "30 aout 2024",
+			"qualifiedPlayer" : "Thomas Blonder"
+		},
+		{	
+			"name": "Open September",
+			"playersCount": 20,
+			"organiser": "Trollune",
+			"date": "1 september 2024",
+			"qualifiedPlayer" : "Paul Salgado"
 		}
 	]	
 }
