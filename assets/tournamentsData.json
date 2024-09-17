@@ -41,6 +41,20 @@
 			"organiser": "Trollune",
 			"date": "1 september 2024",
 			"qualifiedPlayer" : "Paul Salgado"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 17,
+			"organiser": "Arcaneum",
+			"date": "8 september 2024",
+			"qualifiedPlayer" : "Thomas Dresher"
+		},
+		{	
+			"name": "Tournoi Legacy",
+			"playersCount": 16,
+			"organiser": "Sortilèges Vannes",
+			"date": "8 september 2024",
+			"qualifiedPlayer" : "Anna Gosselin"
 		}
 	]	
 }
