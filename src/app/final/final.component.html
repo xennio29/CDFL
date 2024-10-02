@@ -4,7 +4,10 @@
         <div class="text">
             La finale se déroulera à Toulouse et sera organisé par le MCB.
             <br>
-            <img [src]="mcbLogo" class="mcbLogo" alt="mcbLogo organisateur finale">
+            <picture>
+                <source [srcset]="mcbLogoWebp" type="image/webp">
+                <img [src]="mcbLogo" class="mcbLogo" alt="mcbLogo organisateur finale">
+            </picture>
             <br>
             Plus d'information quand on en a !
         </div>

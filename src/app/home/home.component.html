@@ -11,12 +11,18 @@
         Changement pour 2025 :<br>Le nombre minimum de joueurs pour un open afin de qualifié est passé de 16 à 14 !
     </div>
     <div class="logoDiv">
-        <img [src]="logo" class="logo" alt="logo">
+        <picture>
+            <source [srcset]="logoWebp" type="image/webp">
+            <img [src]="logo" class="logo" alt="logo">
+        </picture>
     </div>
     <div class="join-us">
         Join us on Discord
     </div>
     <div class="discordDiv">
-        <img [src]="discordLogo" class="logo" alt="Logo discord" (click)="goDiscord()">
+        <picture>
+            <source [srcset]="discordLogoWebp" type="image/webp">
+            <img [src]="discordLogo" class="logo" alt="Logo discord" (click)="goDiscord()">
+        </picture>
     </div>
 </div>

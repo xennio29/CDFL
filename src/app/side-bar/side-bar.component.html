@@ -1,6 +1,9 @@
 <mat-nav-list>
     <div class="whiteLogo" class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
-        <img [src]="whiteLogo" class="whiteLogo" alt="whiteLogo de CDFL">
+        <picture>
+            <source [srcset]="whiteLogoWebp" type="image/webp">
+            <img [src]="whiteLogo" class="whiteLogo" alt="whiteLogo de CDFL">
+        </picture>
     </div>
     <a mat-list-item routerLink="/home" (click)="onSidenavClose()">
         <mat-icon>home</mat-icon> <span class="nav-caption"> Accueil</span>
