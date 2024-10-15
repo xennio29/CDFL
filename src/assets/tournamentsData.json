@@ -33,7 +33,7 @@
 			"playersCount": 19,
 			"organiser": "Trollune",
 			"date": "30 aout 2024",
-			"qualifiedPlayer" : "Thomas Blonder"
+			"qualifiedPlayer" : "Thomas Blondet"
 		},
 		{	
 			"name": "Open September",
@@ -55,6 +55,41 @@
 			"organiser": "Sortilèges Vannes",
 			"date": "8 september 2024",
 			"qualifiedPlayer" : "Anna Gosselin"
+		},
+		{	
+			"name": "Open Qualifier Caen",
+			"playersCount": 20,
+			"organiser": "Club Magic Normand",
+			"date": "8 september 2024",
+			"qualifiedPlayer" : "Jordan Freulon"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 16,
+			"organiser": "Sortilèges Vannes",
+			"date": "26 september 2024",
+			"qualifiedPlayer" : "Joris Silva"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 25,
+			"organiser": "Arcaneum",
+			"date": "6 octobre 2024",
+			"qualifiedPlayer" : "Hugo Jullien"
+		},
+		{	
+			"name": "Main Qualifier Caen",
+			"playersCount": 24,
+			"organiser": "Club Magic Normand",
+			"date": "6 octobre 2024",
+			"qualifiedPlayer" : "Dominique Vain;Yann Chauviere;Damien Frage"
+		},
+		{	
+			"name": "Open CDF Octobre",
+			"playersCount": 28,
+			"organiser": "MCB",
+			"date": "13 octobre 2024",
+			"qualifiedPlayer" : "Manu M"
 		}
 	]	
 }
