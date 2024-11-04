@@ -90,6 +90,20 @@
 			"organiser": "MCB",
 			"date": "13 octobre 2024",
 			"qualifiedPlayer" : "Manu M"
+		},
+		{	
+			"name": "Ravelois Legacy",
+			"playersCount": 16,
+			"organiser": "MagicBougnat",
+			"date": "6 octobre 2024",
+			"qualifiedPlayer" : "Denis Thiebot"
+		},
+		{	
+			"name": "Open Qualifier CDF",
+			"playersCount": 17,
+			"organiser": "All4Play",
+			"date": "29 octobre 2024",
+			"qualifiedPlayer" : "Marion Guichard"
 		}
 	]	
 }
