@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FinalComponent implements OnInit {
 
   mcbLogo = 'assets/img/mcb_logo.png';
+  mcbLogoWebp = 'assets/img/mcb_logo.webp';
 
   selectedVal: string;
 
