@@ -104,6 +104,20 @@
 			"organiser": "All4Play",
 			"date": "29 octobre 2024",
 			"qualifiedPlayer" : "Marion Guichard"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 18,
+			"organiser": "Trollune",
+			"date": "31 octobre 2024",
+			"qualifiedPlayer" : "Amédée Triadon"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 14,
+			"organiser": "Arcaneum",
+			"date": "3 novembre 2024",
+			"qualifiedPlayer" : "Florent Jugnet"
 		}
 	]	
 }
