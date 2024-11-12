@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   logo = 'assets/img/cdfl_logo_alpha.png';
+  logoWebp = 'assets/img/cdfl_logo_alpha.webp';
   discordLogo = 'assets/img/discord_logo.png';
+  discordLogoWebp = 'assets/img/discord_logo.webp';
 
   constructor() { }
 
