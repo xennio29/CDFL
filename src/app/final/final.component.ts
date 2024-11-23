@@ -9,6 +9,7 @@ export class FinalComponent implements OnInit {
 
   mcbLogo = 'assets/img/mcb_logo.png';
   mcbLogoWebp = 'assets/img/mcb_logo.webp';
+  mcbTeaser = 'assets/img/teaser_image_finale.png';
 
   selectedVal: string;
 
