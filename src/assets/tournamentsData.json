@@ -118,6 +118,34 @@
 			"organiser": "Arcaneum",
 			"date": "3 novembre 2024",
 			"qualifiedPlayer" : "Florent Jugnet"
+		},
+		{	
+			"name": "CDF Open Qualifier Lestrange",
+			"playersCount": 14,
+			"organiser": "Lestrange",
+			"date": "24 novembre 2024",
+			"qualifiedPlayer" : "David Kulik"
+		},
+		{	
+			"name": "Open CDF All4Play",
+			"playersCount": 14,
+			"organiser": "All4Play",
+			"date": "26 novembre 2024",
+			"qualifiedPlayer" : "Jean Matthieu Khoury"
+		},
+		{	
+			"name": "Open CDF Octobre",
+			"playersCount": 22,
+			"organiser": "MCB",
+			"date": "24 novembre 2024",
+			"qualifiedPlayer" : "Tristan Polzl"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 27,
+			"organiser": "Trollune",
+			"date": "28 novembre 2024",
+			"qualifiedPlayer" : "Alexi Krochmaluk"
 		}
 	]
 }
