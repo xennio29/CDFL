@@ -146,6 +146,13 @@
 			"organiser": "Trollune",
 			"date": "28 novembre 2024",
 			"qualifiedPlayer" : "Alexi Krochmaluk"
+		},
+		{	
+			"name": "Open Qualifier CDF All4Play",
+			"playersCount": 15,
+			"organiser": "All4Play",
+			"date": "3 Décembre 2024",
+			"qualifiedPlayer" : "Brian Monferran"
 		}
 	]
 }
