@@ -153,6 +153,20 @@
 			"organiser": "All4Play",
 			"date": "3 Décembre 2024",
 			"qualifiedPlayer" : "Brian Monferran"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 25,
+			"organiser": "Trollune",
+			"date": "19 Décembre 2024",
+			"qualifiedPlayer" : "Louis Jullien"
+		},
+		{	
+			"name": "Open CDF Janvier",
+			"playersCount": 15,
+			"organiser": "MCB",
+			"date": "05 janvier 2025",
+			"qualifiedPlayer" : "Thomas Lobertréau"
 		}
 	]
 }
