@@ -120,6 +120,13 @@
 			"qualifiedPlayer" : "Florent Jugnet"
 		},
 		{	
+			"name": "Relic Fest Bug Legacy",
+			"playersCount": 73,
+			"organiser": "Relic",
+			"date": "3 novembre 2024",
+			"qualifiedPlayer" : "Joris Abadie;Paul Ridoux;Guillaume Fabre;Fabrice Bartezaghi"
+		},
+		{	
 			"name": "CDF Open Qualifier Lestrange",
 			"playersCount": 14,
 			"organiser": "Lestrange",
@@ -153,6 +160,13 @@
 			"organiser": "All4Play",
 			"date": "3 Décembre 2024",
 			"qualifiedPlayer" : "Brian Monferran"
+		},
+		{	
+			"name": "Open CDF Qualifier Lestrange",
+			"playersCount": 14,
+			"organiser": "Lestrange",
+			"date": "15 décembre 2024",
+			"qualifiedPlayer" : "Thomas Clabaut"
 		},
 		{	
 			"name": "Gones League",
