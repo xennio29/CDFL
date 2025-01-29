@@ -181,6 +181,27 @@
 			"organiser": "MCB",
 			"date": "05 janvier 2025",
 			"qualifiedPlayer" : "Thomas Lobertréau"
+		},
+		{	
+			"name": "Open CDF Janvier",
+			"playersCount": 14,
+			"organiser": "La régle du Jeu / Franck Da Silva",
+			"date": "18 janvier 2025",
+			"qualifiedPlayer" : "Belliard Samuel"
+		},
+		{	
+			"name": "Gones Legacy 15",
+			"playersCount": 127,
+			"organiser": "MtgOnes",
+			"date": "18 janvier 2025",
+			"qualifiedPlayer" : "Lucas Mietton;Laurent Ferrando:Arnaud Jochum;Guillaume Perbet;Maxime Jourdan;Jean-Mathieu Desveaux;Maxime Oulès;Stéphane Roumanille;Louis Guichard;Loan Maire;Loïc Roussel;Sébastien Fayand;Cyril Pitalot;Jean Garreau;Kevin Sauvageon;Quentin Dartigeas"
+		},
+		{	
+			"name": "Gones Legacy 16",
+			"playersCount": 90,
+			"organiser": "MtgOnes",
+			"date": "19 janvier 2025",
+			"qualifiedPlayer" : "Callum Browson-Smith;Eric Vancon;Tristan Gadea;Luca Fasoli;Jim Khoury"
 		}
 	]
 }
