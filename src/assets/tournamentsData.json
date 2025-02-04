@@ -202,6 +202,13 @@
 			"organiser": "MtgOnes",
 			"date": "19 janvier 2025",
 			"qualifiedPlayer" : "Callum Browson-Smith;Eric Vancon;Tristan Gadea;Luca Fasoli;Jim Khoury"
+		},
+		{	
+			"name": "Le Trophée de Diane",
+			"playersCount": 19,
+			"organiser": "Le Trophée de Diane",
+			"date": "1 février 2025",
+			"qualifiedPlayer" : "Michel Savary"
 		}
 	]
 }
