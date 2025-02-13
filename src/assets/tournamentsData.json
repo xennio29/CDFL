@@ -162,6 +162,13 @@
 			"qualifiedPlayer" : "Brian Monferran"
 		},
 		{	
+			"name": "Gones League",
+			"playersCount": 15,
+			"organiser": "Arcaneum",
+			"date": "1 Décembre 2024",
+			"qualifiedPlayer" : "Alexandre Noir"
+		},
+		{	
 			"name": "Open CDF Qualifier Lestrange",
 			"playersCount": 14,
 			"organiser": "Lestrange",
@@ -204,11 +211,25 @@
 			"qualifiedPlayer" : "Callum Browson-Smith;Eric Vancon;Tristan Gadea;Luca Fasoli;Jim Khoury"
 		},
 		{	
+			"name": "Gones League",
+			"playersCount": 25,
+			"organiser": "Trollune",
+			"date": "30 janvier 2025",
+			"qualifiedPlayer" : "Ricardo Giusti"
+		},
+		{	
 			"name": "Le Trophée de Diane",
 			"playersCount": 19,
 			"organiser": "Le Trophée de Diane",
 			"date": "1 février 2025",
 			"qualifiedPlayer" : "Michel Savary"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 22,
+			"organiser": "Arcaneum",
+			"date": "2 février 2025",
+			"qualifiedPlayer" : "Kevin Grand"
 		}
 	]
 }
