@@ -190,6 +190,13 @@
 			"qualifiedPlayer" : "Thomas Lobertréau"
 		},
 		{	
+			"name": "Open CDF janvier",
+			"playersCount": 17,
+			"organiser": "Club Magic Normand",
+			"date": "12 janvier 2025",
+			"qualifiedPlayer" : "??"
+		},
+		{	
 			"name": "Open CDF Janvier",
 			"playersCount": 14,
 			"organiser": "La régle du Jeu / Franck Da Silva",
@@ -230,6 +237,27 @@
 			"organiser": "Arcaneum",
 			"date": "2 février 2025",
 			"qualifiedPlayer" : "Kevin Grand"
+		},
+		{	
+			"name": "Open CDF février",
+			"playersCount": 14,
+			"organiser": "Club Magic Normand",
+			"date": "9 février 2025",
+			"qualifiedPlayer" : "Guillaume Dorey"
+		},
+		{	
+			"name": "Open CDF",
+			"playersCount": 17,
+			"organiser": "All4Play",
+			"date": "18 février 2025",
+			"qualifiedPlayer" : "Pierre Clavieras"
+		},
+		{	
+			"name": "Open CDF Legacy Reims",
+			"playersCount": 14,
+			"organiser": "La Malle",
+			"date": "1 février 2025",
+			"qualifiedPlayer" : "Antoine Dambron"
 		}
 	]
 }
