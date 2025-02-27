@@ -194,7 +194,7 @@
 			"playersCount": 17,
 			"organiser": "Club Magic Normand",
 			"date": "12 janvier 2025",
-			"qualifiedPlayer" : "??"
+			"qualifiedPlayer" : "David Jeanne"
 		},
 		{	
 			"name": "Open CDF Janvier",
@@ -244,6 +244,13 @@
 			"organiser": "Club Magic Normand",
 			"date": "9 février 2025",
 			"qualifiedPlayer" : "Guillaume Dorey"
+		},
+		{	
+			"name": "Open CDF Février",
+			"playersCount": 22,
+			"organiser": "MCB",
+			"date": "15 février 2025",
+			"qualifiedPlayer" : "Matthieu B"
 		},
 		{	
 			"name": "Open CDF",
