@@ -232,6 +232,13 @@
 			"qualifiedPlayer" : "Michel Savary"
 		},
 		{	
+			"name": "Open CDF Legacy Reims",
+			"playersCount": 14,
+			"organiser": "La Malle",
+			"date": "1 février 2025",
+			"qualifiedPlayer" : "Antoine Dambron"
+		},
+		{	
 			"name": "Gones League",
 			"playersCount": 22,
 			"organiser": "Arcaneum",
@@ -260,11 +267,11 @@
 			"qualifiedPlayer" : "Pierre Clavieras"
 		},
 		{	
-			"name": "Open CDF Legacy Reims",
+			"name": "Legacy Open Qualifier",
 			"playersCount": 14,
-			"organiser": "La Malle",
-			"date": "1 février 2025",
-			"qualifiedPlayer" : "Antoine Dambron"
+			"organiser": "La régle du Jeu",
+			"date": "1 mars 2025",
+			"qualifiedPlayer" : "Coralie Ferrand"
 		}
 	]
 }
