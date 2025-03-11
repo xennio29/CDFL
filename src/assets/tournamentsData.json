@@ -272,6 +272,13 @@
 			"organiser": "La régle du Jeu",
 			"date": "1 mars 2025",
 			"qualifiedPlayer" : "Coralie Ferrand"
+		},
+		{	
+			"name": "Open Qualifier Mars",
+			"playersCount": 17,
+			"organiser": "Club Magic Normand",
+			"date": "9 mars 2025",
+			"qualifiedPlayer" : "Sébastien Guerin"
 		}
 	]
 }
