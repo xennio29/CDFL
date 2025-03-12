@@ -154,28 +154,35 @@
 			"date": "28 novembre 2024",
 			"qualifiedPlayer" : "Alexi Krochmaluk"
 		},
-		{	
+		{
 			"name": "Open Qualifier CDF All4Play",
 			"playersCount": 15,
 			"organiser": "All4Play",
 			"date": "3 Décembre 2024",
 			"qualifiedPlayer" : "Brian Monferran"
 		},
-		{	
+		{
 			"name": "Gones League",
 			"playersCount": 15,
 			"organiser": "Arcaneum",
 			"date": "1 Décembre 2024",
 			"qualifiedPlayer" : "Alexandre Noir"
 		},
-		{	
+		{
+			"name": "Open CDF",
+			"playersCount": 32,
+			"organiser": "Magic Rennes",
+			"date": "1 Décembre 2024",
+			"qualifiedPlayer" : "Romain Salvi;Alban Genest"
+		},
+		{
 			"name": "Open CDF Qualifier Lestrange",
 			"playersCount": 14,
 			"organiser": "Lestrange",
 			"date": "15 décembre 2024",
 			"qualifiedPlayer" : "Thomas Clabaut"
 		},
-		{	
+		{
 			"name": "Gones League",
 			"playersCount": 25,
 			"organiser": "Trollune",
