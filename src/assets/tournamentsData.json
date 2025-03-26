@@ -222,7 +222,7 @@
 			"playersCount": 90,
 			"organiser": "MtgOnes",
 			"date": "19 janvier 2025",
-			"qualifiedPlayer" : "Callum Browson-Smith;Eric Vancon;Tristan Gadea;Luca Fasoli;Jim Khoury"
+			"qualifiedPlayer" : "Callum Browson-Smith;Eric Vancon;Tristan Gadea;Luca Fasoli;Matteo Blasi"
 		},
 		{	
 			"name": "Gones League",
@@ -286,6 +286,20 @@
 			"organiser": "Club Magic Normand",
 			"date": "9 mars 2025",
 			"qualifiedPlayer" : "Sébastien Guerin"
+		},
+		{	
+			"name": "Salviche Malouin Open CDF V1",
+			"playersCount": 19,
+			"organiser": "Salvi Romain",
+			"date": "16 mars 2025",
+			"qualifiedPlayer" : "Romaris Briand"
+		},
+		{	
+			"name": "Open CDF Qualifier",
+			"playersCount": 14,
+			"organiser": "All4Play",
+			"date": " mars 2025",
+			"qualifiedPlayer" : "Ido Levy"
 		}
 	]
 }
