@@ -274,11 +274,25 @@
 			"qualifiedPlayer" : "Pierre Clavieras"
 		},
 		{	
+			"name": "Gones League",
+			"playersCount": 24,
+			"organiser": "Trollune",
+			"date": " 27 février 2025",
+			"qualifiedPlayer" : "Antoine Cinquin"
+		},
+		{	
 			"name": "Legacy Open Qualifier",
 			"playersCount": 14,
 			"organiser": "La régle du Jeu",
 			"date": "1 mars 2025",
 			"qualifiedPlayer" : "Coralie Ferrand"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 17,
+			"organiser": "Arcaneum",
+			"date": " 6 mars 2025",
+			"qualifiedPlayer" : "Frédéric Collomb-Muret"
 		},
 		{	
 			"name": "Open Qualifier Mars",
@@ -295,11 +309,53 @@
 			"qualifiedPlayer" : "Romaris Briand"
 		},
 		{	
+			"name": "Open CDF Mars",
+			"playersCount": 18,
+			"organiser": "MCB",
+			"date": " 16 mars 2025",
+			"qualifiedPlayer" : "Quentin Clément"
+		},
+		{	
 			"name": "Open CDF Qualifier",
 			"playersCount": 14,
 			"organiser": "All4Play",
-			"date": " mars 2025",
+			"date": " 25 mars 2025",
 			"qualifiedPlayer" : "Ido Levy"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 26,
+			"organiser": "Trollune",
+			"date": " 27 mars 2025",
+			"qualifiedPlayer" : "Luka Mrakovcic"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 14,
+			"organiser": "Arcaneum",
+			"date": " 6 avril 2025",
+			"qualifiedPlayer" : "Romain Corgnolo"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 17,
+			"organiser": "MCB",
+			"date": " 13 avril 2025",
+			"qualifiedPlayer" : "Rémi Vignane"
+		},
+		{	
+			"name": "Main Qualifier Legacy",
+			"playersCount": 16,
+			"organiser": "Magic Rennes",
+			"date": " 20 avril 2025",
+			"qualifiedPlayer" : "Gabriel Farriol;Luis Alberto Pacheco"
+		},
+		{	
+			"name": "Open CDF Legacy",
+			"playersCount": 17,
+			"organiser": "All4Play",
+			"date": " 22 avril 2025",
+			"qualifiedPlayer" : "Morgan Montes"
 		}
 	]
 }
