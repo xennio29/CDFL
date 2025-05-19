@@ -289,10 +289,10 @@
 		},
 		{	
 			"name": "Gones League",
-			"playersCount": 17,
+			"playersCount": 19,
 			"organiser": "Arcaneum",
-			"date": " 6 mars 2025",
-			"qualifiedPlayer" : "Frédéric Collomb-Muret"
+			"date": " 2 mars 2025",
+			"qualifiedPlayer" : "Damien Colomn"
 		},
 		{	
 			"name": "Open Qualifier Mars",
@@ -356,6 +356,27 @@
 			"organiser": "All4Play",
 			"date": " 22 avril 2025",
 			"qualifiedPlayer" : "Morgan Montes"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 22,
+			"organiser": "Trollune",
+			"date": " 24 avril 2025",
+			"qualifiedPlayer" : "Boris Bruned"
+		},
+		{	
+			"name": "Open Qualifier Vannes",
+			"playersCount": 14,
+			"organiser": "Sortilèges Vannes et Pierre Semons",
+			"date": " 4 mai 2025",
+			"qualifiedPlayer" : "Francois Blachuta"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 15,
+			"organiser": "Arcaneum",
+			"date": " 4 mai 2025",
+			"qualifiedPlayer" : "Simon Jugnet"
 		}
 	]
 }
