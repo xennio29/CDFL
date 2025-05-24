@@ -377,6 +377,20 @@
 			"organiser": "Arcaneum",
 			"date": " 4 mai 2025",
 			"qualifiedPlayer" : "Simon Jugnet"
+		},
+		{	
+			"name": "Open Qualifier Caen",
+			"playersCount": 16,
+			"organiser": "Club Magic Normand",
+			"date": " 4 avril 2025",
+			"qualifiedPlayer" : "Joel Duchemin"
+		},
+		{	
+			"name": "Open Qualifier Caen",
+			"playersCount": 1,
+			"organiser": "Club Magic Normand",
+			"date": " 4 mai 2025",
+			"qualifiedPlayer" : "Francois Bouyon;Yanis Ullmann"
 		}
 	]
 }
