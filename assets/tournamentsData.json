@@ -391,6 +391,20 @@
 			"organiser": "Club Magic Normand",
 			"date": " 4 mai 2025",
 			"qualifiedPlayer" : "Francois Bouyon;Yanis Ullmann"
+		},
+		{	
+			"name": "Main Qualifier CDF",
+			"playersCount": 33,
+			"organiser": "MagicBougnat",
+			"date": " 26 avril 2025",
+			"qualifiedPlayer" : "Valentin Stahle;Frederic Collomb-Muret;Jérémy Felix;Julien Deriat"
+		},
+		{	
+			"name": "Open Qualifier CDF",
+			"playersCount": 26,
+			"organiser": "MagicBougnat",
+			"date": "  27 avril 2025",
+			"qualifiedPlayer" : "Victor Hatte"
 		}
 	]
 }
