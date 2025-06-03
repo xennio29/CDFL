@@ -405,6 +405,13 @@
 			"organiser": "MagicBougnat",
 			"date": "  27 avril 2025",
 			"qualifiedPlayer" : "Victor Hatte"
+		},
+		{	
+			"name": "Open Qualifier CDF",
+			"playersCount": 15,
+			"organiser": "All4Play",
+			"date": "  27 avril 2025",
+			"qualifiedPlayer" : "Camille Pottier"
 		}
 	]
 }
