@@ -306,7 +306,7 @@
 			"playersCount": 19,
 			"organiser": "Salvi Romain",
 			"date": "16 mars 2025",
-			"qualifiedPlayer" : "Romaris Briand"
+			"qualifiedPlayer" : "Romaric Briand"
 		},
 		{	
 			"name": "Open CDF Mars",
@@ -412,6 +412,13 @@
 			"organiser": "All4Play",
 			"date": "  27 avril 2025",
 			"qualifiedPlayer" : "Camille Pottier"
+		},
+		{	
+			"name": "Salviche Malouin deuxième édition",
+			"playersCount": 19,
+			"organiser": "Association Salviche",
+			"date": "  1 juin  2025",
+			"qualifiedPlayer" : "Ella Cohen"
 		}
 	]
 }
