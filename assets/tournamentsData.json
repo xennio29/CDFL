@@ -316,6 +316,13 @@
 			"qualifiedPlayer" : "Quentin Clément"
 		},
 		{	
+			"name": "MQL CDF Mars",
+			"playersCount": 28,
+			"organiser": "MCB",
+			"date": " 15 mars 2025",
+			"qualifiedPlayer" : "Rao Rakotoarimanana;Benjamin Cottet;Alexandre Escrieut"
+		},
+		{	
 			"name": "Open CDF Qualifier",
 			"playersCount": 14,
 			"organiser": "All4Play",
@@ -410,14 +417,14 @@
 			"name": "Open Qualifier CDF",
 			"playersCount": 15,
 			"organiser": "All4Play",
-			"date": "  27 avril 2025",
+			"date": "  27 mai 2025",
 			"qualifiedPlayer" : "Camille Pottier"
 		},
 		{	
 			"name": "Salviche Malouin deuxième édition",
 			"playersCount": 19,
 			"organiser": "Association Salviche",
-			"date": "  1 juin  2025",
+			"date": "  1 juin 2025",
 			"qualifiedPlayer" : "Ella Cohen"
 		}
 	]
