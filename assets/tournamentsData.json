@@ -404,14 +404,14 @@
 			"playersCount": 33,
 			"organiser": "MagicBougnat",
 			"date": " 26 avril 2025",
-			"qualifiedPlayer" : "Valentin Stahle;Frederic Collomb-Muret;Jérémy Felix;Julien Deriat"
+			"qualifiedPlayer" : "Valentin Stahle;Frederic Collomb-Muret;Jérémy Felix;Victor Hatte"
 		},
 		{	
 			"name": "Open Qualifier CDF",
 			"playersCount": 26,
 			"organiser": "MagicBougnat",
 			"date": "  27 avril 2025",
-			"qualifiedPlayer" : "Victor Hatte"
+			"qualifiedPlayer" : "Jérémie Piris"
 		},
 		{	
 			"name": "Open Qualifier CDF",
@@ -426,6 +426,20 @@
 			"organiser": "Association Salviche",
 			"date": "  1 juin 2025",
 			"qualifiedPlayer" : "Ella Cohen"
+		},
+		{	
+			"name": "Open CDF Mai",
+			"playersCount": 23,
+			"organiser": "MCB",
+			"date": "25 mai 2025",
+			"qualifiedPlayer" : "Michel Panda"
+		},
+		{	
+			"name": "Open CDF Juin",
+			"playersCount": 18,
+			"organiser": "MCB",
+			"date": "12 juin 2025",
+			"qualifiedPlayer" : "Jules Erkens"
 		}
 	]
 }
