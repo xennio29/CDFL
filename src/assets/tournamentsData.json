@@ -440,6 +440,48 @@
 			"organiser": "MCB",
 			"date": "12 juin 2025",
 			"qualifiedPlayer" : "Jules Erkens"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 25,
+			"organiser": "Troll2Jeux",
+			"date": "23 juillet 2024",
+			"qualifiedPlayer" : "Alexandre Daverdon"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 17,
+			"organiser": "Troll2Jeux",
+			"date": "20 aout 2024",
+			"qualifiedPlayer" : "Kevin Leroux"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 25,
+			"organiser": "Troll2Jeux",
+			"date": "15 octobre 2024",
+			"qualifiedPlayer" : "Julien Daniel-Moliner"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 20,
+			"organiser": "Troll2Jeux",
+			"date": "5 novembre 2024",
+			"qualifiedPlayer" : "Simon Drochon"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 23,
+			"organiser": "Troll2Jeux",
+			"date": "3 décembre 2024",
+			"qualifiedPlayer" : "Fabien Rebatel"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 20,
+			"organiser": "Troll2Jeux",
+			"date": "11 mars 2025",
+			"qualifiedPlayer" : "Arthur L."
 		}
 	]
 }
