@@ -27,6 +27,10 @@ p, li {
     margin: auto;
 }
 
+.mcbAffiche {
+    width: 100%;
+}
+
 .artist {
     max-width: 100%;
     width: 50%;
@@ -177,11 +181,4 @@ mat-button-toggle-group {
     border-radius: 25px;
     font-size: x-large;
     padding: 20px;
-}
-
-.newSalle {
-    font-weight: bold;
-    font-size: x-large;
-    line-height: 25px;
-    color: red;
 }

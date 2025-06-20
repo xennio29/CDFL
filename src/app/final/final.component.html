@@ -1,12 +1,283 @@
-<div class="container">
-    <h1 class="title">Informations sur la finale 2025</h1>
-    <div class="text-align-center">
-        <div class="text">
-            <picture>
-                <img [src]="mcbTeaser" class="mcbTeaser" alt="mcbTeaser organisateur finale">
-            </picture>
+<div class="container" class="text-align-center">
+    <div class="text">
+        La finale se déroulera à Toulouse et est organisée par le MCB !
+        <br>
+        Un week-end de Legacy pour les qualifiés et les non-qualifiés !
+        <br>
+        Vous trouverez sur cette page toutes les informations sur l'évènement.
+    </div>       
+    <picture>
+        <img [src]="mcbAffiche" class="mcbAffiche" alt="mcbAffiche organisateur finale">
+    </picture>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Généralités</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="text">
+            Tous les tournois auront lieu au:
             <br>
-            Plus d'information quand on en a !
-        </div>
-    </div>
+            Ministères des Brasseurs
+            <br>
+            11 rue Humbert Tomatis
+            <br>
+            31200 Toulouse
+            <br>
+            <a mat-flat-button color="primary" href="https://maps.app.goo.gl/Bx1Q1m9TPp4mV2df7" target="_blank" class="billet">Lien Maps</a>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Programme</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+
+            <div class="text">
+                <button mat-raised-button class="qualified-button qualified" (click)="onValueChange('qualified')">Je suis qualifié</button>
+                <button mat-raised-button class="qualified-button not-qualified" (click)="onValueChange('notQualified')">Je ne suis pas qualfié</button>
+                <br>
+                Tu peux vérifier ta qualification <a routerLink="/qualified">ici</a> !
+            </div>
+
+            <div class="day">Vendredi 4 juillet</div>
+
+            <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header class="chapter-title">
+                        <mat-panel-title> Team Trio </mat-panel-title>
+                        <mat-panel-description>
+                            Un tournoi détente avant les hostilités !
+                        </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="text">
+                            Débuts des rondes : 15h
+                            <br>
+                            Jusqu'à 32 équipes
+                            <br>
+                            PAF : 30€ par équipe
+                            <br>
+                            Format Unifié pour les 2 Legacy, Vintage indépendant
+                            <br>
+                            Seul une inscription pour l'équipe
+                            <br>
+                            Besoin de proxy ? Les proxys au prêt par le MCB <a href="https://xennio29.github.io/MCB/#/proxies" target="_blank">ici</a>.
+                            <br>
+                            Dotation pour 16 équipes:
+                            <div class ="lots">
+                                5-0 : 3 Force of Will (Alliance)
+                                <br>
+                                4-x : 9 Booster MH3
+                                <br>
+                                3-x : 3 Booster MH3
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+            <div class="day">Samedi 5 juillet</div>
+
+            <div class="tournament lcq" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header class="chapter-title">
+                        <mat-panel-title> Last Chance Qualfier</mat-panel-title>
+                        <mat-panel-description>
+                            Derniere chance pour se qualifier ou pour s'entrainer !
+                        </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="text">
+                            Débuts de la première ronde : 10h
+                            <br>
+                            Jusqu'à 128 joueurs
+                            <br>
+                            7 rondes + Top 8
+                            <br>
+                            PAF : 30€
+                            <br>
+                            Tous les participants recevront un token 3D commémoratif exclusif!
+                            <br>
+                            Dotation pour 100 joueurs :
+                            <div class ="lots">
+                                1er : Underground Sea + Tropical Island
+                                <br>
+                                2ème : Volcanic Island
+                                <br>
+                                3ème-4ème : Tropical Island
+                                <br>
+                                5ème au 8ème : 150€ store crédit Eclypse
+                                <br>
+                                9ème au 16ème : 50€ store crédit Eclypse
+                                <br>
+                                17ème au 32ème : 2 Booster MH3
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+            <div class="tournament" [class.tournament-for-qualified]="selectedVal == 'qualified'" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header class="chapter-title">
+                        <mat-panel-title> Rebound Legacy</mat-panel-title>
+                        <mat-panel-description>
+                            Pour ceux veulent jouer malgré les défaites !
+                        </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="text">
+                            Débuts de la première ronde : ~15h
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+            <div class="day">Dimanche 6 juillet</div>
+
+            <div class="tournament finale" [class.tournament-for-qualified]="selectedVal == 'qualified'">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header class="chapter-title">
+                        <mat-panel-title> Coupe de France </mat-panel-title>
+                        <mat-panel-description>
+                            Pour les qualifiés uniquement !
+                        </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="text">
+                            Débuts de la première ronde : 10h
+                            <br>
+                            Jusqu'à 128 joueurs
+                            <br>
+                            7 rondes + Top 8
+                            <br>
+                            PAF : 30€
+                            <br>
+                            Lots :
+                            <div class ="lots">
+                                1er : Underground Sea + Tropical Island + Qualification à vie à la CDF + un altération de son choix !
+                                <br>
+                                2ème : Volcanic Island + Qualification CDF 2026
+                                <br>
+                                3ème : Tropical Island + Qualification CDF 2026
+                                <br>
+                                5ème au 8ème : Plateau+ Qualification CDF 2026
+                                <br>
+                                9ème au 16ème : 50€ store crédit Eclypse
+                                <br>
+                                17ème au 32ème : 20€ store crédit Eclypse
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+            <div class="tournament" [class.tournament-for-not-qualified]="selectedVal == 'notQualified'">
+                <mat-accordion>
+                    <mat-expansion-panel>
+                        <mat-expansion-panel-header class="chapter-title">
+                        <mat-panel-title> Open CDF Legacy 2026</mat-panel-title>
+                        <mat-panel-description>
+                            Pour ceux qui ne sont pas qualifiés !
+                        </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="text">
+                            Débuts de la première ronde : 11h
+                            <br>
+                            5 rondes séches
+                            <br>
+                            PAF : 20€
+                            <br>
+                            Lots :
+                            <div class ="lots">
+                                5-0 : 160€ store crédit Eclypse
+                                <br>
+                                4-x : 40€ store crédit Eclypse
+                                <br>
+                                3-x : 20€ store crédit Eclypse
+                            </div>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Billeterie</mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="text">
+            <a mat-flat-button color="primary" href="https://www.helloasso.com/associations/magic-club-bessieres-mcb/evenements/mcb-finale-coupe-de-france-legacy" target="_blank" class="billet">Billets HelloAsso ici</a>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Boutique Partenaire</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="text">
+                <a href="https://www.facebook.com/EclypseTCG" target="_blank">Eclypse</a> sera notre partenaire sur tous le weekend.
+                <br>
+                N'hésitez pas à fouiller leur <a href="https://www.cardmarket.com/fr/Magic/Users/Eclypse" target="_blank">stock</a> pour vos derniére ajout !
+                <br>
+                Les bons d'achats Eclypse sont sécable et n'expire pas.
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Information supplémentaire</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="lots">
+                <div class ="text">
+                    - Aucune proxies ne sera autorisé lors du samedi et du dimanche.
+                    <br>
+                    - La salle sera climatisée.
+                    <br>
+                    - On dit chocolatine.
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Streaming</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="text">
+                Le tournois seront rediffusé en direct sur YouTube sans commentateur.
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Restauration</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="text">
+                La cuisine du Ministère des Brasseurs vous prépare un menu aux petits oignons et des bières brasser sur place.
+                <br>
+                Café, viennoiseries, soda et de la bonne bière !
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>Le MCB</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <div class="text">
+                Pour les suivre sur les réseaux ou les rejoindre, c'est <a href="https://taplink.cc/mcb31" target="_blank">ici</a>.
+            </div>
+        </mat-card-content>
+    </mat-card>
 </div>
