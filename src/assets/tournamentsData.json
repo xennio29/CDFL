@@ -503,6 +503,13 @@
 			"organiser": "Troll2Jeux",
 			"date": "11 mars 2025",
 			"qualifiedPlayer" : "Arthur L."
+		},
+		{	
+			"name": "Open Qualifier CDF",
+			"playersCount": 16,
+			"organiser": "All4Play",
+			"date": "22 juin 2025",
+			"qualifiedPlayer" : "Florian Sauvêtre"
 		}
 	]
 }
