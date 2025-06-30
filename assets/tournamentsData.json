@@ -502,7 +502,7 @@
 			"playersCount": 20,
 			"organiser": "Troll2Jeux",
 			"date": "11 mars 2025",
-			"qualifiedPlayer" : "Arthur L."
+			"qualifiedPlayer" : "Pierre Cauhopé"
 		},
 		{	
 			"name": "Open Qualifier CDF",
@@ -510,6 +510,27 @@
 			"organiser": "All4Play",
 			"date": "22 juin 2025",
 			"qualifiedPlayer" : "Florian Sauvêtre"
+		},
+		{	
+			"name": "Legacy du Mardi",
+			"playersCount": 17,
+			"organiser": "Troll2Jeux",
+			"date": "06 février 2025",
+			"qualifiedPlayer" : "Arthur L."
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 26,
+			"organiser": "Trollune",
+			"date": "19 juin 2025",
+			"qualifiedPlayer" : "Olivier Chassard"
+		},
+		{	
+			"name": "Gones League",
+			"playersCount": 21,
+			"organiser": "Arcaneum",
+			"date": "22 juin 2024",
+			"qualifiedPlayer" : "Edouard Mérieux"
 		}
 	]
 }
