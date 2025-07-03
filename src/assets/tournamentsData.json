@@ -531,6 +531,20 @@
 			"organiser": "Arcaneum",
 			"date": "22 juin 2024",
 			"qualifiedPlayer" : "Edouard Mérieux"
+		},
+		{	
+			"name": "Legacy Juin",
+			"playersCount": 15,
+			"organiser": "Club Magic Normand",
+			"date": "29 juin 2024",
+			"qualifiedPlayer" : "Ouilid Matthiesen"
+		},
+		{	
+			"name": "Open Legacy",
+			"playersCount": 15,
+			"organiser": "All4Play",
+			"date": "01 juillet 2024",
+			"qualifiedPlayer" : "Jérom Dufour"
 		}
 	]
 }
