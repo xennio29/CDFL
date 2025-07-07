@@ -544,7 +544,14 @@
 			"playersCount": 15,
 			"organiser": "All4Play",
 			"date": "01 juillet 2024",
-			"qualifiedPlayer" : "Jérom Dufour"
+			"qualifiedPlayer" : "Jérome Dufour"
+		},
+		{	
+			"name": "Last Chance Qualifier & Rebound",
+			"playersCount": 85,
+			"organiser": "MCB",
+			"date": "05 juillet 2024",
+			"qualifiedPlayer" : "Simon Berry;Eliott Bourgeret;David Dusson;Adrien Gamot;Sébastien Humeau;Samuel Poulain;Philippe Rouger;Andy Sieurac;Jean Trykowski;Sylvain Vogel;Jean Philippe Lacour;Maxime Lebrun"
 		}
 	]
 }
