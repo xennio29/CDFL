@@ -69,8 +69,8 @@ export class QuestionAnswer {
         answer: "Nous sommes un petit groupe de passionnés de Legacy qui souhaite faire revenir le meilleur format de Magic dans les boutiques et associations.",
     },
     {
-        question: "Où aura lieu la finale (2025)?",
-        answer: "La finale se déroulera à Toulouse.",
+        question: "Où aura lieu la finale (2026)?",
+        answer: "La finale se déroulera à Caen.",
     },
     {
         question: "Pourquoi avoir choisi ces villes pour les Grand Opens ?",

@@ -1,13 +1,32 @@
-<div class="container" *ngFor="let tournament of tournaments" fxLayout="column" fxLayoutAlign="space-around center">
-    <mat-card class="card">
-        <mat-card-header>
-           <mat-card-subtitle>{{tournament.organiser}} - {{tournament.date}}</mat-card-subtitle>
-           <mat-card-title>{{tournament.name}} - {{tournament.playersCount}} players</mat-card-title>
-        </mat-card-header>
-        <mat-card-content class="qualifiedPlayer">
-            <div *ngFor="let qualifiedPlayer of tournament.qualifiedPlayers">
-                {{qualifiedPlayer.firstNameAndLastName}}
+<div class="container">
+    
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Outil de vérification des Qualifiés
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="tool" fxLayout="row" fxLayoutAlign="center center">
+                <textarea placeholder="Copier la liste de vos joueurs ici" [(ngModel)]="inputPlayers" (input)="checkPlayers()"></textarea>
+                <button mat-icon-button (click)="checkPlayers()">
+                    <mat-icon class="clickable-icon">label_important</mat-icon>
+                </button>
+                <textarea placeholder="La liste des joueurs non qualifiers s'affichera ici." readonly [(ngModel)]="outputPlayers"></textarea>
             </div>
-         </mat-card-content>
-    </mat-card>
+        </mat-expansion-panel>
+    </mat-accordion>
+    <div *ngFor="let tournament of tournaments" fxLayout="column" fxLayoutAlign="space-around center">
+        <mat-card class="card">
+            <mat-card-header>
+            <mat-card-subtitle>{{tournament.organiser}} - {{tournament.date}}</mat-card-subtitle>
+            <mat-card-title>{{tournament.name}} - {{tournament.playersCount}} players</mat-card-title>
+            </mat-card-header>
+            <mat-card-content class="qualifiedPlayer">
+                <div *ngFor="let qualifiedPlayer of tournament.qualifiedPlayers">
+                    {{qualifiedPlayer.firstNameAndLastName}}
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
 </div>

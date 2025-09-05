@@ -23,6 +23,7 @@ import { MatSortModule } from '@angular/material/sort';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatButtonModule} from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatExpansionModule,
     MatButtonToggleModule,
     MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

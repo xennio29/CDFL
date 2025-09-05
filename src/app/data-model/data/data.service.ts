@@ -78,6 +78,6 @@ export class DataService {
       var qualifiedPlayersCount = tournament.qualifiedPlayers.length;
       playerCount = playerCount + qualifiedPlayersCount
     });
-    console.log(playerCount + " are qualified for CDF Legacy 2024.")
+    console.log(playerCount + " players are qualified for CDF Legacy 2024.")
   }
 }
