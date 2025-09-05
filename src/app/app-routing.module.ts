@@ -6,6 +6,7 @@ import { QualifiedComponent } from './qualified/qualified.component';
 import { EventsComponent } from './events/events.component';
 import { FinalComponent } from './final/final.component';
 import { FaqComponent } from './faq/faq.component';
+import { AddqualifiedComponent } from './addqualified/addqualified.component';
 
 export const routes: Routes = [
   {path: 'qualified', component: QualifiedComponent },
@@ -13,6 +14,8 @@ export const routes: Routes = [
   {path: 'events', component: EventsComponent },
 
   {path: 'circuit', component: CircuitComponent },
+
+  {path: 'addqualified', component: AddqualifiedComponent },
 
   {path: 'final', component: FinalComponent },
 

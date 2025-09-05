@@ -34,6 +34,8 @@ export class MenuBarComponent implements OnInit {
         return 'Tournois';
       case '/circuit':
         return 'Informations sur le Circuit';
+      case '/addqualified':
+        return 'Ajouter un qualifié';
       case '/final':
         return 'Informations sur la Finale';
       case '/faq':

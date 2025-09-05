@@ -1,34 +1,53 @@
-<mat-toolbar div fxLayout="row" fxLayoutAlign="start center">
-    <div class="small-menu-bar" fxHide.gt-xs>
-        <button mat-icon-button aria-label="Ouvrir le menu" (click)="onToggleSidenav()">
-            <mat-icon>list</mat-icon>
-        </button>
-    </div>
-    <div class="home" routerLink="/home">
-        <span>CDFL</span>
-        <span fxHide.gt-xs> - {{rootName}}</span>
-    </div>
-    <div class="not-home" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center" fxHide.xs>
-        <div class="menu" routerLink="/qualified" routerLinkActive="is-active">
-            <span>Joueurs Qualifiés</span>
+<mat-toolbar>
+    <div class="menu-bar" fxHide.gt-xs fxLayout="row" fxLayoutAlign="start center">
+        <div>
+            <button mat-icon-button aria-label="Ouvrir le menu" (click)="onToggleSidenav()">
+                <mat-icon>list</mat-icon>
+            </button>
         </div>
-        <div class="menu" routerLink="/events" routerLinkActive="is-active">
-            <span>Tournois</span>
+
+        <div class="home" routerLink="/home">
+            <span>CDFL - {{rootName}}</span>
         </div>
-        <div class="menu" routerLink="/circuit" routerLinkActive="is-active">
-            <span>Informations sur le Circuit</span>
-        </div>
-        <div class="menu" routerLink="/final" routerLinkActive="is-active">
-            <span>Informations sur la Finale</span>
-        </div>
-        <div class="menu" routerLink="/faq" routerLinkActive="is-active">
-            <span>FAQ</span>
+
+        <div class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
+            <picture>
+                <source [srcset]="whiteLogoWebp" type="image/webp">
+                <img [src]="whiteLogo" class="whiteLogo" alt="whiteLogo de CDFL">
+            </picture>
         </div>
     </div>
-    <div class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
-        <picture>
-            <source [srcset]="whiteLogoWebp" type="image/webp">
-            <img [src]="whiteLogo" class="whiteLogo" alt="whiteLogo de CDFL">
-        </picture>
+
+
+    <div class="menu-bar" fxHide.xs fxLayout="row" fxLayoutAlign="space-between center">
+        <div class="home" routerLink="/home">
+            <span>CDFL</span>
+        </div>
+        <div class="not-home" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center" >
+            <div class="menu" routerLink="/qualified" routerLinkActive="is-active">
+                <span>Joueurs Qualifiés</span>
+            </div>
+            <div class="menu" routerLink="/events" routerLinkActive="is-active">
+                <span>Tournois</span>
+            </div>
+            <div class="menu" routerLink="/addqualified" routerLinkActive="is-active">
+                <span>Ajouter un qualifié</span>
+            </div>
+            <div class="menu" routerLink="/circuit" routerLinkActive="is-active">
+                <span>Informations sur le Circuit</span>
+            </div>
+            <div class="menu" routerLink="/final" routerLinkActive="is-active">
+                <span>Informations sur la Finale</span>
+            </div>
+            <div class="menu" routerLink="/faq" routerLinkActive="is-active">
+                <span>FAQ</span>
+            </div>
+        </div>
+        <div class="whiteLogo" routerLink="/home" routerLinkActive="home-is-active">
+            <picture>
+                <source [srcset]="whiteLogoWebp" type="image/webp">
+                <img [src]="whiteLogo" class="whiteLogo" alt="whiteLogo de CDFL">
+            </picture>
+        </div>
     </div>
 </mat-toolbar>

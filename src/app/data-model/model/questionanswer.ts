@@ -30,7 +30,7 @@ export class QuestionAnswer {
     },
     {
         question: "Que dois-je faire pour enregistrer les joueurs qualifiés ?",
-        answer: "Après l'évènement, il faut que l'organisateur d'envoyer par mail à coupedefrancelegacy@gmail.com les informations suivantes : Nom de l'événement, nombre de personne, date, nom de l'organisateur, nom de(s) qualifié(s) et lien MTGTop8 ou export PDF.",
+        answer: "Après l'évènement, il faut que l'organisateur remplisse aille sur le site dans l'onglet Ajouter un Qualifié.",
     },
     {
         question: "A partir de quand puis-je organiser une Open Qualifer CDFL ?",

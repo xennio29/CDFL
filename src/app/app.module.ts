@@ -24,6 +24,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatButtonModule} from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
+import { AddqualifiedComponent } from './addqualified/addqualified.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { FormsModule } from '@angular/forms';
     QualifiedComponent,
     EventsComponent,
     FinalComponent,
-    FaqComponent
+    FaqComponent,
+    AddqualifiedComponent
   ],
   imports: [
     BrowserModule,
